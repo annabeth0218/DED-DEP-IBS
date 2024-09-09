@@ -3,6 +3,7 @@ library(gridExtra)
 library(ggplot2)
 library(magick) # more versatile with pdf
 library(TwoSampleMR)
+library(png)
 
 # pdf to grobs
 pdf_to_grob <- function(file) {
@@ -58,5 +59,35 @@ ggsave("combined_plots.pdf", combined_plot, width = 30, height = 20,
        units = "in", device = cairo_pdf, dpi = 300)
 
 # pdf to png
-pdf_dir <- 'loo_ibs_dry_dep/combined_plots_two.pdf'
+pdf_dir <- 'MR_scatter_plots/exp_DEP_out_IBS_mr.pdf'
 pdf_convert(pdf_dir, format = "png", dpi = 300)
+
+# combine png to pdf
+png.dir <- dir(path = "MR_scatter_plots/one", pattern = ".png", 
+                all.files = T, full.names = T)
+png_to_grob <- function(file){
+  img <- as.raster(readPNG(file))
+  rasterGrob(img, interpolate = FALSE)
+}
+png_plot_list <- lapply(png.dir, png_to_grob)
+combined_png <- do.call(arrangeGrob, c(png_plot_list, list(nrow = 1, 
+                                                           ncol = 4,
+                                                           widths = unit(rep(1, 4), "null"))))
+ggsave('MR_scatter_plots_one.pdf', combined_png, width = 30, height = 20,
+       units = "in", device = cairo_pdf, dpi = 300)
+
+# merge.png.pdf <- function(pdfFile, pngFiles, deletePngFiles = FALSE) {
+#   pdf(pdfFile)
+#   for(i in seq(1, length(png.dir), 2)) {
+#     pngFile <- pngFiles[i]
+#     pngRaster <- readPNG(pngFile)
+#     grid.raster(pngRaster, width = unit(0.8, "npc"), height = unit(0.8, "npc"))
+#  #  if (i < n) plot.new()
+#   }
+#   dev.off()
+#   if (deletePngFiles) {
+#     unlink(pngFiles)
+#   }
+# }
+# 
+# merge.png.pdf("~/test.pdf", png.dir)
