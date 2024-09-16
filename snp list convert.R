@@ -23,16 +23,16 @@ mtag.ibs.two <- read.csv('mtag_gwas_snp/twosample/mtag/two_mtag_ibs50.csv')
 format_snp_osmr <- read_excel("format-snp_osmr.xlsx", sheet = "one_adj_exp_憂鬱_out_IBS_top40")
 format_snp_osmr_15 <- read_excel("format-snp_osmr.xlsx", sheet = "one_adj_exp_憂鬱_out_IBS_top15")
 
-tp <- mtag.ibs |>
+tp <- mtag.dep.two |>
   filter(str_detect(SNP, "^rs")) |>
   select(SNP, A1, A2, N, mtag_beta, mtag_se, mtag_pval, FRQ) 
-write.table(tp, "mtag_gwas_snp/onesample/mtag/one-mtag-ibs.txt", 
+write.table(tp, "mtag_gwas_snp/twosample/mtag/two-mtag-dep.txt", 
             sep = " ", quote = FALSE, row.names = FALSE)
 
-tp <- gwas.ibs |>
+tp <- gwas.ibs.two |>
   filter(str_detect(SNP, "^rs")) |>
   select(SNP, A1, NMISS, OR, SE, P) 
-write.table(tp, "mtag_gwas_snp/onesample/gwas/one-gwas-ibs.txt", 
+write.table(tp, "mtag_gwas_snp/twosample/gwas/two-gwas-ibs.txt", 
             sep = " ", quote = FALSE, row.names = FALSE)
 
 # top
