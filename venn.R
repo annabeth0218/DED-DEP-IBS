@@ -5,16 +5,21 @@ library(data.table)
 top_200 <- data.table(mtag.ibs)
 t.mtag.ibs <- top_200[order(mtag_pval)][1:200]
 
-mg <- list(
-  MTAG <- t.mtag.ded$SNP,
-  GWAS <- t.mtag.ded$SNP,
-  MTAG2 <- t.mtag.ded$SNP
+mg200 <- list(
+  MTAG = f.dep.1m$ensg,
+  GWAS = f.dep.1g$ensg
+)
+
+hvh <- list(
+  IBS = f.ibs.1m$ensg,
+  DED = f.ded.1m$ensg,
+  DEP = f.dep.1m$ensg
 )
 
 # color: "#0073C2FF", "#EFC000FF", "#868686FF", "#CD534CFF"
 ggvenn(
-  mg, 
-  fill_color = c("#0073C2FF", "#EFC000FF", "#CD534CFF"),
+  hvh, 
+  fill_color = c("#0073C2FF", "#CD534CFF", "#868686FF"),
   stroke_size = 0.5, set_name_size = 5
 )
 

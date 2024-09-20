@@ -74,3 +74,34 @@ gwas_data_hg19 <- data.frame(
 )
 gwas_data_hg19$CHR <- sub("^chr", "", gwas_data_hg19$CHR)
 
+# ANNOVAR res
+tp <- read.table('fuma/dep-one-m_524702/FUMA_job524702/snps.txt', header = TRUE)
+dep.1m <- tp |> filter(!is.na(gwasP))
+tp <- dep.1m |>
+  group_by(nearestGene) |>
+  filter(gwasP == min(gwasP, na.rm = TRUE)) |>
+  ungroup()
+write.table(tp, 'fuma/dep-1m.txt',
+            sep = "\t", quote = FALSE, row.names = FALSE)
+
+# pos + eQTL + ci
+f.ibs.1m <- read_excel("fuma/snp2gene.xlsx", sheet = "ibs-1m")
+f.ibs.1g <- read_excel("fuma/snp2gene.xlsx", sheet = "ibs-1g")
+f.ded.1m <- read_excel("fuma/snp2gene.xlsx", sheet = "ded-1m")
+f.ded.1g <- read_excel("fuma/snp2gene.xlsx", sheet = "ded-1g")
+f.dep.1m <- read_excel("fuma/snp2gene.xlsx", sheet = "dep-1m")
+f.dep.1g <- read_excel("fuma/snp2gene.xlsx", sheet = "dep-1g")
+
+ibs.dep.1m <- merge(f.ibs.1m, f.dep.1m, by.x = "ensg", by.y = "ensg")
+
+tp <- f.ibs.1m |> 
+  filter(!is.na(f.ibs.1m$pLI) & pLI != "NA") |>
+  mutate(pLI_numeric = as.numeric(pLI)) |>
+  slice_max(pLI_numeric, n = 20)
+View(tp)
+
+tp <- f.ibs.1m |> 
+  filter(!is.na(f.ibs.1m$ncRVIS) & ncRVIS != "NA") |>
+  mutate(ncRVIS_numeric = as.numeric(ncRVIS)) |>
+  slice_max(ncRVIS_numeric, n = 20)
+View(tp)
