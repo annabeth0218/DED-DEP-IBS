@@ -10,10 +10,21 @@ mg200 <- list(
   GWAS = f.dep.1g$ensg
 )
 
+tvt <- list(
+  DED = snps.ded.1g$rsID,
+  DEP = overlap$SNP
+)
+
+ggvenn(
+  tvt, 
+  fill_color = c("#0073C2FF", "#CD534CFF"),
+  stroke_size = 0.5, set_name_size = 5
+)
+
 hvh <- list(
-  IBS = f.ibs.1m$ensg,
-  DED = f.ded.1m$ensg,
-  DEP = f.dep.1m$ensg
+  DED_DEP = ov.ded.dep$FULL_NAME,
+  IBS_DED = ov.ibs.ded$FULL_NAME,
+  IBS_DEP = ov.ibs.dep$FULL_NAME
 )
 
 # color: "#0073C2FF", "#EFC000FF", "#868686FF", "#CD534CFF"

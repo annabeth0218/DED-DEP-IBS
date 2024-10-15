@@ -29,10 +29,10 @@ tp <- mtag.dep.two |>
 write.table(tp, "mtag_gwas_snp/twosample/mtag/two-mtag-dep.txt", 
             sep = " ", quote = FALSE, row.names = FALSE)
 
-tp <- gwas.ibs.two |>
+tp <- overlap |>
   filter(str_detect(SNP, "^rs")) |>
   select(SNP, A1, NMISS, OR, SE, P) 
-write.table(tp, "mtag_gwas_snp/twosample/gwas/two-gwas-ibs.txt", 
+write.table(tp, "overlap_ded-dep.txt", 
             sep = " ", quote = FALSE, row.names = FALSE)
 
 # top
