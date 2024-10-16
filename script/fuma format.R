@@ -8,20 +8,17 @@ gwas.dep <- read.csv('mtag_gwas_snp/onesample/gwas/depression_log_ADD.csv')
 gwas.ded <- read.csv('mtag_gwas_snp/onesample/gwas/dryeye_case60_log_ADD.csv')
 gwas.ibs <- read.csv('mtag_gwas_snp/onesample/gwas/ibs_case50_log_ADD.csv')
 
-mtag.dep <- read.csv('mtag_gwas_snp/onesample/mtag/one_mtag_dep.csv')
-mtag.ded <- read.csv('mtag_gwas_snp/onesample/mtag/one_mtag_dry60.csv')
-mtag.ibs <- read.csv('mtag_gwas_snp/onesample/mtag/one_mtag_ibs50.csv')
+# mtag.dep <- read.csv('mtag_gwas_snp/onesample/mtag/one_mtag_dep.csv')
+# mtag.ded <- read.csv('mtag_gwas_snp/onesample/mtag/one_mtag_dry60.csv')
+# mtag.ibs <- read.csv('mtag_gwas_snp/onesample/mtag/one_mtag_ibs50.csv')
 
-gwas.dep.two <- read.csv('mtag_gwas_snp/twosample/gwas/two_dep_log_ADD.csv')
-gwas.ded.two <- read.csv('mtag_gwas_snp/twosample/gwas/two_dry_case60_log_ADD.csv')
-gwas.ibs.two <- read.csv('mtag_gwas_snp/twosample/gwas/two_ibs_case50_log_ADD.csv')
-
-mtag.dep.two <- read.csv('mtag_gwas_snp/twosample/mtag/two_mtag_dep.csv')
-mtag.ded.two <- read.csv('mtag_gwas_snp/twosample/mtag/two_mtag_dry60.csv')
-mtag.ibs.two <- read.csv('mtag_gwas_snp/twosample/mtag/two_mtag_ibs50.csv')
-
-format_snp_osmr <- read_excel("format-snp_osmr.xlsx", sheet = "one_adj_exp_憂鬱_out_IBS_top40")
-format_snp_osmr_15 <- read_excel("format-snp_osmr.xlsx", sheet = "one_adj_exp_憂鬱_out_IBS_top15")
+# gwas.dep.two <- read.csv('mtag_gwas_snp/twosample/gwas/two_dep_log_ADD.csv')
+# gwas.ded.two <- read.csv('mtag_gwas_snp/twosample/gwas/two_dry_case60_log_ADD.csv')
+# gwas.ibs.two <- read.csv('mtag_gwas_snp/twosample/gwas/two_ibs_case50_log_ADD.csv')
+# 
+# mtag.dep.two <- read.csv('mtag_gwas_snp/twosample/mtag/two_mtag_dep.csv')
+# mtag.ded.two <- read.csv('mtag_gwas_snp/twosample/mtag/two_mtag_dry60.csv')
+# mtag.ibs.two <- read.csv('mtag_gwas_snp/twosample/mtag/two_mtag_ibs50.csv')
 
 tp <- mtag.dep.two |>
   filter(str_detect(SNP, "^rs")) |>
@@ -53,27 +50,6 @@ tp <- head(gwas.dep, 50)
 write.table(tp, "mtag_gwas_snp/onesample/gwas/sample.txt", 
             sep = " ", quote = FALSE, row.names = FALSE)
 
-# extract hg19 pos
-library(rtracklayer)
-library(GenomicRanges)
-download.file("https://hgdownload.soe.ucsc.edu/gbdb/hg38/liftOver/hg38ToHg19.over.chain.gz", "hg38ToHg19.over.chain.gz")
-system("gzip -d hg38ToHg19.over.chain.gz")
-
-gwas_data <- gwas.dep
-gr <- GRanges(seqnames = paste0("chr", gwas_data$CHR),
-              ranges = IRanges(start = gwas_data$BP, end = gwas_data$BP),
-              strand = "*",
-              SNP = gwas_data$SNP)
-chain <- import.chain("hg38ToHg19.over.chain")
-gr_hg19 <- liftOver(gr, chain)
-gr_hg19 <- unlist(gr_hg19)
-gwas_data_hg19 <- data.frame(
-  CHR = as.character(seqnames(gr_hg19)),
-  BP_hg19 = start(gr_hg19),
-  SNP = gr_hg19$SNP
-)
-gwas_data_hg19$CHR <- sub("^chr", "", gwas_data_hg19$CHR)
-
 # ANNOVAR res
 tp <- read.table('fuma/dep-one-m_524702/FUMA_job524702/snps.txt', header = TRUE)
 dep.1m <- tp |> filter(!is.na(gwasP))
@@ -84,7 +60,7 @@ tp <- dep.1m |>
 write.table(tp, 'fuma/dep-1m.txt',
             sep = "\t", quote = FALSE, row.names = FALSE)
 
-# pos + eQTL + ci
+# pos + eQTL + ci = genes.disease.1g/1m
 f.ibs.1m <- read_excel("fuma/snp2gene.xlsx", sheet = "ibs-1m")
 f.ibs.1g <- read_excel("fuma/snp2gene.xlsx", sheet = "ibs-1g")
 f.ded.1m <- read_excel("fuma/snp2gene.xlsx", sheet = "ded-1m")

@@ -11,8 +11,8 @@ mg200 <- list(
 )
 
 tvt <- list(
-  DED = snps.ded.1g$rsID,
-  DEP = overlap$SNP
+  MAGMA = magma.genes_filtered$GENE,
+  FUMA = genes.ded.1g$ensg
 )
 
 ggvenn(

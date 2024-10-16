@@ -1,0 +1,20 @@
+# extract hg19 pos
+library(rtracklayer)
+library(GenomicRanges)
+download.file("https://hgdownload.soe.ucsc.edu/gbdb/hg38/liftOver/hg38ToHg19.over.chain.gz", "hg38ToHg19.over.chain.gz")
+system("gzip -d hg38ToHg19.over.chain.gz")
+
+gwas_data <- gwas.dep
+gr <- GRanges(seqnames = paste0("chr", gwas_data$CHR),
+              ranges = IRanges(start = gwas_data$BP, end = gwas_data$BP),
+              strand = "*",
+              SNP = gwas_data$SNP)
+chain <- import.chain("hg38ToHg19.over.chain")
+gr_hg19 <- liftOver(gr, chain)
+gr_hg19 <- unlist(gr_hg19)
+gwas_data_hg19 <- data.frame(
+  CHR = as.character(seqnames(gr_hg19)),
+  BP_hg19 = start(gr_hg19),
+  SNP = gr_hg19$SNP
+)
+gwas_data_hg19$CHR <- sub("^chr", "", gwas_data_hg19$CHR)
