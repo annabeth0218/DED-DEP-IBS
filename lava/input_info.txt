@@ -1,0 +1,4 @@
+phenotype cases controls prevalence filename
+IBS 1696 53571 0.018175
+DEP 4562 22268 0.0192
+DED 1226 26962 0.337
