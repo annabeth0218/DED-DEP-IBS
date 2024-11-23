@@ -1,8 +1,8 @@
 library(pdftools)
 library(gridExtra)
 library(ggplot2)
-library(magick) # more versatile with pdf
-library(TwoSampleMR)
+library(magick)
+# library(TwoSampleMR)
 library(png)
 
 # pdf to grobs
@@ -59,5 +59,5 @@ ggsave("combined_plots.pdf", combined_plot, width = 30, height = 20,
        units = "in", device = cairo_pdf, dpi = 300)
 
 # pdf to png
-pdf_dir <- 'MR_scatter_plots/exp_DEP_out_IBS_mr.pdf'
+pdf_dir <- '/Users/annabethlu/Library/Mobile Documents/com~apple~CloudDocs/lab/shchiou/hotspring/Picture_merged.pdf'
 pdf_convert(pdf_dir, format = "png", dpi = 300)

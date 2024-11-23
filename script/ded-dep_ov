@@ -1,0 +1,11 @@
+# overlap
+overlap <- anti_join(gwas.ded, gwas.dep, by = "SNP") |>
+  filter(P < 0.05)
+
+snps.ded.1g <- read_excel("fuma/snp2gene.xlsx", sheet = "ded-1g.snps")
+overlap_updated <- left_join(overlap, snps.ded.1g, by = c("SNP" = "rsID")) 
+overlap_updated <- overlap_updated |> filter(!is.na(uniqID))
+
+ggplot(ov., aes(x = FULL_NAME, y = P)) +
+  geom_point() +
+  theme(axis.text.x = element_blank())

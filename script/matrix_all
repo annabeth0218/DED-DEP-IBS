@@ -1,0 +1,21 @@
+A_list <- apply(A, 1, function(row) as.list(row[!is.na(row)]))
+
+gnames <- unique(genes.ded.1g$ensg)
+gsnames <- sapply(A_list, function(x) x[[1]])
+gene_matrix <- matrix(0, nrow = length(gsnames), ncol = length(gnames),
+                      dimnames = list(gsnames, gnames)) # row = sets, col = gene
+for (i in seq_along(A_list)) {
+  gene_set <- A_list[[i]] 
+  set_genes <- gene_set[-1]
+  gene_matrix[i, colnames(gene_matrix) %in% set_genes] <- 1
+}
+
+filtered_m <- gene_matrix[rowSums(gene_matrix) >= 1,
+                          colSums(gene_matrix) >= 3]
+
+sub_matrix <- gene_matrix[rownames(gene_matrix) %in% gene_sets_of_interest, ]
+genes_in_sets <- lapply(rownames(sub_matrix), function(set) {
+  present_genes <- colnames(sub_matrix)[sub_matrix[set, ] == 1]
+  return(present_genes)
+})
+names(genes_in_sets) <- rownames(sub_matrix)

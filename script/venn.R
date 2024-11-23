@@ -11,8 +11,8 @@ mg200 <- list(
 )
 
 tvt <- list(
-  MAGMA = magma.genes_filtered$GENE,
-  FUMA = genes.ded.1g$ensg
+  IBS = ibs_genes,
+  DED = ded_genes
 )
 
 ggvenn(
@@ -22,9 +22,9 @@ ggvenn(
 )
 
 hvh <- list(
-  DED_DEP = ov.ded.dep$FULL_NAME,
-  IBS_DED = ov.ibs.ded$FULL_NAME,
-  IBS_DEP = ov.ibs.dep$FULL_NAME
+  DED = magma_ded$GENE,
+  DEP = magma_dep$GENE,
+  IBS = magma_ibs$GENE
 )
 
 # color: "#0073C2FF", "#EFC000FF", "#868686FF", "#CD534CFF"

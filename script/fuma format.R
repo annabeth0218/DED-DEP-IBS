@@ -37,19 +37,6 @@ top_200 <- data.table(mtag.ibs)
 top_200 <- top_200[order(mtag_pval)][1:200]
 write_csv(top_200, 'mtag_gwas_snp/one-mtag-ibs.csv')
 
-# fill in A2
-dt <- data.table(gwas.dep)
-get_A2 <- function(A1) {
-  return(switch(A1, "A" = "T", "T" = "A", "C" = "G", "G" = "C"))
-}
-dt$A2 <- mapply(get_A2, dt$A1)
-
-gwas.dep <- data.frame(dt)
-gwas.dep <- apply(df, 2, as.character)
-tp <- head(gwas.dep, 50)
-write.table(tp, "mtag_gwas_snp/onesample/gwas/sample.txt", 
-            sep = " ", quote = FALSE, row.names = FALSE)
-
 # ANNOVAR res
 tp <- read.table('fuma/dep-one-m_524702/FUMA_job524702/snps.txt', header = TRUE)
 dep.1m <- tp |> filter(!is.na(gwasP))
