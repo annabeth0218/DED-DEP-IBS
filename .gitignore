@@ -65,3 +65,17 @@ rsconnect/
 *README.html
 *README_cache/
 #*README_files/
+
+# Package files
+*.zip
+*.jar
+*.rar
+*.dmg
+*.cys
+*.chain
+*.over.chain
+
+*.bed
+*.bim
+*.fam
+*.synonyms
