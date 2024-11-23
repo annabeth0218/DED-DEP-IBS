@@ -1,0 +1,27 @@
+# MEAN_SAMPLE_SIZE = 54886
+# TOTAL_GENES = 12577
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                         TYPE  NGENES         BETA     BETA_STD           SE            P
+B_cell_Igha_high                COVAR   12577     0.072382     0.011579     0.084432      0.19566
+B_cell_Ly6d_high                COVAR   12577   -0.0022239   -0.0001786      0.20761      0.50427
+B_cell_Rps27rt_high             COVAR   12577    -0.030944   -0.0024002      0.14175       0.5864
+B_cell_Vpreb3_high              COVAR   12577     -0.11765    -0.015236      0.11606      0.84461
+Basophil_Prss34_high            COVAR   12577      0.19949     0.022101      0.14017     0.077356
+Dendritic_cell_Siglech_high     COVAR   12577     0.022463    0.0023218      0.16802      0.44682
+Erythroblast_Car2_high          COVAR   12577     -0.00239  -0.00059675     0.050906      0.51872
+Erythroblast_Hba.a2_high        COVAR   12577    -0.030068   -0.0051548     0.049653      0.72759
+Macrophage_Ace_high             COVAR   12577     -0.05025   -0.0044226      0.17934      0.61033
+Macrophage_Flt.ps1_high         COVAR   12577    -0.035122    -0.003852      0.12283      0.61254
+Macrophage_Pf4_high             COVAR   12577      0.12502     0.016867     0.069471     0.035971
+Macrophage_S100a4_high          COVAR   12577      0.24721     0.024151      0.18899     0.095444
+Monocyte_Elane_high             COVAR   12577    -0.037289   -0.0071637      0.10115       0.6438
+Monocyte_F13a1_high             COVAR   12577      0.06216    0.0084466      0.15406       0.3433
+Neutrophil_Camp_high            COVAR   12577    -0.063167   -0.0071356      0.13808      0.67633
+Neutrophil_Il1b_high            COVAR   12577    -0.058746    -0.005203      0.15924       0.6439
+Neutrophil_Ltf_high             COVAR   12577     -0.13361    -0.013336      0.12359      0.86016
+Neutrophil_Retnlg_high          COVAR   12577    -0.079468   -0.0098932     0.084409      0.82675
+NK_cell_Gzma_high               COVAR   12577     -0.12336    -0.010252      0.20852      0.72294
+T_cell_Gm14303_high             COVAR   12577      0.10706    0.0082613      0.17244      0.26735
+T_cell_Trbc2_high               COVAR   12577    -0.080438   -0.0066364      0.20132      0.65525

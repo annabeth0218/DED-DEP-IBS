@@ -1,0 +1,21 @@
+# MEAN_SAMPLE_SIZE = 54884
+# TOTAL_GENES = 12076
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                 TYPE  NGENES         BETA     BETA_STD           SE            P
+macrophage              COVAR   12076     0.029919     0.010494      0.05577      0.29582
+B_cell                  COVAR   12076     -0.01749   -0.0035015     0.075189      0.59197
+natural_killer_cell     COVAR   12076    -0.088476    -0.017586     0.082829      0.85727
+T_cell                  COVAR   12076    -0.056537    -0.012995     0.071681      0.78485
+endothelial_cell        COVAR   12076    -0.023584   -0.0062253     0.057087      0.66023
+stromal_cell            COVAR   12076    0.0031723   0.00071669     0.057508        0.478
+dendritic_cell          COVAR   12076     -0.02383   -0.0071378     0.059734      0.65503
+leukocyte               COVAR   12076     -0.11097     -0.01938     0.083644      0.90768
+monocyte                COVAR   12076     0.029992     0.011985     0.046561      0.25975
+ciliated_cell           COVAR   12076     0.009234    0.0046233     0.027052      0.36643
+type_II_pneumocyte      COVAR   12076    -0.017672   -0.0060592     0.046178      0.64902
+unknown                 COVAR   12076    -0.027471    -0.007786     0.073521      0.64566
+mast_cell               COVAR   12076    -0.034264   -0.0066713     0.066791      0.69602
+mesothelial_cell        COVAR   12076     0.049431     0.020378     0.035275     0.080578
+Clara_cell              COVAR   12076    -0.030534    -0.016558     0.031475        0.834

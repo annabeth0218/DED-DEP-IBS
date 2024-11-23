@@ -1,0 +1,24 @@
+# MEAN_SAMPLE_SIZE = 54886
+# TOTAL_GENES = 12577
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Dopaminergic_neurons_               COVAR   12577    -0.074705   -0.0070763      0.22609      0.62946 Dopaminergic_neurons_
+Ependymal_cell                      COVAR   12577     0.010202    0.0010527       0.1532      0.47345 Ependymal_cell
+Erythroblast_Hbb.bh1_high           COVAR   12577     0.014668    0.0015871      0.14434      0.45953 Erythroblast_Hbb.bh1_high
+Erythrocyte_Hbb.bt_high             COVAR   12577    -0.060081   -0.0071058      0.11103      0.70578 Erythrocyte_Hbb.bt_high
+Granule_neurons                     COVAR   12577     -0.66101    -0.058608      0.28509      0.98978 Granule_neurons
+Hippocampus_neurons_Asic4_hi...     COVAR   12577     -0.35563    -0.030653      0.30951      0.87471 Hippocampus_neurons_Asic4_high
+Macrophage                          COVAR   12577      0.28039     0.034759      0.11277      0.00646 Macrophage
+Microglia                           COVAR   12577     0.094794     0.011455      0.12603      0.22599 Microglia
+Neural_progenitor_cell              COVAR   12577    -0.024578   -0.0021265      0.29909      0.53275 Neural_progenitor_cell
+Neuron_Kpna2_high                   COVAR   12577      0.18496     0.018096      0.21031      0.18958 Neuron_Kpna2_high
+Neuron_tuba1c_high                  COVAR   12577     0.020048    0.0019497      0.21979      0.46366 Neuron_tuba1c_high
+Postmitotic_neurons_Lhx9_high       COVAR   12577     -0.53191    -0.047837      0.26068      0.97934 Postmitotic_neurons_Lhx9_high
+Purkinje_cell                       COVAR   12577     -0.33048    -0.037324      0.16202       0.9793 Purkinje_cell
+Pyramidal_neuron_cell               COVAR   12577      -0.2488    -0.022679      0.27158      0.82019 Pyramidal_neuron_cell
+Radial_glia_Fabp7_high              COVAR   12577     0.081422    0.0078155      0.25454      0.37453 Radial_glia_Fabp7_high
+Radial_glia_Vim_high                COVAR   12577     -0.32714     -0.02889      0.28405      0.87526 Radial_glia_Vim_high
+Schwann_cell                        COVAR   12577     -0.21333     -0.01915      0.27692      0.77945 Schwann_cell
+Stromal_cell                        COVAR   12577    0.0090804    0.0009358      0.17118      0.47885 Stromal_cell

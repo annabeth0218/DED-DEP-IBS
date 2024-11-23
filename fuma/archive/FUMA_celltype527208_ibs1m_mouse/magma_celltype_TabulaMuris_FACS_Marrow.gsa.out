@@ -1,0 +1,27 @@
+# MEAN_SAMPLE_SIZE = 54884
+# TOTAL_GENES = 12076
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+granulocyte                         COVAR   12076   -0.0056736   -0.0074758    0.0086126      0.74497 granulocyte
+basophil                            COVAR   12076    0.0026239    0.0054709    0.0093729      0.38976 basophil
+Slamf1.positive_multipotent_...     COVAR   12076    0.0037491    0.0091196     0.008267       0.3251 Slamf1.positive_multipotent_progenitor_cell
+megakaryocyte.erythroid_prog...     COVAR   12076     0.010112      0.02329    0.0085373      0.11812 megakaryocyte.erythroid_progenitor_cell
+immature_B_cell                     COVAR   12076     0.008848     0.013716     0.013326      0.25337 immature_B_cell
+hematopoietic_precursor_cell        COVAR   12076     0.013773     0.027093     0.014541      0.17178 hematopoietic_precursor_cell
+monocyte                            COVAR   12076    0.0062546     0.011429     0.010474      0.27522 monocyte
+late_pro.B_cell                     COVAR   12076     -0.01155    -0.024742    0.0092043      0.89521 late_pro.B_cell
+naive_B_cell                        COVAR   12076    0.0088982     0.011299     0.013444      0.25403 naive_B_cell
+immature_T_cell                     COVAR   12076    0.0027615    0.0042865      0.01233      0.41139 immature_T_cell
+common_lymphoid_progenitor          COVAR   12076   0.00028709   0.00068462    0.0088321      0.48703 common_lymphoid_progenitor
+macrophage                          COVAR   12076    0.0036266    0.0063834    0.0092724      0.34786 macrophage
+B_cell                              COVAR   12076   -0.0031779   -0.0061581     0.013519      0.59292 B_cell
+Slamf1.negative_multipotent_...     COVAR   12076     0.017517     0.035265     0.012131     0.074382 Slamf1.negative_multipotent_progenitor_cell
+pre.natural_killer_cell             COVAR   12076   -0.0040522   -0.0099458    0.0088167      0.67709 pre.natural_killer_cell
+pro.B_cell                          COVAR   12076    -0.011367    -0.015452     0.011587      0.83669 pro.B_cell
+granulocyte_monocyte_progeni...     COVAR   12076    -0.008214    -0.019781    0.0093682      0.80969 granulocyte_monocyte_progenitor_cell
+mature_natural_killer_cell          COVAR   12076   -0.0014386   -0.0026809     0.011482      0.54986 mature_natural_killer_cell
+immature_natural_killer_cell        COVAR   12076   -0.0075767    -0.011886      0.01143      0.74629 immature_natural_killer_cell
+regulatory_T_cell                   COVAR   12076    -0.012145    -0.017716     0.012111      0.84201 regulatory_T_cell
+immature_NK_T_cell                  COVAR   12076   -0.0094816     -0.01716     0.011478       0.7956 immature_NK_T_cell

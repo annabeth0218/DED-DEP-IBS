@@ -1,0 +1,42 @@
+# MEAN_SAMPLE_SIZE = 54888
+# TOTAL_GENES = 11666
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE           TYPE  NGENES         BETA     BETA_STD           SE            P
+a1_tanycytes1     COVAR   11666    0.0030929   0.00078352     0.064397      0.48085
+a1_tanycytes2     COVAR   11666    -0.047311     -0.01175     0.064873      0.76708
+a2_tanycytes      COVAR   11666     0.030386    0.0070807     0.077134      0.34682
+Astrocytes        COVAR   11666    -0.013844   -0.0034977     0.053736      0.60165
+b1_tanycytes      COVAR   11666     0.010479     0.002727     0.070167      0.44064
+b2_tanycytes1     COVAR   11666      0.05514     0.014992     0.065229      0.19897
+b2_tanycytes2     COVAR   11666     0.039503     0.011504     0.058754      0.25069
+Endothelial       COVAR   11666     0.014785    0.0044882     0.038723       0.3513
+Ependymocy1       COVAR   11666   -0.0063658   -0.0034831     0.025059      0.60026
+Ependymocy2       COVAR   11666     -0.01718   -0.0058702     0.038495       0.6723
+Fibroblasts1      COVAR   11666     0.077283     0.023345     0.037671     0.020121
+Fibroblasts2      COVAR   11666     0.021251    0.0053629     0.051668      0.34043
+Fibroblasts3      COVAR   11666     0.062697     0.012229     0.060722      0.15093
+Microglia         COVAR   11666    -0.035799   -0.0076893      0.04855      0.76955
+Mural_Cells1      COVAR   11666     0.054186     0.016524      0.04017     0.088694
+Mural_Cells2      COVAR   11666     0.010217    0.0028364     0.045179      0.41055
+Neurons1          COVAR   11666    -0.030886    -0.017254     0.027373       0.8704
+Neurons2          COVAR   11666    -0.068308    -0.020336     0.056616      0.88617
+Neurons3          COVAR   11666    -0.070477    -0.026345     0.042424      0.95165
+Neurons4          COVAR   11666    -0.058423    -0.022928     0.039238      0.93173
+Neurons5          COVAR   11666    -0.047226    -0.017187     0.041016      0.87521
+Neurons6          COVAR   11666    -0.053215    -0.020064     0.042469      0.89489
+NG2_OPC1          COVAR   11666    0.0030085   0.00092429      0.03876      0.46907
+NG2_OPC2          COVAR   11666     0.031927    0.0073124      0.06822       0.3199
+Oligodendro1      COVAR   11666    -0.025698    -0.011237     0.028656      0.81507
+Oligodendro2      COVAR   11666      0.02317     0.012717     0.022387      0.15035
+Oligodendro3      COVAR   11666     0.010219    0.0039808     0.033284      0.37941
+Oligodendro4      COVAR   11666   -0.0011106  -0.00034481     0.042482      0.51043
+Oligodendro5      COVAR   11666   -0.0079482   -0.0034092     0.034367      0.59145
+Oligodendro6      COVAR   11666    0.0049198    0.0015266     0.049103       0.4601
+Pars_Tuber1A      COVAR   11666     0.034406     0.021149     0.025671     0.090093
+Pars_Tuber1B      COVAR   11666     0.038424     0.010522     0.049057      0.21675
+Pars_Tuber1C      COVAR   11666     0.079999     0.030984     0.040865     0.025148
+Parstuber2A       COVAR   11666     0.044334     0.013039     0.056326      0.21562
+Parstuber2B       COVAR   11666     0.019386     0.007494     0.034073       0.2847
+PVMs              COVAR   11666     0.019168    0.0042515     0.046831      0.34116

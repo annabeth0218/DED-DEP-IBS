@@ -1,0 +1,48 @@
+# MEAN_SAMPLE_SIZE = 54889
+# TOTAL_GENES = 14724
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                    TYPE  NGENES         BETA     BETA_STD           SE            P
+GW08_Neurons               COVAR   14724    0.0016491    0.0032358     0.010068      0.43494
+GW08_Stem_cells            COVAR   14724    0.0032595    0.0072741    0.0057207      0.28442
+GW08_GABAergic_neurons     COVAR   14724  -0.00080609   -0.0016624    0.0056375      0.55685
+GW08_Microglia             COVAR   14724   -0.0016424   -0.0042317    0.0040685      0.65678
+GW09_Stem_cells            COVAR   14724  -0.00059124   -0.0010713      0.01099      0.52145
+GW09_Neurons               COVAR   14724   -0.0083549    -0.016248     0.011619      0.76395
+GW09_GABAergic_neurons     COVAR   14724   -0.0018028   -0.0032939    0.0061054       0.6161
+GW10_Neurons               COVAR   14724   -0.0019333   -0.0036087     0.013778      0.55579
+GW10_Stem_cells            COVAR   14724   -0.0036924   -0.0070833     0.012944      0.61227
+GW10_GABAergic_neurons     COVAR   14724      -0.0093    -0.015168    0.0084913      0.86328
+GW10_Microglia             COVAR   14724    0.0047404      0.01256    0.0045227       0.1473
+GW12_Neurons               COVAR   14724  -0.00062347   -0.0010781     0.012999      0.51913
+GW12_Stem_cells            COVAR   14724    0.0071369     0.014454    0.0098261      0.23383
+GW12_GABAergic_neurons     COVAR   14724     0.011827     0.019376    0.0089501     0.093183
+GW12_OPC                   COVAR   14724   -0.0030682   -0.0070366    0.0050781      0.72714
+GW12_Microglia             COVAR   14724   -0.0045113    -0.011597    0.0035465      0.89831
+GW13_Neurons               COVAR   14724   -0.0082909    -0.015185     0.010662      0.78159
+GW13_Stem_cells            COVAR   14724   -0.0060766    -0.012193      0.00764      0.78679
+GW13_Microglia             COVAR   14724   -0.0049824    -0.013078    0.0034343      0.92657
+GW16_Neurons               COVAR   14724   0.00030561   0.00057113     0.015375      0.49207
+GW16_Stem_cells            COVAR   14724   -0.0052284    -0.010383     0.014784      0.63819
+GW16_GABAergic_neurons     COVAR   14724      -0.0191    -0.031504     0.015472      0.89148
+GW16_Microglia             COVAR   14724    0.0079712     0.015808    0.0078354      0.15451
+GW16_OPC                   COVAR   14724    -0.020139      -0.0398    0.0098305      0.97974
+GW19_Neurons               COVAR   14724    0.0083334     0.014093     0.014082      0.27701
+GW19_GABAergic_neurons     COVAR   14724    -0.013135     -0.01863     0.013013      0.84358
+GW19_Astrocytes            COVAR   14724    0.0050065     0.010589    0.0064453      0.21866
+GW19_OPC                   COVAR   14724    0.0063758     0.013023    0.0061769        0.151
+GW19_Stem_cells            COVAR   14724   -0.0068066    -0.014206    0.0068202      0.84085
+GW19_Microglia             COVAR   14724    0.0036847    0.0094807     0.003593      0.15257
+GW23_Neurons               COVAR   14724   -0.0094318    -0.014888     0.014329      0.74479
+GW23_GABAergic_neurons     COVAR   14724     0.006355    0.0094346     0.014889      0.33476
+GW23_OPC                   COVAR   14724    0.0057521     0.010102     0.011549      0.30922
+GW23_Astrocytes            COVAR   14724    0.0024076    0.0050135    0.0066291      0.35824
+GW23_Stem_cells            COVAR   14724   -0.0012667   -0.0028932    0.0047626      0.60487
+GW23_Microglia             COVAR   14724   -0.0022583   -0.0039413    0.0068077      0.62995
+GW26_GABAergic_neurons     COVAR   14724      0.01304     0.021007     0.012567      0.14973
+GW26_Astrocytes            COVAR   14724     0.011014     0.021211    0.0096585      0.12708
+GW26_Neurons               COVAR   14724   -0.0057036   -0.0087735     0.015463      0.64388
+GW26_Microglia             COVAR   14724    0.0031666    0.0056372    0.0090345      0.36299
+GW26_OPC                   COVAR   14724    0.0067904     0.012031     0.013705      0.31014
+GW26_Stem_cells            COVAR   14724     0.011371     0.024837    0.0065473      0.04123

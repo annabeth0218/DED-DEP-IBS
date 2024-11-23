@@ -1,0 +1,14 @@
+# MEAN_SAMPLE_SIZE = 54884
+# TOTAL_GENES = 12076
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                       TYPE  NGENES         BETA     BETA_STD           SE            P
+monocyte                      COVAR   12076      0.05968     0.022245     0.060574      0.16226
+T_cell                        COVAR   12076   -0.0012446  -0.00032192     0.074518      0.50666
+hematopoietic_stem_cell       COVAR   12076     0.037066     0.018492     0.061385      0.27298
+granulocyte                   COVAR   12076    -0.043078    -0.010291     0.064073       0.7493
+erythrocyte                   COVAR   12076     0.023576    0.0033502     0.078047       0.3813
+B_cell                        COVAR   12076    -0.020402   -0.0088591     0.048377      0.66339
+macrophage                    COVAR   12076     0.017658    0.0059594     0.060019       0.3843
+Fraction_A_pre.pro_B_cell     COVAR   12076    -0.096184    -0.029034     0.062481      0.93813

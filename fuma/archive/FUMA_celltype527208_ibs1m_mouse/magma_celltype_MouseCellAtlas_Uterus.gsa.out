@@ -1,0 +1,25 @@
+# MEAN_SAMPLE_SIZE = 54886
+# TOTAL_GENES = 12577
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+B_cell                              COVAR   12577     0.017944    0.0030797     0.074961      0.40541 B_cell
+Dendritic_cell                      COVAR   12577     0.024872    0.0022811      0.16319      0.43943 Dendritic_cell
+Endothelial_cell_Cldn5_high         COVAR   12577    -0.045354   -0.0053214      0.10536      0.66657 Endothelial_cell_Cldn5_high
+Endothelial_cell_Tm4sf1_high        COVAR   12577     0.050482    0.0048878      0.14839      0.36686 Endothelial_cell_Tm4sf1_high
+Glandular_epithelium_Ltf_high       COVAR   12577    -0.076873    -0.010506     0.092256      0.79764 Glandular_epithelium_Ltf_high
+Glandular_epithelium_Sprr2f_...     COVAR   12577     0.039986    0.0088791     0.071706      0.28855 Glandular_epithelium_Sprr2f_high
+Granulocyte                         COVAR   12577    -0.033854   -0.0033272      0.16366      0.58194 Granulocyte
+Keratinocyte                        COVAR   12577      0.10949     0.013386      0.10376      0.14567 Keratinocyte
+Macrophage                          COVAR   12577    0.0065891   0.00074141      0.13113      0.47996 Macrophage
+Monocyte                            COVAR   12577    -0.000472  -5.0195e-05      0.12931      0.50146 Monocyte
+Muscle_cell_Mgp_high                COVAR   12577     -0.23341    -0.019062      0.18458      0.89697 Muscle_cell_Mgp_high
+Muscle_cell_Pcp4_high               COVAR   12577     -0.12557    -0.014806     0.098431      0.89896 Muscle_cell_Pcp4_high
+NK_cell                             COVAR   12577     0.065764    0.0069362      0.13655      0.31504 NK_cell
+Smooth_muscle_cell_Rgs5_high        COVAR   12577     -0.13584    -0.012443      0.11698       0.8772 Smooth_muscle_cell_Rgs5_high
+Stromal_cell_Ccl11_high             COVAR   12577     0.005585   0.00093444      0.12166      0.48169 Stromal_cell_Ccl11_high
+Stromal_cell_Cxcl14_high            COVAR   12577     -0.22838    -0.018455      0.21012      0.86145 Stromal_cell_Cxcl14_high
+Stromal_cell_Gm23935_high           COVAR   12577    -0.004784  -0.00055066      0.16773      0.51138 Stromal_cell_Gm23935_high
+Stromal_cell_Has1_high              COVAR   12577      0.12727     0.022787      0.11466      0.13352 Stromal_cell_Has1_high
+Stromal_cell_Hsd11b2_high           COVAR   12577     0.032686    0.0034544      0.18864      0.43122 Stromal_cell_Hsd11b2_high

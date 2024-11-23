@@ -1,0 +1,36 @@
+# MEAN_SAMPLE_SIZE = 54886
+# TOTAL_GENES = 12635
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                TYPE  NGENES         BETA     BETA_STD           SE            P
+GABA_Calb2_Krt17       COVAR   12635     0.012966    0.0067208     0.064554      0.42041
+GABA_Calb2_Tac1        COVAR   12635    0.0053206    0.0028335     0.066534      0.46813
+GABA_Cplx1_Adamts5     COVAR   12635    0.0072715     0.003095     0.085942      0.46629
+GABA_Cplx1_Calb2       COVAR   12635    -0.054707    -0.031946     0.065685      0.79753
+GABA_Cplx1_Sorcs3      COVAR   12635    -0.070176    -0.035324     0.066632      0.85386
+GABA_Cplx1_Sst         COVAR   12635       0.0182     0.011144     0.057527      0.37586
+GABA_Crabp1            COVAR   12635    -0.030349    -0.016469     0.051275      0.72303
+GABA_Crabp1_Spp1       COVAR   12635     0.012867    0.0070375     0.041834      0.37921
+GABA_Gal_Pnoc          COVAR   12635    -0.071823     -0.03672     0.083088      0.80631
+GABA_Gal_Rspo3         COVAR   12635    0.0085099    0.0039416      0.07815      0.45665
+GABA_Npy_Crabp1        COVAR   12635     -0.11594    -0.056829     0.069839      0.95153
+GABA_Npy_only          COVAR   12635    -0.027488    -0.017172     0.049923      0.70904
+GABA_Npy_Qrfpr         COVAR   12635     0.030706     0.015363     0.075349      0.34182
+GABA_Tac2              COVAR   12635     0.053874     0.030915     0.044756      0.11436
+Glut_Cck_Cpne4         COVAR   12635     -0.11728    -0.051111     0.067762      0.95824
+Glut_Cck_Maf           COVAR   12635      0.13868      0.05047     0.073112     0.028937
+Glut_Cck_Trh           COVAR   12635    -0.021743   -0.0088925     0.064772      0.63145
+Glut_Elavl4            COVAR   12635    -0.039542    -0.019743     0.073332      0.70513
+Glut_Elavl4_Lypd1      COVAR   12635     0.081005     0.040842       0.0516     0.058238
+Glut_Elavl4_Meis2      COVAR   12635    -0.010904    -0.005571     0.068174      0.56354
+Glut_Gal               COVAR   12635     0.019813    0.0073458     0.048799      0.34237
+Glut_Nts               COVAR   12635    -0.065594     -0.02399     0.073373      0.81432
+Glut_Qrfpr             COVAR   12635    -0.078758    -0.030131     0.075538      0.85143
+Glut_Reln_Nmur2        COVAR   12635    -0.043944    -0.015236     0.085393      0.69658
+Glut_Reln_Npff         COVAR   12635   -0.0068165   -0.0026893     0.077753      0.53493
+Glut_Tac1_1            COVAR   12635    0.0070969    0.0031702     0.075018      0.46232
+Glut_Tac1_2            COVAR   12635     0.049044     0.018919     0.085651      0.28346
+Glut_Tac2_1            COVAR   12635    -0.038548    -0.013451      0.08407      0.67671
+Glut_Tac2_2            COVAR   12635    -0.079582    -0.031893     0.072281      0.86454
+Glut_Tac2_3            COVAR   12635    0.0017638   0.00067237     0.067142      0.48952

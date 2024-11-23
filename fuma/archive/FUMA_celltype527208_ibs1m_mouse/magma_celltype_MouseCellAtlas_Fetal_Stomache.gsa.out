@@ -1,0 +1,27 @@
+# MEAN_SAMPLE_SIZE = 54886
+# TOTAL_GENES = 12577
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                       TYPE  NGENES         BETA     BETA_STD           SE            P
+Acinar_cell_Ctrb1_high        COVAR   12577      0.41876     0.047183      0.20807      0.02209
+Acinar_cell_Spp1_high         COVAR   12577      0.41047     0.044864      0.25054     0.050688
+Endocrine_cell                COVAR   12577      0.10637    0.0098372      0.20515      0.30207
+Endocrine_progenitor_cell     COVAR   12577     -0.27884    -0.027819      0.14993      0.96853
+Epithelial_cell               COVAR   12577      0.95348     0.093619      0.28239   0.00036843
+Erythroblast_Car2_high        COVAR   12577      0.21218     0.023784      0.16277      0.09621
+Erythroblast_Hba.x_HIGH       COVAR   12577     -0.27483    -0.027274      0.18951      0.92649
+Erythroblast_Hbb.bs_high      COVAR   12577     0.015639    0.0013699       0.3391      0.48161
+Erythroblast_Klf1_high        COVAR   12577    -0.034189   -0.0042989      0.16213       0.5835
+Erythroblast_Snca_high        COVAR   12577     -0.26945    -0.028813       0.1376      0.97488
+Hepatocyte.Like_Cell_         COVAR   12577    -0.062036    -0.010054     0.071043      0.80872
+Immunocyte_Lyz2_high          COVAR   12577     0.090498      0.00951      0.18571      0.31302
+Macrophage                    COVAR   12577      0.38947     0.037637      0.21568     0.035488
+Mast_cell                     COVAR   12577     -0.13359    -0.014028      0.21747      0.73048
+Muscle_cell                   COVAR   12577    -0.070916   -0.0064292      0.23704      0.61759
+Neuron                        COVAR   12577     -0.14408    -0.013762      0.18536       0.7815
+Neutrophil                    COVAR   12577     0.098279     0.011021      0.12991      0.22469
+Progenitor_cell               COVAR   12577      0.37498     0.032663      0.28766     0.096205
+Stomach_cell_Kazald1_high     COVAR   12577    -0.012324   -0.0010882      0.26209      0.51875
+Stromal_cell_Cdkn1c_high      COVAR   12577     -0.24836    -0.021383      0.30358      0.79334
+Stromal_cell_Dcn_high         COVAR   12577     -0.17272    -0.015803      0.29174      0.72308

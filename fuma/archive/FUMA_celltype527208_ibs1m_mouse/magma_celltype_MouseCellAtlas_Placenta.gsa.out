@@ -1,0 +1,34 @@
+# MEAN_SAMPLE_SIZE = 54886
+# TOTAL_GENES = 12577
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+B_cell                              COVAR   12577     0.011711    0.0018424     0.052109      0.41109 B_cell
+Basophil                            COVAR   12577    -0.095764   -0.0098061      0.11871      0.79007 Basophil
+Decidual_stromal_cell               COVAR   12577    -0.078057    -0.011708     0.088329      0.81156 Decidual_stromal_cell
+Dendritic_cell                      COVAR   12577    0.0035186   0.00032866      0.16011      0.49123 Dendritic_cell
+Endodermal_cell_Afp_high            COVAR   12577     0.041074     0.006617     0.082058      0.30835 Endodermal_cell_Afp_high
+Endothelial_cell_Maged2_high        COVAR   12577      -0.2137    -0.023586      0.14238      0.93331 Endothelial_cell_Maged2_high
+Erythroblast_Hbb.y_high             COVAR   12577    -0.036801   -0.0048274     0.087947      0.66218 Erythroblast_Hbb.y_high
+Granulocyte_monocyte_progeni...     COVAR   12577     0.087295     0.012277      0.10904      0.21169 Granulocyte_monocyte_progenitors
+Granulocyte_Neat1_high              COVAR   12577    0.0094457    0.0016107     0.048854      0.42335 Granulocyte_Neat1_high
+Granulocyte_S100a9_high             COVAR   12577     -0.21722    -0.026249     0.081374       0.9962 Granulocyte_S100a9_high
+HSPC_Lmo2_high                      COVAR   12577     0.028439     0.004322     0.096195      0.38375 HSPC_Lmo2_high
+Invasive_spongiotrophoblast         COVAR   12577    -0.077969   -0.0090137      0.13781      0.71421 Invasive_spongiotrophoblast
+Labyrinthine_trophoblast            COVAR   12577     0.091383     0.015142      0.07911      0.12403 Labyrinthine_trophoblast
+Macrophage_Apoe_high                COVAR   12577       0.1278     0.014504      0.13982      0.18036 Macrophage_Apoe_high
+Macrophage_Spp1_high                COVAR   12577      -0.0378   -0.0052424      0.12584      0.61805 Macrophage_Spp1_high
+Megakaryocyte_progenitor_cell       COVAR   12577    -0.080598    -0.010588     0.074097      0.86163 Megakaryocyte_progenitor_cell
+Monocyte                            COVAR   12577    -0.094805   -0.0090973      0.15051       0.7356 Monocyte
+NK_cell                             COVAR   12577      0.13306     0.021377     0.092784     0.075792 NK_cell
+NKT_cell                            COVAR   12577    -0.057541   -0.0076607      0.10824      0.70249 NKT_cell
+PE_lineage_cell_Gkn2_high           COVAR   12577    -0.039384   -0.0044767      0.12271      0.62587 PE_lineage_cell_Gkn2_high
+PE_lineage_cell_S100g_high          COVAR   12577      0.17215     0.017071      0.15824      0.13833 PE_lineage_cell_S100g_high
+Progenitor_trophoblast_Gjb3_...     COVAR   12577    -0.014021   -0.0020858      0.11289      0.54942 Progenitor_trophoblast_Gjb3_high
+Spiral_artery_trophoblast_gi...     COVAR   12577    -0.013085   -0.0018409      0.12987      0.54013 Spiral_artery_trophoblast_giant_cells
+Spongiotrophoblast_Hsd11b2_h...     COVAR   12577    -0.089767    -0.015835     0.084282      0.85657 Spongiotrophoblast_Hsd11b2_high
+Spongiotrophoblast_Phlda2_hi...     COVAR   12577     0.013005    0.0018586      0.11286      0.45413 Spongiotrophoblast_Phlda2_high
+Stromal_cell                        COVAR   12577     -0.25045    -0.026677      0.14917      0.95341 Stromal_cell
+Stromal_cell_Acta2_high             COVAR   12577     -0.22348    -0.026402      0.12135      0.96722 Stromal_cell_Acta2_high
+Trophoblast_progenitor_Taf7l...     COVAR   12577     -0.14619    -0.014231      0.12635      0.87635 Trophoblast_progenitor_Taf7l_high

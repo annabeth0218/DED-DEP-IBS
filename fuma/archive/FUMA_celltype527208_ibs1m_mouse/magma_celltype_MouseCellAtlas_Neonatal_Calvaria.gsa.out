@@ -1,0 +1,20 @@
+# MEAN_SAMPLE_SIZE = 54886
+# TOTAL_GENES = 12577
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Dividng_cell                        COVAR   12577      0.24252     0.027803      0.16948     0.076228 Dividng_cell
+Endothelial_cell                    COVAR   12577    -0.030358   -0.0033209      0.13397      0.58963 Endothelial_cell
+Erythroblast                        COVAR   12577    -0.021165   -0.0035642     0.073412      0.61344 Erythroblast
+Granulocyte_monocyte_progeni...     COVAR   12577      -0.1084    -0.013113     0.094331      0.87475 Granulocyte_monocyte_progenitor_cell
+Mast_cell                           COVAR   12577     0.022207    0.0023716      0.14541      0.43931 Mast_cell
+Muscle_cell_Actc1_high              COVAR   12577     0.085465    0.0092915      0.11736      0.23324 Muscle_cell_Actc1_high
+Muscle_cell_Junb_high               COVAR   12577      0.34414     0.037754      0.19001     0.035072 Muscle_cell_Junb_high
+Muscle_cell_Myl9_high               COVAR   12577    -0.069367   -0.0065865      0.12922      0.70429 Muscle_cell_Myl9_high
+Neuron                              COVAR   12577    -0.054216   -0.0048755      0.16091      0.63191 Neuron
+Neutrophil                          COVAR   12577     0.066014    0.0072423      0.17197      0.35054 Neutrophil
+Osteoblast.                         COVAR   12577      0.16209     0.016878      0.23045      0.24093 Osteoblast.
+Preosteoblast.Osteoblast.Bon...     COVAR   12577      0.26575     0.028783      0.23319      0.12723 Preosteoblast.Osteoblast.Bone_cell.Cartilage_cell
+Stromal_cell_Col1a1_high            COVAR   12577     -0.46989    -0.048745       0.1859      0.99425 Stromal_cell_Col1a1_high
+Stromal_cell_Col3a1_high            COVAR   12577    0.0040591   0.00039942      0.11836      0.48632 Stromal_cell_Col3a1_high

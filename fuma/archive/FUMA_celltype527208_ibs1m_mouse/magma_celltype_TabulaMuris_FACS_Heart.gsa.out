@@ -1,0 +1,14 @@
+# MEAN_SAMPLE_SIZE = 54884
+# TOTAL_GENES = 12076
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                 TYPE  NGENES         BETA     BETA_STD           SE            P
+endothelial_cell        COVAR   12076    -0.016485     -0.02145     0.012461      0.90706
+leukocyte               COVAR   12076     0.001813     0.002926     0.008745      0.41788
+fibroblast              COVAR   12076    0.0096564     0.015634     0.011729      0.20519
+myofibroblast_cell      COVAR   12076    0.0031729    0.0048587     0.012605      0.40063
+endocardial_cell        COVAR   12076     0.014559     0.024064     0.011473      0.10225
+cardiac_muscle_cell     COVAR   12076    0.0043654      0.00811    0.0069509        0.265
+cardiac_neuron          COVAR   12076    -0.006207   -0.0096713    0.0095482      0.74217
+smooth_muscle_cell      COVAR   12076    -0.012894    -0.021002     0.010421      0.89199

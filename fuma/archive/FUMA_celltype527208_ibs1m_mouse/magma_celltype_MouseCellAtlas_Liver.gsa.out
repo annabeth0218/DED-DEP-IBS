@@ -1,0 +1,26 @@
+# MEAN_SAMPLE_SIZE = 54886
+# TOTAL_GENES = 12577
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                         TYPE  NGENES         BETA     BETA_STD           SE            P
+B_cell_Fcmr_high                COVAR   12577     -0.10208    -0.009771        0.153      0.74767
+B_cell_Jchain_high              COVAR   12577     -0.07329   -0.0085395     0.093848      0.78257
+Dendritic_cell_Cst3_high        COVAR   12577    -0.059976   -0.0060181      0.15708      0.64869
+Dendritic_cell_Siglech_high     COVAR   12577     0.028754    0.0029145       0.1383      0.41765
+Endothelial_cell                COVAR   12577    -0.023372   -0.0020119      0.17754      0.55237
+Epithelia_cell_Spp1_high        COVAR   12577     0.078451    0.0072737      0.13804      0.28491
+Epithelial_cell                 COVAR   12577      0.13226     0.021172     0.068241     0.026314
+Erythroblast_Hbb.bs_high        COVAR   12577      0.14675     0.012476      0.21612      0.24857
+Erythroblast_Hbb.bt_high        COVAR   12577     -0.12533    -0.014842     0.090877      0.91606
+Granulocyte                     COVAR   12577     -0.11115    -0.010811       0.1558       0.7622
+Hepatocyte_Fabp1_high           COVAR   12577    -0.074914   -0.0094123     0.088475      0.80142
+Hepatocyte_mt.Nd4_high          COVAR   12577    -0.045888   -0.0092234     0.046881      0.83616
+Kuppfer_cell                    COVAR   12577     0.071037    0.0073295      0.14623      0.31356
+Macrophage_Chil3_high           COVAR   12577     -0.14477    -0.013998       0.1677        0.806
+Neutrophil_Ngp_high             COVAR   12577    -0.070251   -0.0083032     0.087112         0.79
+Pericentral_                    COVAR   12577    -0.074847   -0.0091276      0.10329      0.76565
+Periportal_                     COVAR   12577     0.036245    0.0066277     0.060838      0.27567
+Stromal_cell                    COVAR   12577      0.21979     0.026642     0.091912    0.0084034
+T_cell_Gzma_high                COVAR   12577    -0.089072   -0.0086549      0.13681      0.74249
+T_cell_Trbc2_high               COVAR   12577      0.16122     0.014931      0.16736       0.1677

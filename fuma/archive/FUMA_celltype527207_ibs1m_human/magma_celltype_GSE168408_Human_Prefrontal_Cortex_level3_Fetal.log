@@ -1,0 +1,40 @@
+Welcome to MAGMA v1.10 (linux/s)
+Using flags:
+	--gene-results /new_data/users_data/celltype/527207/magma.genes.raw
+	--gene-covar /data/MAGMA/celltype/GSE168408_Human_Prefrontal_Cortex_level3_Fetal.txt
+	--model condition-hide=Average direction=greater
+	--out /new_data/users_data/celltype/527207/magma_celltype_GSE168408_Human_Prefrontal_Cortex_level3_Fetal
+
+Start time is 01:35:06, Saturday 21 Sep 2024
+
+Reading file /new_data/users_data/celltype/527207/magma.genes.raw... 
+	15564 genes read from file
+Loading gene-level covariates...
+Reading file /data/MAGMA/celltype/GSE168408_Human_Prefrontal_Cortex_level3_Fetal.txt... 
+	detected 66 variables in file (using all)
+	found 66 valid gene covariates, for 14222 genes defined in genotype data
+Processing missing values...
+	found 1342 genes not present in all input files: removing these from analysis
+	14222 genes remaining in analysis
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 66 gene covariates
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), one-sided, positive (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		sample size, log(sample size)
+		inverse mac, log(inverse mac)
+	conditioning on input variables (no output):
+		Average (covar)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 65)
+	writing results to file /new_data/users_data/celltype/527207/magma_celltype_GSE168408_Human_Prefrontal_Cortex_level3_Fetal.gsa.out
+
+End time is 01:35:14, Saturday 21 Sep 2024 (elapsed: 00:00:08)

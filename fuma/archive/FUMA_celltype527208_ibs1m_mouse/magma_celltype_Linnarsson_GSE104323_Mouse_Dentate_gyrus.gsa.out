@@ -1,0 +1,30 @@
+# MEAN_SAMPLE_SIZE = 54885
+# TOTAL_GENES = 12942
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                  TYPE  NGENES         BETA     BETA_STD           SE            P
+Astro_adult              COVAR   12942     0.074942    0.0093227     0.095219      0.21564
+Astro_juv                COVAR   12942      0.06349     0.011412     0.069705       0.1812
+CA3_Pyr                  COVAR   12942    -0.025425    -0.009602     0.034088      0.77212
+Cajal_Retzius            COVAR   12942    -0.080554    -0.023488     0.071762      0.86916
+Endothelial              COVAR   12942    -0.033783   -0.0075286     0.060716      0.71103
+Ependymal                COVAR   12942     0.054147     0.014487     0.057287      0.17229
+GABA                     COVAR   12942    -0.030375    -0.009072      0.04831      0.73524
+GC_adult                 COVAR   12942     -0.12582    -0.018916     0.087335      0.92514
+GC_juv                   COVAR   12942     -0.11328    -0.026282     0.062655      0.96468
+Immature_Astro           COVAR   12942      0.14754     0.039731     0.071547     0.019609
+Immature_GABA            COVAR   12942    -0.048371    -0.017546     0.056448      0.80424
+Immature_GC              COVAR   12942     -0.04006    -0.010425     0.082821      0.68569
+Immature_Pyr             COVAR   12942     0.021257    0.0082513     0.054474      0.34819
+MiCajal_Retziusoglia     COVAR   12942    -0.057477    -0.010683     0.068932       0.7978
+MOL                      COVAR   12942    -0.036762   -0.0087156     0.052068      0.75991
+Neuroblast               COVAR   12942  -0.00056386  -0.00012983      0.08778      0.50256
+NFOL                     COVAR   12942    -0.073369    -0.016709     0.067246      0.86236
+nIPC                     COVAR   12942     0.034327     0.010585     0.054521      0.26448
+nIPC_perin               COVAR   12942     0.039691     0.014208     0.051616      0.22096
+OPC                      COVAR   12942     0.027745    0.0046776      0.11466       0.4044
+PVM                      COVAR   12942      0.02959    0.0056841     0.062113       0.3169
+RGL                      COVAR   12942     0.033506    0.0043868      0.11584       0.3862
+RGL_young                COVAR   12942     0.061994     0.016131     0.084822      0.23244
+VLMC                     COVAR   12942     0.036629     0.011336     0.046477      0.21533

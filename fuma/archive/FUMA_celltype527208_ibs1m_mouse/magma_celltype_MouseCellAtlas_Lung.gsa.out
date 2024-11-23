@@ -1,0 +1,37 @@
+# MEAN_SAMPLE_SIZE = 54886
+# TOTAL_GENES = 12577
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                              TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Alveolar_bipotent_progenitor         COVAR   12577    -0.014682    -0.002006     0.092061      0.56335 Alveolar_bipotent_progenitor
+Alveolar_macrophage_Ear2_high        COVAR   12577     0.052789    0.0053327       0.1505      0.36289 Alveolar_macrophage_Ear2_high
+Alveolar_macrophage_Pclaf_hi...      COVAR   12577      0.12954     0.016017      0.10668      0.11233 Alveolar_macrophage_Pclaf_high
+AT1_Cell                             COVAR   12577      0.19914     0.021065      0.11455     0.041072 AT1_Cell
+AT2_Cell                             COVAR   12577   -0.0075771   -0.0007659      0.14667       0.5206 AT2_Cell
+B_Cell                               COVAR   12577      0.11888     0.011313      0.16279      0.23261 B_Cell
+Ciliated_cell                        COVAR   12577    -0.016346   -0.0019907     0.093495      0.56939 Ciliated_cell
+Clara_Cell                           COVAR   12577     0.039057    0.0042926      0.12364      0.37604 Clara_Cell
+Conventional_dendritic_cell_...1     COVAR   12577     -0.25146    -0.021677      0.16366      0.93778 Conventional_dendritic_cell_Gngt2_high
+Conventional_dendritic_cell_...2     COVAR   12577    0.0056952   0.00075781     0.082028      0.47232 Conventional_dendritic_cell_H2.M2_high
+Conventional_dendritic_cell_...3     COVAR   12577     0.056319    0.0063434      0.13079      0.33338 Conventional_dendritic_cell_Mgl2_high
+Conventional_dendritic_cell_...4     COVAR   12577     0.013049    0.0017067      0.10223      0.44922 Conventional_dendritic_cell_Tubb5_high
+Dendritic_cell_Naaa_high             COVAR   12577      -0.0259   -0.0027736      0.14695      0.56995 Dendritic_cell_Naaa_high
+Dividing_cells                       COVAR   12577   -0.0056123  -0.00080886     0.097262      0.52301 Dividing_cells
+Dividing_dendritic_cells             COVAR   12577     0.030173    0.0043282     0.092847       0.3726 Dividing_dendritic_cells
+Dividing_T_cells                     COVAR   12577    -0.043415   -0.0058707     0.097581       0.6718 Dividing_T_cells
+Endothelial_cell_Kdr_high            COVAR   12577    -0.033825   -0.0032761      0.11443      0.61623 Endothelial_cell_Kdr_high
+Endothelial_cell_Tmem100_high        COVAR   12577     0.043544    0.0041918      0.13085      0.36966 Endothelial_cell_Tmem100_high
+Endothelial_cells_Vwf_high           COVAR   12577      0.16448      0.02127     0.091822     0.036632 Endothelial_cells_Vwf_high
+Eosinophil_granulocyte               COVAR   12577     -0.13396    -0.014151     0.093468      0.92409 Eosinophil_granulocyte
+Ig.producing_B_cell                  COVAR   12577   0.00097989   0.00019444     0.044802      0.49128 Ig.producing_B_cell
+Interstitial_macrophage              COVAR   12577      0.07165    0.0069419      0.16152      0.32867 Interstitial_macrophage
+Monocyte_progenitor_cell             COVAR   12577     0.013465    0.0025194     0.065084      0.41805 Monocyte_progenitor_cell
+Neutrophil_granulocyte               COVAR   12577    -0.030654   -0.0036293     0.099188      0.62136 Neutrophil_granulocyte
+NK_Cell                              COVAR   12577     -0.29999    -0.024263      0.18475      0.94777 NK_Cell
+Nuocyte                              COVAR   12577     -0.19833    -0.017945      0.13672      0.92654 Nuocyte
+Plasmacytoid_dendritic_cell          COVAR   12577      0.24939     0.022244      0.18769     0.091984 Plasmacytoid_dendritic_cell
+Stromal_cell_Acta2_high              COVAR   12577    0.0073908   0.00074404      0.11128      0.47352 Stromal_cell_Acta2_high
+Stromal_cell_Dcn_high                COVAR   12577     0.059496     0.007138      0.10081      0.27754 Stromal_cell_Dcn_high
+Stromal_cell_Inmt_high               COVAR   12577    0.0037004   0.00040621      0.11212      0.48684 Stromal_cell_Inmt_high
+T_Cell_Cd8b1_high                    COVAR   12577     -0.28932    -0.023258      0.16558       0.9597 T_Cell_Cd8b1_high

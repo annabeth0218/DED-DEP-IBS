@@ -1,0 +1,27 @@
+# MEAN_SAMPLE_SIZE = 54893
+# TOTAL_GENES = 10930
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE      TYPE  NGENES         BETA     BETA_STD           SE            P
+ASC1         COVAR   10930      0.23791     0.019121      0.16743     0.077683
+ASC2         COVAR   10930      0.14416     0.012786      0.14992      0.16814
+END          COVAR   10930     0.062717     0.006592      0.10295       0.2712
+exCA1        COVAR   10930      0.22564     0.022357      0.22806      0.16125
+exCA3        COVAR   10930    -0.038729    -0.003929      0.23172      0.56637
+exDG         COVAR   10930    -0.052189    -0.004924      0.22685      0.59098
+exPFC1       COVAR   10930     -0.44764    -0.041325      0.30701      0.92758
+exPFC2       COVAR   10930     -0.35259    -0.031758      0.33562      0.85325
+exPFC3       COVAR   10930     -0.32639    -0.029482      0.36949      0.81147
+exPFC4       COVAR   10930     -0.28866    -0.027219       0.2998      0.83218
+exPFC5       COVAR   10930      0.06317    0.0061757      0.27074      0.40776
+exPFC6       COVAR   10930     -0.32746    -0.031753      0.26959      0.88773
+exPFC7       COVAR   10930    -0.082016    -0.008931      0.21584      0.64802
+exPFC8       COVAR   10930     -0.16896    -0.018775      0.20639       0.7935
+exPFC9       COVAR   10930      0.40777     0.036152      0.32811      0.10699
+GABA1        COVAR   10930     -0.16599     -0.01565      0.25448      0.74288
+GABA2        COVAR   10930   -0.0094471   -0.0008846      0.27604      0.51365
+MG           COVAR   10930     -0.26853     -0.02225      0.25618      0.85271
+ODC          COVAR   10930     0.092907     0.007042      0.17028      0.29267
+OPC          COVAR   10930      0.32203     0.025497      0.21764     0.069504
+SMC          COVAR   10930       0.4478     0.036142      0.26394     0.044904

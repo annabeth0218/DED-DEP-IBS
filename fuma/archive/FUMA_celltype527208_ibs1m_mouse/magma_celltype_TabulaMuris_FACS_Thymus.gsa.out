@@ -1,0 +1,9 @@
+# MEAN_SAMPLE_SIZE = 54884
+# TOTAL_GENES = 12076
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+immature_T_cell                     COVAR   12076     0.023212     0.029499     0.019677      0.11908 immature_T_cell
+professional_antigen_present...     COVAR   12076     0.015942     0.021173     0.017012      0.17436 professional_antigen_presenting_cell
+DN1_thymic_pro.T_cell               COVAR   12076    -0.026581     -0.04001      0.01739       0.9368 DN1_thymic_pro.T_cell

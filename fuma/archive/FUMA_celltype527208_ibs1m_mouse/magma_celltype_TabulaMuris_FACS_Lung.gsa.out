@@ -1,0 +1,18 @@
+# MEAN_SAMPLE_SIZE = 54884
+# TOTAL_GENES = 12076
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+stromal_cell                        COVAR   12076     0.011278     0.017188    0.0083365     0.088064 stromal_cell
+lung_endothelial_cell               COVAR   12076   -0.0017584   -0.0024103     0.010263      0.56802 lung_endothelial_cell
+myeloid_cell                        COVAR   12076     0.011226     0.019184     0.012271      0.18015 myeloid_cell
+unknown                             COVAR   12076     0.006439    0.0043715     0.022368      0.38673 unknown
+monocyte                            COVAR   12076   0.00017717   0.00026443     0.011127      0.49365 monocyte
+classical_monocyte                  COVAR   12076   -0.0012821    -0.002293     0.011193       0.5456 classical_monocyte
+B_cell                              COVAR   12076   -0.0046001   -0.0057029     0.012624      0.64221 B_cell
+T_cell                              COVAR   12076    -0.011771    -0.016094     0.011914       0.8384 T_cell
+natural_killer_cell                 COVAR   12076    -0.023542    -0.033101     0.012004      0.97505 natural_killer_cell
+epithelial_cell_of_lung             COVAR   12076   -0.0012576   -0.0020968    0.0087403       0.5572 epithelial_cell_of_lung
+ciliated_columnar_cell_of_tr...     COVAR   12076    0.0019225    0.0038783    0.0055818      0.36527 ciliated_columnar_cell_of_tracheobronchial_tree
+leukocyte                           COVAR   12076   0.00086915   0.00090678     0.011266      0.46925 leukocyte

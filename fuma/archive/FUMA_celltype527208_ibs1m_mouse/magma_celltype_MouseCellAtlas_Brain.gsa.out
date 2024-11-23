@@ -1,0 +1,21 @@
+# MEAN_SAMPLE_SIZE = 54886
+# TOTAL_GENES = 12577
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Astrocyte_Atp1b2_high               COVAR   12577     0.081757     0.007215      0.13634      0.27437 Astrocyte_Atp1b2_high
+Astrocyte_Mfe8_high                 COVAR   12577     0.073348    0.0069761      0.14169      0.30236 Astrocyte_Mfe8_high
+Astrocyte_Pla2g7_high               COVAR   12577     0.028329     0.003237     0.080974      0.36323 Astrocyte_Pla2g7_high
+Astroglial_cell                     COVAR   12577     -0.15002    -0.020204     0.092374       0.9478 Astroglial_cell
+Granulocyte_Il33_high               COVAR   12577      0.12774     0.016632     0.074692     0.043621 Granulocyte_Il33_high
+Granulocyte_Ngp_high                COVAR   12577     0.027837    0.0058487     0.040226      0.24447 Granulocyte_Ngp_high
+Hypothalamic_ependymal_cell         COVAR   12577    -0.005526    -0.001027     0.055388      0.53974 Hypothalamic_ependymal_cell
+Macrophage_Klf2_high                COVAR   12577    -0.027404   -0.0028112      0.11662      0.59288 Macrophage_Klf2_high
+Macrophage_Lyz2_high                COVAR   12577   -0.0022667  -0.00027922     0.097405      0.50928 Macrophage_Lyz2_high
+Microglia                           COVAR   12577    -0.083175   -0.0075316      0.11697      0.76147 Microglia
+Myelinating_oligodendrocyte         COVAR   12577      -0.2126     -0.02378      0.12151       0.9599 Myelinating_oligodendrocyte
+Neuron                              COVAR   12577     0.042268    0.0031523      0.12274      0.36528 Neuron
+Oligodendrocyte_precursor_ce...     COVAR   12577     -0.19774    -0.022279      0.11273      0.96028 Oligodendrocyte_precursor_cell
+Pan.GABAergic                       COVAR   12577     -0.10471    -0.012393     0.093315      0.86909 Pan.GABAergic
+Schwann_cell                        COVAR   12577     0.012353    0.0025129     0.054507      0.41036 Schwann_cell

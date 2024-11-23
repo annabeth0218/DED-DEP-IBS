@@ -1,0 +1,31 @@
+# MEAN_SAMPLE_SIZE = 54886
+# TOTAL_GENES = 12577
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                        TYPE  NGENES         BETA     BETA_STD           SE            P
+B_cell                         COVAR   12577     -0.18957    -0.020819      0.13906      0.91358
+Cartilage_cell_Clu_high        COVAR   12577      0.33722     0.041124      0.14828     0.011488
+Cartilage_cell_Col2a1_high     COVAR   12577      0.26521     0.029688      0.17056     0.059997
+Cartilage_cell_Cxcl14_high     COVAR   12577      0.23831     0.033554      0.12924     0.032607
+Cartilage_cell_Ppa1_high       COVAR   12577      0.15395     0.021766      0.13422      0.12571
+Cartilage_cell_Prg4_high       COVAR   12577      0.23888     0.033955      0.13754     0.041231
+Dividing_cell                  COVAR   12577      0.11229      0.01499      0.11085      0.15553
+Endothelial_cell               COVAR   12577     -0.20454    -0.027017      0.10284      0.97663
+Erythroblast_Hba.a1_high       COVAR   12577    -0.018263   -0.0026157     0.097076      0.57461
+Erythroblast_Ttr_high          COVAR   12577    -0.067316   -0.0062878      0.24229      0.60943
+Granulocyte                    COVAR   12577    -0.024186   -0.0028742      0.13259      0.57237
+Macrophage_C1qc_high           COVAR   12577     0.071421    0.0096577      0.10584      0.24991
+Macrophage_Ctss_high           COVAR   12577    -0.043132      -0.0053      0.12939      0.63056
+Muscle_cell                    COVAR   12577     0.072567    0.0080131       0.1505      0.31485
+Muscle_cell_Acta2_high         COVAR   12577    -0.057427   -0.0070248     0.098216      0.72062
+Muscle_cell_Actc1_high         COVAR   12577     0.023778    0.0032696     0.080514      0.38387
+Neuron_Mpz_high                COVAR   12577    -0.087928   -0.0086334      0.11997      0.76818
+Neuron_Stmn2_high              COVAR   12577    -0.052054   -0.0072283     0.084171      0.73185
+Neutrophil                     COVAR   12577     -0.13309    -0.014062      0.12717      0.85232
+Neutrophil_Elane_high          COVAR   12577    -0.016917   -0.0026654     0.091305      0.57349
+Oligodendrocyte                COVAR   12577    -0.056426    -0.008379     0.077249      0.76743
+Osteoblast                     COVAR   12577     -0.18153    -0.026789      0.10356      0.96018
+Osteoclast                     COVAR   12577    -0.021095   -0.0037534     0.073352      0.61316
+Stromal_cell_Acta1_high        COVAR   12577     -0.10296    -0.011723      0.15201      0.75089
+Stromal_cell_Tnmd_high         COVAR   12577     -0.20062    -0.021086      0.16772      0.88417

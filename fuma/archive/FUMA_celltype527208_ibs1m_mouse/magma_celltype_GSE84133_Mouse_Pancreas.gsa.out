@@ -1,0 +1,19 @@
+# MEAN_SAMPLE_SIZE = 54893
+# TOTAL_GENES = 10401
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                TYPE  NGENES         BETA     BETA_STD           SE            P
+activated_stellate     COVAR   10401     0.036968     0.010189     0.056477      0.25638
+alpha                  COVAR   10401    -0.045966    -0.011779     0.070473      0.74287
+B_cell                 COVAR   10401   -0.0045926  -0.00094811     0.062219      0.52942
+beta                   COVAR   10401    -0.063498    -0.016124       0.0651      0.83531
+delta                  COVAR   10401    0.0032409   0.00076823     0.072001      0.48205
+ductal                 COVAR   10401      0.15844     0.042217     0.064849    0.0072864
+endothelial            COVAR   10401    -0.039461    -0.010833     0.058362      0.75051
+gamma                  COVAR   10401    -0.010252   -0.0025316     0.066968      0.56083
+immune_other           COVAR   10401    -0.058019    -0.015157     0.046009      0.89634
+macrophage             COVAR   10401     0.023247     0.006007     0.053535      0.33206
+quiescent_stellate     COVAR   10401    -0.044413    -0.011089     0.069303      0.73918
+schwann                COVAR   10401    -0.019358    -0.010732      0.02991      0.74124
+T_cell                 COVAR   10401     0.043014    0.0078497     0.065198      0.25471

@@ -1,0 +1,2 @@
+No	GenomicLocus	uniqID	rsID	chr	pos	p	nIndSigSNPs	IndSigSNPs
+1	1	10:23506529:A:G	rs927751	10	23506529	1.52e-06	1	rs927751

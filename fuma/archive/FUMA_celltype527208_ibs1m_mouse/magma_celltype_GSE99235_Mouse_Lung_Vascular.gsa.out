@@ -1,0 +1,23 @@
+# MEAN_SAMPLE_SIZE = 54886
+# TOTAL_GENES = 12664
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE      TYPE  NGENES         BETA     BETA_STD           SE            P
+aEC          COVAR   12664    -0.011931    -0.019081    0.0090619      0.90601
+capilEC      COVAR   12664   -0.0024924   -0.0029592     0.012992      0.57606
+cEC1         COVAR   12664    0.0060465    0.0083232     0.010697      0.28595
+cEC2         COVAR   12664    0.0045671    0.0059041     0.011307      0.34314
+cEC3         COVAR   12664   -0.0081923    -0.010584     0.011102       0.7697
+CP1          COVAR   12664    0.0053072    0.0099698    0.0076688      0.24446
+CP2          COVAR   12664     0.017191     0.027032      0.01249     0.084362
+EC1          COVAR   12664     0.006365    0.0066668     0.014059      0.32538
+EC2          COVAR   12664    0.0042794     0.004855     0.013156      0.37249
+FB1          COVAR   12664   -0.0017724   -0.0032877    0.0089838       0.5782
+FB2          COVAR   12664    0.0041493    0.0082324    0.0085043      0.31281
+FB3          COVAR   12664   -0.0045857   -0.0088126    0.0087088      0.70074
+FB4          COVAR   12664   -0.0032178   -0.0059332    0.0098075      0.62858
+LEC          COVAR   12664    0.0025908    0.0031578     0.012695      0.41915
+Mixed        COVAR   12664   -0.0010327   -0.0020737     0.008865      0.54637
+PC           COVAR   12664      0.01053     0.016866    0.0090332      0.12189
+VSMC         COVAR   12664   -0.0044037   -0.0084761    0.0083679      0.70064

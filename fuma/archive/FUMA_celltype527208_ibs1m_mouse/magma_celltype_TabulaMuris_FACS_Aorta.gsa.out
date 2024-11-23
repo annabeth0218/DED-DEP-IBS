@@ -1,0 +1,10 @@
+# MEAN_SAMPLE_SIZE = 54884
+# TOTAL_GENES = 12076
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+fibroblast                          COVAR   12076     0.012667     0.021258     0.013006      0.16505 fibroblast
+professional_antigen_present...     COVAR   12076  -0.00098861   -0.0015451      0.01219      0.53232 professional_antigen_presenting_cell
+endothelial_cell                    COVAR   12076    -0.019173       -0.026      0.01373      0.91869 endothelial_cell
+erythrocyte                         COVAR   12076     0.067897     0.025793     0.034112     0.023286 erythrocyte

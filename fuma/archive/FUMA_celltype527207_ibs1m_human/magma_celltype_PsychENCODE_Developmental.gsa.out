@@ -1,0 +1,41 @@
+# MEAN_SAMPLE_SIZE = 54888
+# TOTAL_GENES = 12017
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE               TYPE  NGENES         BETA     BETA_STD           SE            P
+Astrocytes            COVAR   12017    0.0045228    0.0078941    0.0064916        0.243
+Endothelial           COVAR   12017    0.0045721    0.0069869    0.0068196       0.2513
+Ex1                   COVAR   12017    0.0026405    0.0062033    0.0067997      0.34889
+Ex2                   COVAR   12017    0.0046293     0.011311    0.0064456      0.23632
+Ex3                   COVAR   12017    0.0081025     0.018165    0.0073928      0.13655
+Ex4                   COVAR   12017    0.0049723     0.011546    0.0070727      0.24102
+Ex5                   COVAR   12017    0.0036877    0.0087584    0.0069795      0.29863
+Ex6                   COVAR   12017    0.0038443    0.0090548    0.0066079      0.28037
+Ex7                   COVAR   12017    0.0036651    0.0088277     0.006491      0.28616
+Ex8                   COVAR   12017    0.0029845    0.0071294    0.0063629      0.31952
+Fetal_Astrocytes      COVAR   12017   -0.0056209    -0.011264    0.0069375      0.79108
+Fetal_Endothelial     COVAR   12017   -0.0053853    -0.010391     0.007113       0.7755
+Fetal_ExN             COVAR   12017   -0.0018611   -0.0034832    0.0071444      0.60276
+Fetal_IntN            COVAR   12017   -0.0087095    -0.016967    0.0071202      0.88936
+Fetal_IPC             COVAR   12017   -0.0017458   -0.0034419    0.0065947      0.60439
+Fetal_Microglia       COVAR   12017   -0.0027067   -0.0053132     0.006434        0.663
+Fetal_NEP             COVAR   12017   -0.0041022    -0.005097    0.0098702      0.66115
+Fetal_Oligo           COVAR   12017   -0.0068708    -0.014516    0.0056735      0.88704
+Fetal_OPC             COVAR   12017   -0.0056531    -0.010942    0.0075507      0.77297
+Fetal_Pericytes       COVAR   12017   -0.0010534   -0.0018742    0.0071285      0.55874
+Fetal_quiescent       COVAR   12017   -0.0066619    -0.010979    0.0080483      0.79608
+Fetal_replicating     COVAR   12017   -0.0052135   -0.0083172    0.0071716      0.76637
+Fetal_Trans           COVAR   12017   -0.0010099   -0.0016054    0.0075969      0.55287
+In1                   COVAR   12017    0.0028315    0.0062367     0.007673      0.35606
+In2                   COVAR   12017    0.0011457    0.0025804    0.0072874      0.43754
+In3                   COVAR   12017    0.0056838     0.012516    0.0072062      0.21514
+In4                   COVAR   12017    0.0036605    0.0084769    0.0071513      0.30438
+In5                   COVAR   12017   0.00075614    0.0017851    0.0067527      0.45542
+In6                   COVAR   12017    0.0034874    0.0081107    0.0071959      0.31397
+In7                   COVAR   12017    0.0002108   0.00047349    0.0067422      0.48753
+In8                   COVAR   12017    0.0038885    0.0084109    0.0074968      0.30199
+Microglia             COVAR   12017    0.0058311    0.0076608    0.0073115      0.21258
+Neurons               COVAR   12017   -0.0093286    -0.018132     0.007839      0.88297
+Oligodendrocytes      COVAR   12017  -0.00064107   -0.0011493    0.0062238      0.54102
+OPC                   COVAR   12017   -0.0061796    -0.010618    0.0068661      0.81593
