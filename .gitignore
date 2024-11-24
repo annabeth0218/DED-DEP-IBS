@@ -59,4 +59,5 @@ rsconnect/
 *.bim
 *.fam
 *.synonyms
+*.locfile
 .Rprofile
