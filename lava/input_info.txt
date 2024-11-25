@@ -1,4 +1,4 @@
 phenotype cases controls prevalence filename
-IBS 1696 53571 0.018175
-DEP 4562 22268 0.0192
-DED 1226 26962 0.337
+IBS 1696 53571 0.018175 lava/lava_ibs.txt
+DEP 4562 22268 0.0192 lava/lava_dep.txt
+DED 1226 26962 0.337 lava/lava_ded.txt
