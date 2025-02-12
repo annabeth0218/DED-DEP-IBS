@@ -1,0 +1,7262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="940"
+   height="360"
+   version="1.1"
+   id="svg645"
+   sodipodi:docname="rs927751_brain.svg"
+   inkscape:export-filename="rs927751_brain.jpg"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs645" />
+  <sodipodi:namedview
+     id="namedview645"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.072222222"
+     inkscape:cx="470.76923"
+     inkscape:cy="173.07692"
+     inkscape:window-width="1104"
+     inkscape:window-height="680"
+     inkscape:window-x="46"
+     inkscape:window-y="37"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg645" />
+  <g
+     transform="translate(60,50)"
+     id="g645">
+    <rect
+       class="vertical"
+       z-index="500"
+       width="5"
+       height="235"
+       x="182.33331298828125"
+       y="-25"
+       style="fill-opacity: 0; stroke: transparent;"
+       id="rect1" />
+    <rect
+       width="600"
+       height="210"
+       style="fill-opacity: 0; shape-rendering: crispedges;"
+       id="rect2" />
+    <rect
+       x="620"
+       y="10"
+       width="20"
+       height="5"
+       fill="red"
+       id="rect3" />
+    <text
+       x="645"
+       y="15"
+       style="font-size: 10px; font-family: sans-serif;"
+       id="text3">Mapped genes</text>
+    <rect
+       x="620"
+       y="25"
+       width="20"
+       height="5"
+       fill="blue"
+       id="rect4" />
+    <text
+       x="645"
+       y="30"
+       style="font-size: 10px; font-family: sans-serif;"
+       id="text4">Non-mapped protein coding genes</text>
+    <rect
+       x="620"
+       y="40"
+       width="20"
+       height="5"
+       fill="#383838"
+       id="rect5" />
+    <text
+       x="645"
+       y="45"
+       style="font-size: 10px; font-family: sans-serif;"
+       id="text5">Non-mapped non-coding genes</text>
+    <g
+       id="g6">
+      <rect
+         class="genesrect"
+         x="0"
+         y="20.000000000000004"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect6" />
+    </g>
+    <g
+       id="g7">
+      <rect
+         class="genesrect"
+         x="0"
+         y="20.000000000000004"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect7" />
+    </g>
+    <g
+       id="g8">
+      <rect
+         class="genesrect"
+         x="0"
+         y="20.000000000000004"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect8" />
+    </g>
+    <g
+       id="g9">
+      <rect
+         class="genesrect"
+         x="0"
+         y="40.00000000000001"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect9" />
+    </g>
+    <g
+       id="g10">
+      <rect
+         class="genesrect"
+         x="0"
+         y="20.000000000000004"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect10" />
+    </g>
+    <g
+       id="g11">
+      <rect
+         class="genesrect"
+         x="0"
+         y="20.000000000000004"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect11" />
+    </g>
+    <g
+       id="g12">
+      <rect
+         class="genesrect"
+         x="0"
+         y="20.000000000000004"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect12" />
+    </g>
+    <g
+       id="g13">
+      <rect
+         class="genesrect"
+         x="0"
+         y="20.000000000000004"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect13" />
+    </g>
+    <g
+       id="g14">
+      <rect
+         class="genesrect"
+         x="40.034709508192094"
+         y="20.000000000000004"
+         width="5.857609872025215"
+         height="1"
+         fill="red"
+         id="rect14" />
+    </g>
+    <g
+       id="g15">
+      <rect
+         class="genesrect"
+         x="74.99475097297012"
+         y="20.000000000000004"
+         width="109.54491189241962"
+         height="1"
+         fill="red"
+         id="rect15" />
+    </g>
+    <g
+       id="g16">
+      <rect
+         class="genesrect"
+         x="240.5140699281969"
+         y="20.000000000000004"
+         width="1.0163333492241406"
+         height="1"
+         fill="red"
+         id="rect16" />
+    </g>
+    <g
+       id="g17">
+      <rect
+         class="genesrect"
+         x="267.85161127379405"
+         y="20.000000000000004"
+         width="236.28228912351068"
+         height="1"
+         fill="red"
+         id="rect17" />
+    </g>
+    <g
+       id="g18">
+      <rect
+         class="genesrect"
+         x="501.431792570625"
+         y="40.00000000000001"
+         width="3.724527004342292"
+         height="1"
+         fill="red"
+         id="rect18" />
+    </g>
+    <g
+       id="g19">
+      <rect
+         class="genesrect"
+         x="651.8978148833017"
+         y="40.00000000000001"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect19" />
+    </g>
+    <g
+       id="g20">
+      <rect
+         class="genesrect"
+         x="670.5387073903286"
+         y="20.000000000000004"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect20" />
+    </g>
+    <g
+       id="g21">
+      <rect
+         class="genesrect"
+         x="791.4580326342444"
+         y="20.000000000000004"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect21" />
+    </g>
+    <g
+       id="g22">
+      <rect
+         class="genesrect"
+         x="1568.8526286214578"
+         y="20.000000000000004"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect22" />
+    </g>
+    <g
+       id="g23">
+      <rect
+         class="genesrect"
+         x="2977.992731492255"
+         y="40.00000000000001"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect23" />
+    </g>
+    <g
+       id="g24">
+      <rect
+         class="genesrect"
+         x="3336.6001722289675"
+         y="40.00000000000001"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect24" />
+    </g>
+    <g
+       id="g25">
+      <rect
+         class="genesrect"
+         x="3962.402867642388"
+         y="40.00000000000001"
+         width="0"
+         height="1"
+         fill="none"
+         id="rect25" />
+    </g>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="-706.8922514218082"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text25">←PIP4K2A</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="-595.9110840179102"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text26">RNU6-413P→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="-215.40987547380988"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text27">ARMC3→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="-276.61961645080896"
+       y="40.00000000000001"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text28">RNA5SP304→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="-159.2848441571506"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text29">←AL139815.1</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="-86.9623804515094"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text30">MSRB2→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="-63.15461960022354"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text31">YWHAZP3→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="-18.362922293100855"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text32">SNORA40→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="42.963514444204705"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: black;"
+       id="text33">PTF1A→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="129.76720691917993"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: black;"
+       id="text34">←C10orf115</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="241.02223660280896"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: black;"
+       id="text35">RP11-215C7.3→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="385.9927558355494"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: black;"
+       id="text36">←C10orf67</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="503.29405607279614"
+       y="40.00000000000001"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: black;"
+       id="text37">RP11-371A19.2→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="625.9489074416508"
+       y="40.00000000000001"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text38">MIR1254-2→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="635.2693536951642"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text39">←snoU13</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="695.7290163171222"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text40">OTUD1→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="1084.426314310729"
+       y="20.000000000000004"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text41">KIAA1217→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="1788.9963657461276"
+       y="40.00000000000001"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text42">RP11-183E9.2→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="1968.3000861144837"
+       y="40.00000000000001"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text43">MIR603→</text>
+    <text
+       class="geneName"
+       text-anchor="middle"
+       x="2281.201433821194"
+       y="40.00000000000001"
+       dy="-.7em"
+       style="font-size: 9px; font-family: sans-serif; fill: none;"
+       id="text44">←AL353583.1</text>
+    <g
+       class="x axis genes"
+       transform="translate(0,60)"
+       id="g48">
+      <g
+         class="tick"
+         transform="translate(97.07109363351191,0)"
+         style="opacity: 1;"
+         id="g44">
+        <line
+           y2="6"
+           x2="0"
+           style="fill: none; stroke: grey;"
+           id="line44" />
+      </g>
+      <g
+         class="tick"
+         transform="translate(249.2168045952058,0)"
+         style="opacity: 1;"
+         id="g45">
+        <line
+           y2="6"
+           x2="0"
+           style="fill: none; stroke: grey;"
+           id="line45" />
+      </g>
+      <g
+         class="tick"
+         transform="translate(401.36251555689967,0)"
+         style="opacity: 1;"
+         id="g46">
+        <line
+           y2="6"
+           x2="0"
+           style="fill: none; stroke: grey;"
+           id="line46" />
+      </g>
+      <g
+         class="tick"
+         transform="translate(553.5082265185936,0)"
+         style="opacity: 1;"
+         id="g47">
+        <line
+           y2="6"
+           x2="0"
+           style="fill: none; stroke: grey;"
+           id="line47" />
+      </g>
+      <path
+         class="domain"
+         d="M0,6V0H600V6"
+         style="fill: none; stroke: grey;"
+         id="path47" />
+    </g>
+    <g
+       id="g49">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect48" />
+    </g>
+    <g
+       id="g50">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect49" />
+    </g>
+    <g
+       id="g51">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect50" />
+    </g>
+    <g
+       id="g52">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect51" />
+    </g>
+    <g
+       id="g53">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect52" />
+    </g>
+    <g
+       id="g54">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect53" />
+    </g>
+    <g
+       id="g55">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect54" />
+    </g>
+    <g
+       id="g56">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect55" />
+    </g>
+    <g
+       id="g57">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect56" />
+    </g>
+    <g
+       id="g58">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect57" />
+    </g>
+    <g
+       id="g59">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect58" />
+    </g>
+    <g
+       id="g60">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect59" />
+    </g>
+    <g
+       id="g61">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect60" />
+    </g>
+    <g
+       id="g62">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect61" />
+    </g>
+    <g
+       id="g63">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect62" />
+    </g>
+    <g
+       id="g64">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect63" />
+    </g>
+    <g
+       id="g65">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect64" />
+    </g>
+    <g
+       id="g66">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect65" />
+    </g>
+    <g
+       id="g67">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect66" />
+    </g>
+    <g
+       id="g68">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect67" />
+    </g>
+    <g
+       id="g69">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect68" />
+    </g>
+    <g
+       id="g70">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect69" />
+    </g>
+    <g
+       id="g71">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect70" />
+    </g>
+    <g
+       id="g72">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect71" />
+    </g>
+    <g
+       id="g73">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect72" />
+    </g>
+    <g
+       id="g74">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect73" />
+    </g>
+    <g
+       id="g75">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect74" />
+    </g>
+    <g
+       id="g76">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect75" />
+    </g>
+    <g
+       id="g77">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect76" />
+    </g>
+    <g
+       id="g78">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect77" />
+    </g>
+    <g
+       id="g79">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect78" />
+    </g>
+    <g
+       id="g80">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect79" />
+    </g>
+    <g
+       id="g81">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect80" />
+    </g>
+    <g
+       id="g82">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect81" />
+    </g>
+    <g
+       id="g83">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect82" />
+    </g>
+    <g
+       id="g84">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect83" />
+    </g>
+    <g
+       id="g85">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect84" />
+    </g>
+    <g
+       id="g86">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect85" />
+    </g>
+    <g
+       id="g87">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect86" />
+    </g>
+    <g
+       id="g88">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect87" />
+    </g>
+    <g
+       id="g89">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect88" />
+    </g>
+    <g
+       id="g90">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect89" />
+    </g>
+    <g
+       id="g91">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect90" />
+    </g>
+    <g
+       id="g92">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect91" />
+    </g>
+    <g
+       id="g93">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect92" />
+    </g>
+    <g
+       id="g94">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect93" />
+    </g>
+    <g
+       id="g95">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect94" />
+    </g>
+    <g
+       id="g96">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect95" />
+    </g>
+    <g
+       id="g97">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect96" />
+    </g>
+    <g
+       id="g98">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect97" />
+    </g>
+    <g
+       id="g99">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect98" />
+    </g>
+    <g
+       id="g100">
+      <rect
+         class="exons"
+         x="40.034709508192094"
+         y="15.500000000000004"
+         width="3.003356334383838"
+         height="9"
+         fill="red"
+         id="rect99" />
+    </g>
+    <g
+       id="g101">
+      <rect
+         class="exons"
+         x="44.22480238807715"
+         y="15.500000000000004"
+         width="1.6675169921401576"
+         height="9"
+         fill="red"
+         id="rect100" />
+    </g>
+    <g
+       id="g102">
+      <rect
+         class="exons"
+         x="184.27492932831638"
+         y="15.500000000000004"
+         width="0.26473353707336855"
+         height="9"
+         fill="red"
+         id="rect101" />
+    </g>
+    <g
+       id="g103">
+      <rect
+         class="exons"
+         x="135.63394553386286"
+         y="15.500000000000004"
+         width="0.2251756522232995"
+         height="9"
+         fill="red"
+         id="rect102" />
+    </g>
+    <g
+       id="g104">
+      <rect
+         class="exons"
+         x="135.1896800578547"
+         y="15.500000000000004"
+         width="0.18257485315402278"
+         height="9"
+         fill="red"
+         id="rect103" />
+    </g>
+    <g
+       id="g105">
+      <rect
+         class="exons"
+         x="74.99475097297012"
+         y="15.500000000000004"
+         width="1.3358393422436734"
+         height="9"
+         fill="red"
+         id="rect104" />
+    </g>
+    <g
+       id="g106">
+      <rect
+         class="exons"
+         x="501.2766039454441"
+         y="15.500000000000004"
+         width="0.17648902471557903"
+         height="9"
+         fill="red"
+         id="rect105" />
+    </g>
+    <g
+       id="g107">
+      <rect
+         class="exons"
+         x="468.2792421520719"
+         y="15.500000000000004"
+         width="0.3651497063081024"
+         height="9"
+         fill="red"
+         id="rect106" />
+    </g>
+    <g
+       id="g108">
+      <rect
+         class="exons"
+         x="435.8174332612849"
+         y="15.500000000000004"
+         width="0.4351367333504186"
+         height="9"
+         fill="red"
+         id="rect107" />
+    </g>
+    <g
+       id="g109">
+      <rect
+         class="exons"
+         x="430.7874960568913"
+         y="15.500000000000004"
+         width="0.2251756522232995"
+         height="9"
+         fill="red"
+         id="rect108" />
+    </g>
+    <g
+       id="g110">
+      <rect
+         class="exons"
+         x="377.7282008161102"
+         y="15.500000000000004"
+         width="0.47165170398125156"
+         height="9"
+         fill="red"
+         id="rect109" />
+    </g>
+    <g
+       id="g111">
+      <rect
+         class="exons"
+         x="340.6898489395954"
+         y="15.500000000000004"
+         width="0.44730839022741975"
+         height="9"
+         fill="red"
+         id="rect110" />
+    </g>
+    <g
+       id="g112">
+      <rect
+         class="exons"
+         x="336.9409786214993"
+         y="15.500000000000004"
+         width="0.1764890247155222"
+         height="9"
+         fill="red"
+         id="rect111" />
+    </g>
+    <g
+       id="g113">
+      <rect
+         class="exons"
+         x="312.9415141744017"
+         y="15.500000000000004"
+         width="0.1977894242502316"
+         height="9"
+         fill="red"
+         id="rect112" />
+    </g>
+    <g
+       id="g114">
+      <rect
+         class="exons"
+         x="267.85161127379405"
+         y="15.500000000000004"
+         width="0.17953193893481512"
+         height="9"
+         fill="red"
+         id="rect113" />
+    </g>
+    <g
+       id="g115">
+      <rect
+         class="exons"
+         x="503.29405607279614"
+         y="15.500000000000004"
+         width="0.83984432450859"
+         height="9"
+         fill="red"
+         id="rect114" />
+    </g>
+    <g
+       id="g116">
+      <rect
+         class="exons"
+         x="418.6036675230789"
+         y="15.500000000000004"
+         width="6.636595912149062"
+         height="9"
+         fill="red"
+         id="rect115" />
+    </g>
+    <g
+       id="g117">
+      <rect
+         class="exons"
+         x="791.4580326342444"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect116" />
+    </g>
+    <g
+       id="g118">
+      <rect
+         class="exons"
+         x="1568.8526286214578"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect117" />
+    </g>
+    <g
+       id="g119">
+      <rect
+         class="exons"
+         x="2519.6994209334407"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect118" />
+    </g>
+    <g
+       id="g120">
+      <rect
+         class="exons"
+         x="3166.017444012936"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect119" />
+    </g>
+    <g
+       id="g121">
+      <rect
+         class="exons"
+         x="3656.666061464864"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect120" />
+    </g>
+    <g
+       id="g122">
+      <rect
+         class="exons"
+         x="3815.281008056649"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect121" />
+    </g>
+    <g
+       id="g123">
+      <rect
+         class="exons"
+         x="3831.685358612539"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect122" />
+    </g>
+    <g
+       id="g124">
+      <rect
+         class="exons"
+         x="3937.706575839086"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect123" />
+    </g>
+    <g
+       id="g125">
+      <rect
+         class="exons"
+         x="4002.4354471106285"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect124" />
+    </g>
+    <g
+       id="g126">
+      <rect
+         class="exons"
+         x="4004.4042126104728"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect125" />
+    </g>
+    <g
+       id="g127">
+      <rect
+         class="exons"
+         x="4023.3676540247384"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect126" />
+    </g>
+    <g
+       id="g128">
+      <rect
+         class="exons"
+         x="4059.5174749492367"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect127" />
+    </g>
+    <g
+       id="g129">
+      <rect
+         class="exons"
+         x="4080.4040381500586"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect128" />
+    </g>
+    <g
+       id="g130">
+      <rect
+         class="exons"
+         x="4085.4522328397675"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect129" />
+    </g>
+    <g
+       id="g131">
+      <rect
+         class="exons"
+         x="4093.184277870841"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect130" />
+    </g>
+    <g
+       id="g132">
+      <rect
+         class="exons"
+         x="4104.178326944932"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect131" />
+    </g>
+    <g
+       id="g133">
+      <rect
+         class="exons"
+         x="4116.027434914629"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect132" />
+    </g>
+    <g
+       id="g134">
+      <rect
+         class="exons"
+         x="4119.800648546479"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect133" />
+    </g>
+    <g
+       id="g135">
+      <rect
+         class="exons"
+         x="4156.044799811774"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect134" />
+    </g>
+    <g
+       id="g136">
+      <rect
+         class="exons"
+         x="4158.619105241246"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect135" />
+    </g>
+    <g
+       id="g137">
+      <rect
+         class="exons"
+         x="1568.9621735333503"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect136" />
+    </g>
+    <g
+       id="g138">
+      <rect
+         class="exons"
+         x="2124.671339906718"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect137" />
+    </g>
+    <g
+       id="g139">
+      <rect
+         class="exons"
+         x="3133.047468447537"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect138" />
+    </g>
+    <g
+       id="g140">
+      <rect
+         class="exons"
+         x="4104.178326944932"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect139" />
+    </g>
+    <g
+       id="g141">
+      <rect
+         class="exons"
+         x="3134.182475451311"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect140" />
+    </g>
+    <g
+       id="g142">
+      <rect
+         class="exons"
+         x="4131.071602814522"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect141" />
+    </g>
+    <g
+       id="g143">
+      <rect
+         class="exons"
+         x="4149.082612078167"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect142" />
+    </g>
+    <g
+       id="g144">
+      <rect
+         class="exons"
+         x="4149.660765779821"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect143" />
+    </g>
+    <g
+       id="g145">
+      <rect
+         class="exons"
+         x="3225.5642323691236"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect144" />
+    </g>
+    <g
+       id="g146">
+      <rect
+         class="exons"
+         x="3865.3004319924153"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect145" />
+    </g>
+    <g
+       id="g147">
+      <rect
+         class="exons"
+         x="4156.044799811774"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect146" />
+    </g>
+    <g
+       id="g148">
+      <rect
+         class="exons"
+         x="3917.3281793128767"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect147" />
+    </g>
+    <g
+       id="g149">
+      <rect
+         class="exons"
+         x="4156.044799811774"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect148" />
+    </g>
+    <g
+       id="g150">
+      <rect
+         class="exons"
+         x="4156.044799811774"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect149" />
+    </g>
+    <g
+       id="g151">
+      <rect
+         class="exons"
+         x="4003.8777884505457"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect150" />
+    </g>
+    <g
+       id="g152">
+      <rect
+         class="exons"
+         x="4059.5174749492367"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect151" />
+    </g>
+    <g
+       id="g153">
+      <rect
+         class="exons"
+         x="4148.2518964963165"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect152" />
+    </g>
+    <g
+       id="g154">
+      <rect
+         class="exons"
+         x="4149.660765779821"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect153" />
+    </g>
+    <g
+       id="g155">
+      <rect
+         class="exons"
+         x="4158.619105241246"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect154" />
+    </g>
+    <g
+       id="g156">
+      <rect
+         class="exons"
+         x="3134.209861679284"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect155" />
+    </g>
+    <g
+       id="g157">
+      <rect
+         class="exons"
+         x="4116.036563657287"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect156" />
+    </g>
+    <g
+       id="g158">
+      <rect
+         class="exons"
+         x="4158.619105241246"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect157" />
+    </g>
+    <g
+       id="g159">
+      <rect
+         class="exons"
+         x="3274.6555674680235"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect158" />
+    </g>
+    <g
+       id="g160">
+      <rect
+         class="exons"
+         x="4116.027434914629"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect159" />
+    </g>
+    <g
+       id="g161">
+      <rect
+         class="exons"
+         x="3962.402867642388"
+         y="35.50000000000001"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect160" />
+    </g>
+    <g
+       id="g162">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect161" />
+    </g>
+    <g
+       id="g163">
+      <rect
+         class="exons"
+         x="0"
+         y="35.50000000000001"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect162" />
+    </g>
+    <g
+       id="g164">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect163" />
+    </g>
+    <g
+       id="g165">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect164" />
+    </g>
+    <g
+       id="g166">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect165" />
+    </g>
+    <g
+       id="g167">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect166" />
+    </g>
+    <g
+       id="g168">
+      <rect
+         class="exons"
+         x="240.5140699281969"
+         y="15.500000000000004"
+         width="1.0163333492241406"
+         height="9"
+         fill="red"
+         id="rect167" />
+    </g>
+    <g
+       id="g169">
+      <rect
+         class="exons"
+         x="501.431792570625"
+         y="35.50000000000001"
+         width="0.4047075911581146"
+         height="9"
+         fill="red"
+         id="rect168" />
+    </g>
+    <g
+       id="g170">
+      <rect
+         class="exons"
+         x="502.85283351100725"
+         y="35.50000000000001"
+         width="2.303486063960065"
+         height="9"
+         fill="red"
+         id="rect169" />
+    </g>
+    <g
+       id="g171">
+      <rect
+         class="exons"
+         x="651.8978148833017"
+         y="35.50000000000001"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect170" />
+    </g>
+    <g
+       id="g172">
+      <rect
+         class="exons"
+         x="670.5387073903286"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect171" />
+    </g>
+    <g
+       id="g173">
+      <rect
+         class="exons"
+         x="2977.992731492255"
+         y="35.50000000000001"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect172" />
+    </g>
+    <g
+       id="g174">
+      <rect
+         class="exons"
+         x="3336.6001722289675"
+         y="35.50000000000001"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect173" />
+    </g>
+    <g
+       id="g175">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect174" />
+    </g>
+    <g
+       id="g176">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect175" />
+    </g>
+    <g
+       id="g177">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect176" />
+    </g>
+    <g
+       id="g178">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect177" />
+    </g>
+    <g
+       id="g179">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect178" />
+    </g>
+    <g
+       id="g180">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect179" />
+    </g>
+    <g
+       id="g181">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect180" />
+    </g>
+    <g
+       id="g182">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect181" />
+    </g>
+    <g
+       id="g183">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect182" />
+    </g>
+    <g
+       id="g184">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect183" />
+    </g>
+    <g
+       id="g185">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect184" />
+    </g>
+    <g
+       id="g186">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect185" />
+    </g>
+    <g
+       id="g187">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect186" />
+    </g>
+    <g
+       id="g188">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect187" />
+    </g>
+    <g
+       id="g189">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect188" />
+    </g>
+    <g
+       id="g190">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect189" />
+    </g>
+    <g
+       id="g191">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect190" />
+    </g>
+    <g
+       id="g192">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect191" />
+    </g>
+    <g
+       id="g193">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect192" />
+    </g>
+    <g
+       id="g194">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect193" />
+    </g>
+    <g
+       id="g195">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect194" />
+    </g>
+    <g
+       id="g196">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect195" />
+    </g>
+    <g
+       id="g197">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect196" />
+    </g>
+    <g
+       id="g198">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect197" />
+    </g>
+    <g
+       id="g199">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect198" />
+    </g>
+    <g
+       id="g200">
+      <rect
+         class="exons"
+         x="0"
+         y="15.500000000000004"
+         width="0"
+         height="9"
+         fill="none"
+         id="rect199" />
+    </g>
+    <g
+       class="legend"
+       id="g201">
+      <rect
+         x="610"
+         y="75"
+         width="20"
+         height="8"
+         style="fill: rgb(255, 0, 0); stroke: grey; stroke-width: 0.5;"
+         id="rect200" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="83"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text200">TssA</text>
+    </g>
+    <g
+       class="legend"
+       id="g202">
+      <rect
+         x="610"
+         y="83"
+         width="20"
+         height="8"
+         style="fill: rgb(255, 69, 0); stroke: grey; stroke-width: 0.5;"
+         id="rect201" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="91"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text201">TssAFlnk</text>
+    </g>
+    <g
+       class="legend"
+       id="g203">
+      <rect
+         x="610"
+         y="91"
+         width="20"
+         height="8"
+         style="fill: rgb(50, 205, 50); stroke: grey; stroke-width: 0.5;"
+         id="rect202" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="99"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text202">TxFlnk</text>
+    </g>
+    <g
+       class="legend"
+       id="g204">
+      <rect
+         x="610"
+         y="99"
+         width="20"
+         height="8"
+         style="fill: rgb(0, 128, 0); stroke: grey; stroke-width: 0.5;"
+         id="rect203" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="107"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text203">Tx</text>
+    </g>
+    <g
+       class="legend"
+       id="g205">
+      <rect
+         x="610"
+         y="107"
+         width="20"
+         height="8"
+         style="fill: rgb(0, 100, 0); stroke: grey; stroke-width: 0.5;"
+         id="rect204" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="115"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text204">Tx/Wk</text>
+    </g>
+    <g
+       class="legend"
+       id="g206">
+      <rect
+         x="610"
+         y="115"
+         width="20"
+         height="8"
+         style="fill: rgb(194, 225, 5); stroke: grey; stroke-width: 0.5;"
+         id="rect205" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="123"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text205">EnhG</text>
+    </g>
+    <g
+       class="legend"
+       id="g207">
+      <rect
+         x="610"
+         y="123"
+         width="20"
+         height="8"
+         style="fill: rgb(255, 255, 0); stroke: grey; stroke-width: 0.5;"
+         id="rect206" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="131"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text206">Enh</text>
+    </g>
+    <g
+       class="legend"
+       id="g208">
+      <rect
+         x="610"
+         y="131"
+         width="20"
+         height="8"
+         style="fill: rgb(102, 205, 170); stroke: grey; stroke-width: 0.5;"
+         id="rect207" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="139"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text207">ZNF/Rpts</text>
+    </g>
+    <g
+       class="legend"
+       id="g209">
+      <rect
+         x="610"
+         y="139"
+         width="20"
+         height="8"
+         style="fill: rgb(138, 145, 208); stroke: grey; stroke-width: 0.5;"
+         id="rect208" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="147"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text208">Het</text>
+    </g>
+    <g
+       class="legend"
+       id="g210">
+      <rect
+         x="610"
+         y="147"
+         width="20"
+         height="8"
+         style="fill: rgb(205, 92, 92); stroke: grey; stroke-width: 0.5;"
+         id="rect209" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="155"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text209">TssBiv</text>
+    </g>
+    <g
+       class="legend"
+       id="g211">
+      <rect
+         x="610"
+         y="155"
+         width="20"
+         height="8"
+         style="fill: rgb(233, 150, 122); stroke: grey; stroke-width: 0.5;"
+         id="rect210" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="163"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text210">BivFlnk</text>
+    </g>
+    <g
+       class="legend"
+       id="g212">
+      <rect
+         x="610"
+         y="163"
+         width="20"
+         height="8"
+         style="fill: rgb(189, 183, 107); stroke: grey; stroke-width: 0.5;"
+         id="rect211" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="171"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text211">EnhBiv</text>
+    </g>
+    <g
+       class="legend"
+       id="g213">
+      <rect
+         x="610"
+         y="171"
+         width="20"
+         height="8"
+         style="fill: rgb(128, 128, 128); stroke: grey; stroke-width: 0.5;"
+         id="rect212" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="179"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text212">ReprPC</text>
+    </g>
+    <g
+       class="legend"
+       id="g214">
+      <rect
+         x="610"
+         y="179"
+         width="20"
+         height="8"
+         style="fill: rgb(192, 192, 192); stroke: grey; stroke-width: 0.5;"
+         id="rect213" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="187"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text213">ReprPCWk</text>
+    </g>
+    <g
+       class="legend"
+       id="g215">
+      <rect
+         x="610"
+         y="187"
+         width="20"
+         height="8"
+         style="fill: white; stroke: grey; stroke-width: 0.5;"
+         id="rect214" />
+      <text
+         text-anchor="start"
+         x="632"
+         y="195"
+         style="font-size: 9px; font-family: sans-serif;"
+         id="text214">Quies</text>
+    </g>
+    <g
+       id="g216">
+      <rect
+         class="Chr15rect"
+         x="27.272727272725213"
+         width="8.940081976109134"
+         height="10"
+         y="80"
+         fill="#808080"
+         id="rect215" />
+    </g>
+    <g
+       id="g217">
+      <rect
+         class="Chr15rect"
+         x="36.21280924883435"
+         width="4.868662750774206"
+         height="10"
+         y="80"
+         fill="#BDB76B"
+         id="rect216" />
+    </g>
+    <g
+       id="g218">
+      <rect
+         class="Chr15rect"
+         x="41.08147199960855"
+         width="6.08582843846775"
+         height="10"
+         y="80"
+         fill="#808080"
+         id="rect217" />
+    </g>
+    <g
+       id="g219">
+      <rect
+         class="Chr15rect"
+         x="47.1673004380763"
+         width="4.868662750774206"
+         height="10"
+         y="80"
+         fill="#BDB76B"
+         id="rect218" />
+    </g>
+    <g
+       id="g220">
+      <rect
+         class="Chr15rect"
+         x="52.03596318885051"
+         width="7.911576970008092"
+         height="10"
+         y="80"
+         fill="#808080"
+         id="rect219" />
+    </g>
+    <g
+       id="g221">
+      <rect
+         class="Chr15rect"
+         x="59.9475401588586"
+         width="1.2171656876935444"
+         height="10"
+         y="80"
+         fill="#BDB76B"
+         id="rect220" />
+    </g>
+    <g
+       id="g222">
+      <rect
+         class="Chr15rect"
+         x="61.164705846552145"
+         width="9.128742657701643"
+         height="10"
+         y="80"
+         fill="#808080"
+         id="rect221" />
+    </g>
+    <g
+       id="g223">
+      <rect
+         class="Chr15rect"
+         x="70.29344850425379"
+         width="1.2171656876935373"
+         height="10"
+         y="80"
+         fill="#BDB76B"
+         id="rect222" />
+    </g>
+    <g
+       id="g224">
+      <rect
+         class="Chr15rect"
+         x="71.51061419194733"
+         width="1.8257485315403414"
+         height="10"
+         y="80"
+         fill="#FFFF00"
+         id="rect223" />
+    </g>
+    <g
+       id="g225">
+      <rect
+         class="Chr15rect"
+         x="73.33636272348767"
+         width="0.6085828438467615"
+         height="10"
+         y="80"
+         fill="#C0C0C0"
+         id="rect224" />
+    </g>
+    <g
+       id="g226">
+      <rect
+         class="Chr15rect"
+         x="73.94494556733443"
+         width="6.085828438467772"
+         height="10"
+         y="80"
+         fill="#808080"
+         id="rect225" />
+    </g>
+    <g
+       id="g227">
+      <rect
+         class="Chr15rect"
+         x="80.0307740058022"
+         width="33.47205641157265"
+         height="10"
+         y="80"
+         fill="#C0C0C0"
+         id="rect226" />
+    </g>
+    <g
+       id="g228">
+      <rect
+         class="Chr15rect"
+         x="113.50283041737485"
+         width="175.27185902787136"
+         height="10"
+         y="80"
+         fill="white"
+         id="rect227" />
+    </g>
+    <g
+       id="g229">
+      <rect
+         class="Chr15rect"
+         x="288.7746894452462"
+         width="1.217165687693523"
+         height="10"
+         y="80"
+         fill="#8A91D0"
+         id="rect228" />
+    </g>
+    <g
+       id="g230">
+      <rect
+         class="Chr15rect"
+         x="289.99185513293975"
+         width="1.21716568769358"
+         height="10"
+         y="80"
+         fill="white"
+         id="rect229" />
+    </g>
+    <g
+       id="g231">
+      <rect
+         class="Chr15rect"
+         x="291.2090208206333"
+         width="1.21716568769358"
+         height="10"
+         y="80"
+         fill="#8A91D0"
+         id="rect230" />
+    </g>
+    <g
+       id="g232">
+      <rect
+         class="Chr15rect"
+         x="292.4261865083269"
+         width="16.43173678386296"
+         height="10"
+         y="80"
+         fill="white"
+         id="rect231" />
+    </g>
+    <g
+       id="g233">
+      <rect
+         class="Chr15rect"
+         x="308.85792329218987"
+         width="1.217165687693523"
+         height="10"
+         y="80"
+         fill="#FFFF00"
+         id="rect232" />
+    </g>
+    <g
+       id="g234">
+      <rect
+         class="Chr15rect"
+         x="310.0750889798834"
+         width="32.2548907238791"
+         height="10"
+         y="80"
+         fill="#C0C0C0"
+         id="rect233" />
+    </g>
+    <g
+       id="g235">
+      <rect
+         class="Chr15rect"
+         x="342.3299797037625"
+         width="0.6085828438468184"
+         height="10"
+         y="80"
+         fill="#BDB76B"
+         id="rect234" />
+    </g>
+    <g
+       id="g236">
+      <rect
+         class="Chr15rect"
+         x="342.9385625476093"
+         width="0.6085828438467615"
+         height="10"
+         y="80"
+         fill="#FFFF00"
+         id="rect235" />
+    </g>
+    <g
+       id="g237">
+      <rect
+         class="Chr15rect"
+         x="343.54714539145607"
+         width="3.651497063080626"
+         height="10"
+         y="80"
+         fill="#006400"
+         id="rect236" />
+    </g>
+    <g
+       id="g238">
+      <rect
+         class="Chr15rect"
+         x="347.1986424545367"
+         width="3.651497063080626"
+         height="10"
+         y="80"
+         fill="#FFFF00"
+         id="rect237" />
+    </g>
+    <g
+       id="g239">
+      <rect
+         class="Chr15rect"
+         x="350.8501395176173"
+         width="47.46946182004848"
+         height="10"
+         y="80"
+         fill="white"
+         id="rect238" />
+    </g>
+    <g
+       id="g240">
+      <rect
+         class="Chr15rect"
+         x="398.3196013376658"
+         width="16.431736783863016"
+         height="10"
+         y="80"
+         fill="#C0C0C0"
+         id="rect239" />
+    </g>
+    <g
+       id="g241">
+      <rect
+         class="Chr15rect"
+         x="414.7513381215288"
+         width="7.302994126161252"
+         height="10"
+         y="80"
+         fill="#8A91D0"
+         id="rect240" />
+    </g>
+    <g
+       id="g242">
+      <rect
+         class="Chr15rect"
+         x="422.05433224769007"
+         width="77.8986040123873"
+         height="10"
+         y="80"
+         fill="white"
+         id="rect241" />
+    </g>
+    <g
+       id="g243">
+      <rect
+         class="Chr15rect"
+         x="499.95293626007737"
+         width="0.6085828438467615"
+         height="10"
+         y="80"
+         fill="#FFFF00"
+         id="rect242" />
+    </g>
+    <g
+       id="g244">
+      <rect
+         class="Chr15rect"
+         x="500.5615191039241"
+         width="1.21716568769358"
+         height="10"
+         y="80"
+         fill="#FF4500"
+         id="rect243" />
+    </g>
+    <g
+       id="g245">
+      <rect
+         class="Chr15rect"
+         x="501.7786847916177"
+         width="1.217165687693523"
+         height="10"
+         y="80"
+         fill="#FF0000"
+         id="rect244" />
+    </g>
+    <g
+       id="g246">
+      <rect
+         class="Chr15rect"
+         x="502.99585047931123"
+         width="3.0429142192338645"
+         height="10"
+         y="80"
+         fill="#FF4500"
+         id="rect245" />
+    </g>
+    <g
+       id="g247">
+      <rect
+         class="Chr15rect"
+         x="506.0387646985451"
+         width="3.651497063080683"
+         height="10"
+         y="80"
+         fill="#FFFF00"
+         id="rect246" />
+    </g>
+    <g
+       id="g248">
+      <rect
+         class="Chr15rect"
+         x="509.6902617616258"
+         width="2.434331375387103"
+         height="10"
+         y="80"
+         fill="#006400"
+         id="rect247" />
+    </g>
+    <g
+       id="g249">
+      <rect
+         class="Chr15rect"
+         x="512.1245931370129"
+         width="0.6085828438467615"
+         height="10"
+         y="80"
+         fill="#FFFF00"
+         id="rect248" />
+    </g>
+    <g
+       id="g250">
+      <rect
+         class="Chr15rect"
+         x="512.7331759808596"
+         width="5.4772455946209675"
+         height="10"
+         y="80"
+         fill="#006400"
+         id="rect249" />
+    </g>
+    <g
+       id="g251">
+      <rect
+         class="Chr15rect"
+         x="518.2104215754806"
+         width="0.6085828438467615"
+         height="10"
+         y="80"
+         fill="#FFFF00"
+         id="rect250" />
+    </g>
+    <g
+       id="g252">
+      <rect
+         class="Chr15rect"
+         x="518.8190044193274"
+         width="53.908268307947424"
+         height="10"
+         y="80"
+         fill="white"
+         id="rect251" />
+    </g>
+    <g
+       id="g253">
+      <rect
+         class="Chr15rect"
+         x="27.272727272725213"
+         width="8.940081976109134"
+         height="10"
+         y="70"
+         fill="#808080"
+         id="rect252" />
+    </g>
+    <g
+       id="g254">
+      <rect
+         class="Chr15rect"
+         x="36.21280924883435"
+         width="3.0429142192338787"
+         height="10"
+         y="70"
+         fill="#BDB76B"
+         id="rect253" />
+    </g>
+    <g
+       id="g255">
+      <rect
+         class="Chr15rect"
+         x="39.255723468068226"
+         width="1.8257485315403272"
+         height="10"
+         y="70"
+         fill="#E9967A"
+         id="rect254" />
+    </g>
+    <g
+       id="g256">
+      <rect
+         class="Chr15rect"
+         x="41.08147199960855"
+         width="1.2171656876935515"
+         height="10"
+         y="70"
+         fill="#CD5C5C"
+         id="rect255" />
+    </g>
+    <g
+       id="g257">
+      <rect
+         class="Chr15rect"
+         x="42.298637687302104"
+         width="4.868662750774199"
+         height="10"
+         y="70"
+         fill="#808080"
+         id="rect256" />
+    </g>
+    <g
+       id="g258">
+      <rect
+         class="Chr15rect"
+         x="47.1673004380763"
+         width="0.6085828438467757"
+         height="10"
+         y="70"
+         fill="#BDB76B"
+         id="rect257" />
+    </g>
+    <g
+       id="g259">
+      <rect
+         class="Chr15rect"
+         x="47.77588328192308"
+         width="1.8257485315403343"
+         height="10"
+         y="70"
+         fill="#E9967A"
+         id="rect258" />
+    </g>
+    <g
+       id="g260">
+      <rect
+         class="Chr15rect"
+         x="49.60163181346341"
+         width="10.345908345395188"
+         height="10"
+         y="70"
+         fill="#808080"
+         id="rect259" />
+    </g>
+    <g
+       id="g261">
+      <rect
+         class="Chr15rect"
+         x="59.9475401588586"
+         width="1.2171656876935444"
+         height="10"
+         y="70"
+         fill="#BDB76B"
+         id="rect260" />
+    </g>
+    <g
+       id="g262">
+      <rect
+         class="Chr15rect"
+         x="61.164705846552145"
+         width="9.128742657701643"
+         height="10"
+         y="70"
+         fill="#808080"
+         id="rect261" />
+    </g>
+    <g
+       id="g263">
+      <rect
+         class="Chr15rect"
+         x="70.29344850425379"
+         width="3.6514970630806403"
+         height="10"
+         y="70"
+         fill="#BDB76B"
+         id="rect262" />
+    </g>
+    <g
+       id="g264">
+      <rect
+         class="Chr15rect"
+         x="73.94494556733443"
+         width="6.694411282314533"
+         height="10"
+         y="70"
+         fill="#808080"
+         id="rect263" />
+    </g>
+    <g
+       id="g265">
+      <rect
+         class="Chr15rect"
+         x="80.63935684964896"
+         width="48.078044663895284"
+         height="10"
+         y="70"
+         fill="#C0C0C0"
+         id="rect264" />
+    </g>
+    <g
+       id="g266">
+      <rect
+         class="Chr15rect"
+         x="128.71740151354425"
+         width="149.10279674246"
+         height="10"
+         y="70"
+         fill="white"
+         id="rect265" />
+    </g>
+    <g
+       id="g267">
+      <rect
+         class="Chr15rect"
+         x="277.82019825600423"
+         width="12.171656876935515"
+         height="10"
+         y="70"
+         fill="#8A91D0"
+         id="rect266" />
+    </g>
+    <g
+       id="g268">
+      <rect
+         class="Chr15rect"
+         x="289.99185513293975"
+         width="18.2574853154033"
+         height="10"
+         y="70"
+         fill="white"
+         id="rect267" />
+    </g>
+    <g
+       id="g269">
+      <rect
+         class="Chr15rect"
+         x="308.24934044834305"
+         width="3.0429142192338645"
+         height="10"
+         y="70"
+         fill="#FFFF00"
+         id="rect268" />
+    </g>
+    <g
+       id="g270">
+      <rect
+         class="Chr15rect"
+         x="311.2922546675769"
+         width="30.42914219233876"
+         height="10"
+         y="70"
+         fill="white"
+         id="rect269" />
+    </g>
+    <g
+       id="g271">
+      <rect
+         class="Chr15rect"
+         x="341.72139685991567"
+         width="2.43433137538716"
+         height="10"
+         y="70"
+         fill="#FFFF00"
+         id="rect270" />
+    </g>
+    <g
+       id="g272">
+      <rect
+         class="Chr15rect"
+         x="344.15572823530283"
+         width="3.0429142192338645"
+         height="10"
+         y="70"
+         fill="#006400"
+         id="rect271" />
+    </g>
+    <g
+       id="g273">
+      <rect
+         class="Chr15rect"
+         x="347.1986424545367"
+         width="3.651497063080626"
+         height="10"
+         y="70"
+         fill="#FFFF00"
+         id="rect272" />
+    </g>
+    <g
+       id="g274">
+      <rect
+         class="Chr15rect"
+         x="350.8501395176173"
+         width="66.94411282314536"
+         height="10"
+         y="70"
+         fill="white"
+         id="rect273" />
+    </g>
+    <g
+       id="g275">
+      <rect
+         class="Chr15rect"
+         x="417.7942523407627"
+         width="3.0429142192338645"
+         height="10"
+         y="70"
+         fill="#8A91D0"
+         id="rect274" />
+    </g>
+    <g
+       id="g276">
+      <rect
+         class="Chr15rect"
+         x="420.83716655999655"
+         width="38.34071916234683"
+         height="10"
+         y="70"
+         fill="white"
+         id="rect275" />
+    </g>
+    <g
+       id="g277">
+      <rect
+         class="Chr15rect"
+         x="459.1778857223434"
+         width="0.6085828438467615"
+         height="10"
+         y="70"
+         fill="#8A91D0"
+         id="rect276" />
+    </g>
+    <g
+       id="g278">
+      <rect
+         class="Chr15rect"
+         x="459.78646856619014"
+         width="1.8257485315403983"
+         height="10"
+         y="70"
+         fill="white"
+         id="rect277" />
+    </g>
+    <g
+       id="g279">
+      <rect
+         class="Chr15rect"
+         x="461.61221709773054"
+         width="1.217165687693523"
+         height="10"
+         y="70"
+         fill="#8A91D0"
+         id="rect278" />
+    </g>
+    <g
+       id="g280">
+      <rect
+         class="Chr15rect"
+         x="462.82938278542406"
+         width="29.820559348491997"
+         height="10"
+         y="70"
+         fill="white"
+         id="rect279" />
+    </g>
+    <g
+       id="g281">
+      <rect
+         class="Chr15rect"
+         x="492.64994213391606"
+         width="0.6085828438467615"
+         height="10"
+         y="70"
+         fill="#FFFF00"
+         id="rect280" />
+    </g>
+    <g
+       id="g282">
+      <rect
+         class="Chr15rect"
+         x="493.2585249777628"
+         width="4.868662750774263"
+         height="10"
+         y="70"
+         fill="white"
+         id="rect281" />
+    </g>
+    <g
+       id="g283">
+      <rect
+         class="Chr15rect"
+         x="498.1271877285371"
+         width="1.8257485315402846"
+         height="10"
+         y="70"
+         fill="#FFFF00"
+         id="rect282" />
+    </g>
+    <g
+       id="g284">
+      <rect
+         class="Chr15rect"
+         x="499.95293626007737"
+         width="1.21716568769358"
+         height="10"
+         y="70"
+         fill="#FF4500"
+         id="rect283" />
+    </g>
+    <g
+       id="g285">
+      <rect
+         class="Chr15rect"
+         x="501.17010194777095"
+         width="1.8257485315402846"
+         height="10"
+         y="70"
+         fill="#FF0000"
+         id="rect284" />
+    </g>
+    <g
+       id="g286">
+      <rect
+         class="Chr15rect"
+         x="502.99585047931123"
+         width="2.434331375387103"
+         height="10"
+         y="70"
+         fill="#FF4500"
+         id="rect285" />
+    </g>
+    <g
+       id="g287">
+      <rect
+         class="Chr15rect"
+         x="505.43018185469833"
+         width="3.0429142192339214"
+         height="10"
+         y="70"
+         fill="#FFFF00"
+         id="rect286" />
+    </g>
+    <g
+       id="g288">
+      <rect
+         class="Chr15rect"
+         x="508.47309607393225"
+         width="64.25417665334254"
+         height="10"
+         y="70"
+         fill="white"
+         id="rect287" />
+    </g>
+    <g
+       id="g289">
+      <rect
+         class="Chr15rect"
+         x="27.272727272725213"
+         width="2.245670693794601"
+         height="10"
+         y="140"
+         fill="#808080"
+         id="rect288" />
+    </g>
+    <g
+       id="g290">
+      <rect
+         class="Chr15rect"
+         x="29.518397966519814"
+         width="6.0858284384677575"
+         height="10"
+         y="140"
+         fill="#C0C0C0"
+         id="rect289" />
+    </g>
+    <g
+       id="g291">
+      <rect
+         class="Chr15rect"
+         x="35.60422640498757"
+         width="4.26007990692743"
+         height="10"
+         y="140"
+         fill="#808080"
+         id="rect290" />
+    </g>
+    <g
+       id="g292">
+      <rect
+         class="Chr15rect"
+         x="39.864306311915"
+         width="1.2171656876935515"
+         height="10"
+         y="140"
+         fill="#BDB76B"
+         id="rect291" />
+    </g>
+    <g
+       id="g293">
+      <rect
+         class="Chr15rect"
+         x="41.08147199960855"
+         width="2.434331375387103"
+         height="10"
+         y="140"
+         fill="#C0C0C0"
+         id="rect292" />
+    </g>
+    <g
+       id="g294">
+      <rect
+         class="Chr15rect"
+         x="43.515803374995656"
+         width="0.6085828438467757"
+         height="10"
+         y="140"
+         fill="#BDB76B"
+         id="rect293" />
+    </g>
+    <g
+       id="g295">
+      <rect
+         class="Chr15rect"
+         x="44.12438621884243"
+         width="33.472056411572666"
+         height="10"
+         y="140"
+         fill="#808080"
+         id="rect294" />
+    </g>
+    <g
+       id="g296">
+      <rect
+         class="Chr15rect"
+         x="77.5964426304151"
+         width="24.95189659771779"
+         height="10"
+         y="140"
+         fill="#C0C0C0"
+         id="rect295" />
+    </g>
+    <g
+       id="g297">
+      <rect
+         class="Chr15rect"
+         x="102.54833922813289"
+         width="133.27964280244385"
+         height="10"
+         y="140"
+         fill="white"
+         id="rect296" />
+    </g>
+    <g
+       id="g298">
+      <rect
+         class="Chr15rect"
+         x="235.82798203057675"
+         width="6.694411282314519"
+         height="10"
+         y="140"
+         fill="#C0C0C0"
+         id="rect297" />
+    </g>
+    <g
+       id="g299">
+      <rect
+         class="Chr15rect"
+         x="242.52239331289127"
+         width="34.08063925541944"
+         height="10"
+         y="140"
+         fill="white"
+         id="rect298" />
+    </g>
+    <g
+       id="g300">
+      <rect
+         class="Chr15rect"
+         x="276.6030325683107"
+         width="11.563074033088753"
+         height="10"
+         y="140"
+         fill="#8A91D0"
+         id="rect299" />
+    </g>
+    <g
+       id="g301">
+      <rect
+         class="Chr15rect"
+         x="288.16610660139946"
+         width="53.55529025851621"
+         height="10"
+         y="140"
+         fill="white"
+         id="rect300" />
+    </g>
+    <g
+       id="g302">
+      <rect
+         class="Chr15rect"
+         x="341.72139685991567"
+         width="0.6085828438468184"
+         height="10"
+         y="140"
+         fill="#FF0000"
+         id="rect301" />
+    </g>
+    <g
+       id="g303">
+      <rect
+         class="Chr15rect"
+         x="342.3299797037625"
+         width="0.6085828438468184"
+         height="10"
+         y="140"
+         fill="#FF4500"
+         id="rect302" />
+    </g>
+    <g
+       id="g304">
+      <rect
+         class="Chr15rect"
+         x="342.9385625476093"
+         width="3.0429142192338077"
+         height="10"
+         y="140"
+         fill="#006400"
+         id="rect303" />
+    </g>
+    <g
+       id="g305">
+      <rect
+         class="Chr15rect"
+         x="345.9814767668431"
+         width="1.21716568769358"
+         height="10"
+         y="140"
+         fill="#FFFF00"
+         id="rect304" />
+    </g>
+    <g
+       id="g306">
+      <rect
+         class="Chr15rect"
+         x="347.1986424545367"
+         width="7.9115769700080705"
+         height="10"
+         y="140"
+         fill="#C0C0C0"
+         id="rect305" />
+    </g>
+    <g
+       id="g307">
+      <rect
+         class="Chr15rect"
+         x="355.11021942454477"
+         width="21.30039953463711"
+         height="10"
+         y="140"
+         fill="white"
+         id="rect306" />
+    </g>
+    <g
+       id="g308">
+      <rect
+         class="Chr15rect"
+         x="376.4106189591819"
+         width="18.2574853154033"
+         height="10"
+         y="140"
+         fill="#C0C0C0"
+         id="rect307" />
+    </g>
+    <g
+       id="g309">
+      <rect
+         class="Chr15rect"
+         x="394.6681042745852"
+         width="104.67624914164543"
+         height="10"
+         y="140"
+         fill="white"
+         id="rect308" />
+    </g>
+    <g
+       id="g310">
+      <rect
+         class="Chr15rect"
+         x="499.3443534162306"
+         width="4.260079906927388"
+         height="10"
+         y="140"
+         fill="#FF0000"
+         id="rect309" />
+    </g>
+    <g
+       id="g311">
+      <rect
+         class="Chr15rect"
+         x="503.604433323158"
+         width="1.21716568769358"
+         height="10"
+         y="140"
+         fill="#FF4500"
+         id="rect310" />
+    </g>
+    <g
+       id="g312">
+      <rect
+         class="Chr15rect"
+         x="504.82159901085157"
+         width="2.434331375387046"
+         height="10"
+         y="140"
+         fill="#006400"
+         id="rect311" />
+    </g>
+    <g
+       id="g313">
+      <rect
+         class="Chr15rect"
+         x="507.2559303862386"
+         width="0.6085828438468184"
+         height="10"
+         y="140"
+         fill="#FF0000"
+         id="rect312" />
+    </g>
+    <g
+       id="g314">
+      <rect
+         class="Chr15rect"
+         x="507.86451323008544"
+         width="0.6085828438468184"
+         height="10"
+         y="140"
+         fill="#FF4500"
+         id="rect313" />
+    </g>
+    <g
+       id="g315">
+      <rect
+         class="Chr15rect"
+         x="508.47309607393225"
+         width="0.6085828438467615"
+         height="10"
+         y="140"
+         fill="#FFFF00"
+         id="rect314" />
+    </g>
+    <g
+       id="g316">
+      <rect
+         class="Chr15rect"
+         x="509.081678917779"
+         width="3.0429142192338645"
+         height="10"
+         y="140"
+         fill="#006400"
+         id="rect315" />
+    </g>
+    <g
+       id="g317">
+      <rect
+         class="Chr15rect"
+         x="512.1245931370129"
+         width="0.6085828438467615"
+         height="10"
+         y="140"
+         fill="#FFFF00"
+         id="rect316" />
+    </g>
+    <g
+       id="g318">
+      <rect
+         class="Chr15rect"
+         x="512.7331759808596"
+         width="59.99409674641515"
+         height="10"
+         y="140"
+         fill="white"
+         id="rect317" />
+    </g>
+    <g
+       id="g319">
+      <rect
+         class="Chr15rect"
+         x="27.272727272725213"
+         width="6.505750600722031"
+         height="10"
+         y="110"
+         fill="#C0C0C0"
+         id="rect318" />
+    </g>
+    <g
+       id="g320">
+      <rect
+         class="Chr15rect"
+         x="33.778477873447244"
+         width="6.694411282314526"
+         height="10"
+         y="110"
+         fill="#808080"
+         id="rect319" />
+    </g>
+    <g
+       id="g321">
+      <rect
+         class="Chr15rect"
+         x="40.47288915576177"
+         width="0.6085828438467829"
+         height="10"
+         y="110"
+         fill="#BDB76B"
+         id="rect320" />
+    </g>
+    <g
+       id="g322">
+      <rect
+         class="Chr15rect"
+         x="41.08147199960855"
+         width="6.694411282314526"
+         height="10"
+         y="110"
+         fill="#808080"
+         id="rect321" />
+    </g>
+    <g
+       id="g323">
+      <rect
+         class="Chr15rect"
+         x="47.77588328192308"
+         width="2.434331375387103"
+         height="10"
+         y="110"
+         fill="#E9967A"
+         id="rect322" />
+    </g>
+    <g
+       id="g324">
+      <rect
+         class="Chr15rect"
+         x="50.21021465731018"
+         width="9.737325501548419"
+         height="10"
+         y="110"
+         fill="#808080"
+         id="rect323" />
+    </g>
+    <g
+       id="g325">
+      <rect
+         class="Chr15rect"
+         x="59.9475401588586"
+         width="1.2171656876935444"
+         height="10"
+         y="110"
+         fill="#CD5C5C"
+         id="rect324" />
+    </g>
+    <g
+       id="g326">
+      <rect
+         class="Chr15rect"
+         x="61.164705846552145"
+         width="5.477245594620975"
+         height="10"
+         y="110"
+         fill="#808080"
+         id="rect325" />
+    </g>
+    <g
+       id="g327">
+      <rect
+         class="Chr15rect"
+         x="66.64195144117312"
+         width="0.60858284384679"
+         height="10"
+         y="110"
+         fill="#BDB76B"
+         id="rect326" />
+    </g>
+    <g
+       id="g328">
+      <rect
+         class="Chr15rect"
+         x="67.25053428501991"
+         width="8.520159813854846"
+         height="10"
+         y="110"
+         fill="#C0C0C0"
+         id="rect327" />
+    </g>
+    <g
+       id="g329">
+      <rect
+         class="Chr15rect"
+         x="75.77069409887476"
+         width="2.434331375387103"
+         height="10"
+         y="110"
+         fill="#808080"
+         id="rect328" />
+    </g>
+    <g
+       id="g330">
+      <rect
+         class="Chr15rect"
+         x="78.20502547426186"
+         width="4.86866275077422"
+         height="10"
+         y="110"
+         fill="#C0C0C0"
+         id="rect329" />
+    </g>
+    <g
+       id="g331">
+      <rect
+         class="Chr15rect"
+         x="83.07368822503608"
+         width="179.53193893479883"
+         height="10"
+         y="110"
+         fill="white"
+         id="rect330" />
+    </g>
+    <g
+       id="g332">
+      <rect
+         class="Chr15rect"
+         x="262.6056271598349"
+         width="1.8257485315402846"
+         height="10"
+         y="110"
+         fill="#006400"
+         id="rect331" />
+    </g>
+    <g
+       id="g333">
+      <rect
+         class="Chr15rect"
+         x="264.4313756913752"
+         width="20.691816690790347"
+         height="10"
+         y="110"
+         fill="white"
+         id="rect332" />
+    </g>
+    <g
+       id="g334">
+      <rect
+         class="Chr15rect"
+         x="285.12319238216554"
+         width="7.911576970008127"
+         height="10"
+         y="110"
+         fill="#8A91D0"
+         id="rect333" />
+    </g>
+    <g
+       id="g335">
+      <rect
+         class="Chr15rect"
+         x="293.03476935217367"
+         width="52.94670741466945"
+         height="10"
+         y="110"
+         fill="white"
+         id="rect334" />
+    </g>
+    <g
+       id="g336">
+      <rect
+         class="Chr15rect"
+         x="345.9814767668431"
+         width="2.434331375387103"
+         height="10"
+         y="110"
+         fill="#FFFF00"
+         id="rect335" />
+    </g>
+    <g
+       id="g337">
+      <rect
+         class="Chr15rect"
+         x="348.4158081422302"
+         width="149.10279674246004"
+         height="10"
+         y="110"
+         fill="white"
+         id="rect336" />
+    </g>
+    <g
+       id="g338">
+      <rect
+         class="Chr15rect"
+         x="497.51860488469026"
+         width="1.8257485315403414"
+         height="10"
+         y="110"
+         fill="#FFFF00"
+         id="rect337" />
+    </g>
+    <g
+       id="g339">
+      <rect
+         class="Chr15rect"
+         x="499.3443534162306"
+         width="1.217165687693523"
+         height="10"
+         y="110"
+         fill="#FF4500"
+         id="rect338" />
+    </g>
+    <g
+       id="g340">
+      <rect
+         class="Chr15rect"
+         x="500.5615191039241"
+         width="4.260079906927444"
+         height="10"
+         y="110"
+         fill="#FF0000"
+         id="rect339" />
+    </g>
+    <g
+       id="g341">
+      <rect
+         class="Chr15rect"
+         x="504.82159901085157"
+         width="3.0429142192338645"
+         height="10"
+         y="110"
+         fill="#006400"
+         id="rect340" />
+    </g>
+    <g
+       id="g342">
+      <rect
+         class="Chr15rect"
+         x="507.86451323008544"
+         width="0.6085828438468184"
+         height="10"
+         y="110"
+         fill="#FFFF00"
+         id="rect341" />
+    </g>
+    <g
+       id="g343">
+      <rect
+         class="Chr15rect"
+         x="508.47309607393225"
+         width="3.0429142192338645"
+         height="10"
+         y="110"
+         fill="#006400"
+         id="rect342" />
+    </g>
+    <g
+       id="g344">
+      <rect
+         class="Chr15rect"
+         x="511.5160102931661"
+         width="0.6085828438467615"
+         height="10"
+         y="110"
+         fill="white"
+         id="rect343" />
+    </g>
+    <g
+       id="g345">
+      <rect
+         class="Chr15rect"
+         x="512.1245931370129"
+         width="0.6085828438467615"
+         height="10"
+         y="110"
+         fill="#FFFF00"
+         id="rect344" />
+    </g>
+    <g
+       id="g346">
+      <rect
+         class="Chr15rect"
+         x="512.7331759808596"
+         width="59.99409674641515"
+         height="10"
+         y="110"
+         fill="white"
+         id="rect345" />
+    </g>
+    <g
+       id="g347">
+      <rect
+         class="Chr15rect"
+         x="27.272727272725213"
+         width="0.4199221622542737"
+         height="10"
+         y="120"
+         fill="#C0C0C0"
+         id="rect346" />
+    </g>
+    <g
+       id="g348">
+      <rect
+         class="Chr15rect"
+         x="27.692649434979487"
+         width="9.737325501548412"
+         height="10"
+         y="120"
+         fill="#808080"
+         id="rect347" />
+    </g>
+    <g
+       id="g349">
+      <rect
+         class="Chr15rect"
+         x="37.4299749365279"
+         width="0.6085828438467757"
+         height="10"
+         y="120"
+         fill="#BDB76B"
+         id="rect348" />
+    </g>
+    <g
+       id="g350">
+      <rect
+         class="Chr15rect"
+         x="38.038557780374674"
+         width="1.8257485315403272"
+         height="10"
+         y="120"
+         fill="#808080"
+         id="rect349" />
+    </g>
+    <g
+       id="g351">
+      <rect
+         class="Chr15rect"
+         x="39.864306311915"
+         width="0.6085828438467686"
+         height="10"
+         y="120"
+         fill="#BDB76B"
+         id="rect350" />
+    </g>
+    <g
+       id="g352">
+      <rect
+         class="Chr15rect"
+         x="40.47288915576177"
+         width="1.8257485315403343"
+         height="10"
+         y="120"
+         fill="#808080"
+         id="rect351" />
+    </g>
+    <g
+       id="g353">
+      <rect
+         class="Chr15rect"
+         x="42.298637687302104"
+         width="1.2171656876935515"
+         height="10"
+         y="120"
+         fill="#BDB76B"
+         id="rect352" />
+    </g>
+    <g
+       id="g354">
+      <rect
+         class="Chr15rect"
+         x="43.515803374995656"
+         width="3.6514970630806474"
+         height="10"
+         y="120"
+         fill="#808080"
+         id="rect353" />
+    </g>
+    <g
+       id="g355">
+      <rect
+         class="Chr15rect"
+         x="47.1673004380763"
+         width="1.8257485315403272"
+         height="10"
+         y="120"
+         fill="#BDB76B"
+         id="rect354" />
+    </g>
+    <g
+       id="g356">
+      <rect
+         class="Chr15rect"
+         x="48.99304896961663"
+         width="0.6085828438467829"
+         height="10"
+         y="120"
+         fill="#E9967A"
+         id="rect355" />
+    </g>
+    <g
+       id="g357">
+      <rect
+         class="Chr15rect"
+         x="49.60163181346341"
+         width="1.8257485315403272"
+         height="10"
+         y="120"
+         fill="#BDB76B"
+         id="rect356" />
+    </g>
+    <g
+       id="g358">
+      <rect
+         class="Chr15rect"
+         x="51.42738034500374"
+         width="23.73473091002424"
+         height="10"
+         y="120"
+         fill="#808080"
+         id="rect357" />
+    </g>
+    <g
+       id="g359">
+      <rect
+         class="Chr15rect"
+         x="75.16211125502798"
+         width="7.302994126161309"
+         height="10"
+         y="120"
+         fill="#C0C0C0"
+         id="rect358" />
+    </g>
+    <g
+       id="g360">
+      <rect
+         class="Chr15rect"
+         x="82.46510538118929"
+         width="139.36547124091163"
+         height="10"
+         y="120"
+         fill="white"
+         id="rect359" />
+    </g>
+    <g
+       id="g361">
+      <rect
+         class="Chr15rect"
+         x="221.83057662210092"
+         width="20.691816690790347"
+         height="10"
+         y="120"
+         fill="#C0C0C0"
+         id="rect360" />
+    </g>
+    <g
+       id="g362">
+      <rect
+         class="Chr15rect"
+         x="242.52239331289127"
+         width="34.08063925541944"
+         height="10"
+         y="120"
+         fill="white"
+         id="rect361" />
+    </g>
+    <g
+       id="g363">
+      <rect
+         class="Chr15rect"
+         x="276.6030325683107"
+         width="12.171656876935515"
+         height="10"
+         y="120"
+         fill="#8A91D0"
+         id="rect362" />
+    </g>
+    <g
+       id="g364">
+      <rect
+         class="Chr15rect"
+         x="288.7746894452462"
+         width="17.040319627709664"
+         height="10"
+         y="120"
+         fill="white"
+         id="rect363" />
+    </g>
+    <g
+       id="g365">
+      <rect
+         class="Chr15rect"
+         x="305.8150090729559"
+         width="18.2574853154033"
+         height="10"
+         y="120"
+         fill="#C0C0C0"
+         id="rect364" />
+    </g>
+    <g
+       id="g366">
+      <rect
+         class="Chr15rect"
+         x="324.0724943883592"
+         width="17.04031962770972"
+         height="10"
+         y="120"
+         fill="white"
+         id="rect365" />
+    </g>
+    <g
+       id="g367">
+      <rect
+         class="Chr15rect"
+         x="341.1128140160689"
+         width="0.6085828438467615"
+         height="10"
+         y="120"
+         fill="#C0C0C0"
+         id="rect366" />
+    </g>
+    <g
+       id="g368">
+      <rect
+         class="Chr15rect"
+         x="341.72139685991567"
+         width="0.6085828438468184"
+         height="10"
+         y="120"
+         fill="#FF4500"
+         id="rect367" />
+    </g>
+    <g
+       id="g369">
+      <rect
+         class="Chr15rect"
+         x="342.3299797037625"
+         width="0.6085828438468184"
+         height="10"
+         y="120"
+         fill="#FF0000"
+         id="rect368" />
+    </g>
+    <g
+       id="g370">
+      <rect
+         class="Chr15rect"
+         x="342.9385625476093"
+         width="157.01437371246806"
+         height="10"
+         y="120"
+         fill="white"
+         id="rect369" />
+    </g>
+    <g
+       id="g371">
+      <rect
+         class="Chr15rect"
+         x="499.95293626007737"
+         width="4.868662750774206"
+         height="10"
+         y="120"
+         fill="#FF0000"
+         id="rect370" />
+    </g>
+    <g
+       id="g372">
+      <rect
+         class="Chr15rect"
+         x="504.82159901085157"
+         width="3.0429142192338645"
+         height="10"
+         y="120"
+         fill="#006400"
+         id="rect371" />
+    </g>
+    <g
+       id="g373">
+      <rect
+         class="Chr15rect"
+         x="507.86451323008544"
+         width="0.6085828438468184"
+         height="10"
+         y="120"
+         fill="#FFFF00"
+         id="rect372" />
+    </g>
+    <g
+       id="g374">
+      <rect
+         class="Chr15rect"
+         x="508.47309607393225"
+         width="3.0429142192338645"
+         height="10"
+         y="120"
+         fill="#006400"
+         id="rect373" />
+    </g>
+    <g
+       id="g375">
+      <rect
+         class="Chr15rect"
+         x="511.5160102931661"
+         width="0.6085828438467615"
+         height="10"
+         y="120"
+         fill="white"
+         id="rect374" />
+    </g>
+    <g
+       id="g376">
+      <rect
+         class="Chr15rect"
+         x="512.1245931370129"
+         width="0.6085828438467615"
+         height="10"
+         y="120"
+         fill="#FFFF00"
+         id="rect375" />
+    </g>
+    <g
+       id="g377">
+      <rect
+         class="Chr15rect"
+         x="512.7331759808596"
+         width="59.99409674641515"
+         height="10"
+         y="120"
+         fill="white"
+         id="rect376" />
+    </g>
+    <g
+       id="g378">
+      <rect
+         class="Chr15rect"
+         x="27.272727272725213"
+         width="10.157247663802686"
+         height="10"
+         y="160"
+         fill="#808080"
+         id="rect377" />
+    </g>
+    <g
+       id="g379">
+      <rect
+         class="Chr15rect"
+         x="37.4299749365279"
+         width="1.2171656876935444"
+         height="10"
+         y="160"
+         fill="#BDB76B"
+         id="rect378" />
+    </g>
+    <g
+       id="g380">
+      <rect
+         class="Chr15rect"
+         x="38.64714062422144"
+         width="2.43433137538711"
+         height="10"
+         y="160"
+         fill="#E9967A"
+         id="rect379" />
+    </g>
+    <g
+       id="g381">
+      <rect
+         class="Chr15rect"
+         x="41.08147199960855"
+         width="1.2171656876935515"
+         height="10"
+         y="160"
+         fill="#BDB76B"
+         id="rect380" />
+    </g>
+    <g
+       id="g382">
+      <rect
+         class="Chr15rect"
+         x="42.298637687302104"
+         width="0.6085828438467686"
+         height="10"
+         y="160"
+         fill="#CD5C5C"
+         id="rect381" />
+    </g>
+    <g
+       id="g383">
+      <rect
+         class="Chr15rect"
+         x="42.90722053114887"
+         width="1.8257485315403272"
+         height="10"
+         y="160"
+         fill="#BDB76B"
+         id="rect382" />
+    </g>
+    <g
+       id="g384">
+      <rect
+         class="Chr15rect"
+         x="44.7329690626892"
+         width="3.0429142192338787"
+         height="10"
+         y="160"
+         fill="#808080"
+         id="rect383" />
+    </g>
+    <g
+       id="g385">
+      <rect
+         class="Chr15rect"
+         x="47.77588328192308"
+         width="0.6085828438467829"
+         height="10"
+         y="160"
+         fill="#BDB76B"
+         id="rect384" />
+    </g>
+    <g
+       id="g386">
+      <rect
+         class="Chr15rect"
+         x="48.38446612576986"
+         width="2.434331375387096"
+         height="10"
+         y="160"
+         fill="#E9967A"
+         id="rect385" />
+    </g>
+    <g
+       id="g387">
+      <rect
+         class="Chr15rect"
+         x="50.81879750115696"
+         width="1.8257485315403343"
+         height="10"
+         y="160"
+         fill="#BDB76B"
+         id="rect386" />
+    </g>
+    <g
+       id="g388">
+      <rect
+         class="Chr15rect"
+         x="52.64454603269729"
+         width="4.26007990692743"
+         height="10"
+         y="160"
+         fill="#808080"
+         id="rect387" />
+    </g>
+    <g
+       id="g389">
+      <rect
+         class="Chr15rect"
+         x="56.90462593962472"
+         width="3.0429142192338787"
+         height="10"
+         y="160"
+         fill="#BDB76B"
+         id="rect388" />
+    </g>
+    <g
+       id="g390">
+      <rect
+         class="Chr15rect"
+         x="59.9475401588586"
+         width="1.8257485315403201"
+         height="10"
+         y="160"
+         fill="#E9967A"
+         id="rect389" />
+    </g>
+    <g
+       id="g391">
+      <rect
+         class="Chr15rect"
+         x="61.77328869039892"
+         width="0.6085828438467757"
+         height="10"
+         y="160"
+         fill="#BDB76B"
+         id="rect390" />
+    </g>
+    <g
+       id="g392">
+      <rect
+         class="Chr15rect"
+         x="62.3818715342457"
+         width="5.477245594620975"
+         height="10"
+         y="160"
+         fill="#808080"
+         id="rect391" />
+    </g>
+    <g
+       id="g393">
+      <rect
+         class="Chr15rect"
+         x="67.85911712886667"
+         width="2.434331375387117"
+         height="10"
+         y="160"
+         fill="#BDB76B"
+         id="rect392" />
+    </g>
+    <g
+       id="g394">
+      <rect
+         class="Chr15rect"
+         x="70.29344850425379"
+         width="0.6085828438467615"
+         height="10"
+         y="160"
+         fill="#E9967A"
+         id="rect393" />
+    </g>
+    <g
+       id="g395">
+      <rect
+         class="Chr15rect"
+         x="70.90203134810055"
+         width="1.2171656876935515"
+         height="10"
+         y="160"
+         fill="#BDB76B"
+         id="rect394" />
+    </g>
+    <g
+       id="g396">
+      <rect
+         class="Chr15rect"
+         x="72.1191970357941"
+         width="0.6085828438467757"
+         height="10"
+         y="160"
+         fill="#808080"
+         id="rect395" />
+    </g>
+    <g
+       id="g397">
+      <rect
+         class="Chr15rect"
+         x="72.72777987964088"
+         width="4.260079906927444"
+         height="10"
+         y="160"
+         fill="#BDB76B"
+         id="rect396" />
+    </g>
+    <g
+       id="g398">
+      <rect
+         class="Chr15rect"
+         x="76.98785978656832"
+         width="3.0429142192338787"
+         height="10"
+         y="160"
+         fill="#808080"
+         id="rect397" />
+    </g>
+    <g
+       id="g399">
+      <rect
+         class="Chr15rect"
+         x="80.0307740058022"
+         width="18.866068159250034"
+         height="10"
+         y="160"
+         fill="#C0C0C0"
+         id="rect398" />
+    </g>
+    <g
+       id="g400">
+      <rect
+         class="Chr15rect"
+         x="98.89684216505223"
+         width="178.92335609095198"
+         height="10"
+         y="160"
+         fill="white"
+         id="rect399" />
+    </g>
+    <g
+       id="g401">
+      <rect
+         class="Chr15rect"
+         x="277.82019825600423"
+         width="12.171656876935515"
+         height="10"
+         y="160"
+         fill="#8A91D0"
+         id="rect400" />
+    </g>
+    <g
+       id="g402">
+      <rect
+         class="Chr15rect"
+         x="289.99185513293975"
+         width="17.64890247155654"
+         height="10"
+         y="160"
+         fill="white"
+         id="rect401" />
+    </g>
+    <g
+       id="g403">
+      <rect
+         class="Chr15rect"
+         x="307.6407576044963"
+         width="3.651497063080626"
+         height="10"
+         y="160"
+         fill="#FFFF00"
+         id="rect402" />
+    </g>
+    <g
+       id="g404">
+      <rect
+         class="Chr15rect"
+         x="311.2922546675769"
+         width="82.15868391931474"
+         height="10"
+         y="160"
+         fill="white"
+         id="rect403" />
+    </g>
+    <g
+       id="g405">
+      <rect
+         class="Chr15rect"
+         x="393.45093858689165"
+         width="9.737325501548412"
+         height="10"
+         y="160"
+         fill="#C0C0C0"
+         id="rect404" />
+    </g>
+    <g
+       id="g406">
+      <rect
+         class="Chr15rect"
+         x="403.18826408844006"
+         width="13.9974054084758"
+         height="10"
+         y="160"
+         fill="white"
+         id="rect405" />
+    </g>
+    <g
+       id="g407">
+      <rect
+         class="Chr15rect"
+         x="417.18566949691586"
+         width="4.260079906927444"
+         height="10"
+         y="160"
+         fill="#8A91D0"
+         id="rect406" />
+    </g>
+    <g
+       id="g408">
+      <rect
+         class="Chr15rect"
+         x="421.4457494038433"
+         width="78.50718685623406"
+         height="10"
+         y="160"
+         fill="white"
+         id="rect407" />
+    </g>
+    <g
+       id="g409">
+      <rect
+         class="Chr15rect"
+         x="499.95293626007737"
+         width="2.434331375387103"
+         height="10"
+         y="160"
+         fill="#FF0000"
+         id="rect408" />
+    </g>
+    <g
+       id="g410">
+      <rect
+         class="Chr15rect"
+         x="502.38726763546447"
+         width="2.434331375387103"
+         height="10"
+         y="160"
+         fill="#FF4500"
+         id="rect409" />
+    </g>
+    <g
+       id="g411">
+      <rect
+         class="Chr15rect"
+         x="504.82159901085157"
+         width="67.90567371642322"
+         height="10"
+         y="160"
+         fill="white"
+         id="rect410" />
+    </g>
+    <g
+       id="g412">
+      <rect
+         class="Chr15rect"
+         x="27.272727272725213"
+         width="5.28858491302848"
+         height="10"
+         y="90"
+         fill="#C0C0C0"
+         id="rect411" />
+    </g>
+    <g
+       id="g413">
+      <rect
+         class="Chr15rect"
+         x="32.56131218575369"
+         width="6.08582843846775"
+         height="10"
+         y="90"
+         fill="#808080"
+         id="rect412" />
+    </g>
+    <g
+       id="g414">
+      <rect
+         class="Chr15rect"
+         x="38.64714062422144"
+         width="1.2171656876935586"
+         height="10"
+         y="90"
+         fill="#BDB76B"
+         id="rect413" />
+    </g>
+    <g
+       id="g415">
+      <rect
+         class="Chr15rect"
+         x="39.864306311915"
+         width="1.2171656876935515"
+         height="10"
+         y="90"
+         fill="#E9967A"
+         id="rect414" />
+    </g>
+    <g
+       id="g416">
+      <rect
+         class="Chr15rect"
+         x="41.08147199960855"
+         width="6.694411282314526"
+         height="10"
+         y="90"
+         fill="#808080"
+         id="rect415" />
+    </g>
+    <g
+       id="g417">
+      <rect
+         class="Chr15rect"
+         x="47.77588328192308"
+         width="0.6085828438467829"
+         height="10"
+         y="90"
+         fill="#CD5C5C"
+         id="rect416" />
+    </g>
+    <g
+       id="g418">
+      <rect
+         class="Chr15rect"
+         x="48.38446612576986"
+         width="0.6085828438467686"
+         height="10"
+         y="90"
+         fill="#E9967A"
+         id="rect417" />
+    </g>
+    <g
+       id="g419">
+      <rect
+         class="Chr15rect"
+         x="48.99304896961663"
+         width="0.6085828438467829"
+         height="10"
+         y="90"
+         fill="#CD5C5C"
+         id="rect418" />
+    </g>
+    <g
+       id="g420">
+      <rect
+         class="Chr15rect"
+         x="49.60163181346341"
+         width="0.6085828438467686"
+         height="10"
+         y="90"
+         fill="#E9967A"
+         id="rect419" />
+    </g>
+    <g
+       id="g421">
+      <rect
+         class="Chr15rect"
+         x="50.21021465731018"
+         width="10.954491189241963"
+         height="10"
+         y="90"
+         fill="#808080"
+         id="rect420" />
+    </g>
+    <g
+       id="g422">
+      <rect
+         class="Chr15rect"
+         x="61.164705846552145"
+         width="0.6085828438467757"
+         height="10"
+         y="90"
+         fill="#BDB76B"
+         id="rect421" />
+    </g>
+    <g
+       id="g423">
+      <rect
+         class="Chr15rect"
+         x="61.77328869039892"
+         width="17.040319627709714"
+         height="10"
+         y="90"
+         fill="#808080"
+         id="rect422" />
+    </g>
+    <g
+       id="g424">
+      <rect
+         class="Chr15rect"
+         x="78.81360831810863"
+         width="17.648902471556497"
+         height="10"
+         y="90"
+         fill="#C0C0C0"
+         id="rect423" />
+    </g>
+    <g
+       id="g425">
+      <rect
+         class="Chr15rect"
+         x="96.46251078966513"
+         width="102.85050061010507"
+         height="10"
+         y="90"
+         fill="white"
+         id="rect424" />
+    </g>
+    <g
+       id="g426">
+      <rect
+         class="Chr15rect"
+         x="199.3130113997702"
+         width="4.260079906927444"
+         height="10"
+         y="90"
+         fill="#8A91D0"
+         id="rect425" />
+    </g>
+    <g
+       id="g427">
+      <rect
+         class="Chr15rect"
+         x="203.57309130669765"
+         width="73.63852410545982"
+         height="10"
+         y="90"
+         fill="white"
+         id="rect426" />
+    </g>
+    <g
+       id="g428">
+      <rect
+         class="Chr15rect"
+         x="277.21161541215747"
+         width="14.605988252322675"
+         height="10"
+         y="90"
+         fill="#8A91D0"
+         id="rect427" />
+    </g>
+    <g
+       id="g429">
+      <rect
+         class="Chr15rect"
+         x="291.81760366448015"
+         width="23.73473091002421"
+         height="10"
+         y="90"
+         fill="white"
+         id="rect428" />
+    </g>
+    <g
+       id="g430">
+      <rect
+         class="Chr15rect"
+         x="315.55233457450436"
+         width="26.169062285411314"
+         height="10"
+         y="90"
+         fill="#C0C0C0"
+         id="rect429" />
+    </g>
+    <g
+       id="g431">
+      <rect
+         class="Chr15rect"
+         x="341.72139685991567"
+         width="0.6085828438468184"
+         height="10"
+         y="90"
+         fill="#FFFF00"
+         id="rect430" />
+    </g>
+    <g
+       id="g432">
+      <rect
+         class="Chr15rect"
+         x="342.3299797037625"
+         width="1.21716568769358"
+         height="10"
+         y="90"
+         fill="#FF0000"
+         id="rect431" />
+    </g>
+    <g
+       id="g433">
+      <rect
+         class="Chr15rect"
+         x="343.54714539145607"
+         width="2.434331375387046"
+         height="10"
+         y="90"
+         fill="#006400"
+         id="rect432" />
+    </g>
+    <g
+       id="g434">
+      <rect
+         class="Chr15rect"
+         x="345.9814767668431"
+         width="3.0429142192338645"
+         height="10"
+         y="90"
+         fill="#FFFF00"
+         id="rect433" />
+    </g>
+    <g
+       id="g435">
+      <rect
+         class="Chr15rect"
+         x="349.024390986077"
+         width="68.16127851083888"
+         height="10"
+         y="90"
+         fill="white"
+         id="rect434" />
+    </g>
+    <g
+       id="g436">
+      <rect
+         class="Chr15rect"
+         x="417.18566949691586"
+         width="1.8257485315403414"
+         height="10"
+         y="90"
+         fill="#8A91D0"
+         id="rect435" />
+    </g>
+    <g
+       id="g437">
+      <rect
+         class="Chr15rect"
+         x="419.0114180284562"
+         width="79.72435254392764"
+         height="10"
+         y="90"
+         fill="white"
+         id="rect436" />
+    </g>
+    <g
+       id="g438">
+      <rect
+         class="Chr15rect"
+         x="498.73577057238384"
+         width="6.085828438467729"
+         height="10"
+         y="90"
+         fill="#FF0000"
+         id="rect437" />
+    </g>
+    <g
+       id="g439">
+      <rect
+         class="Chr15rect"
+         x="504.82159901085157"
+         width="7.302994126161309"
+         height="10"
+         y="90"
+         fill="#FFFF00"
+         id="rect438" />
+    </g>
+    <g
+       id="g440">
+      <rect
+         class="Chr15rect"
+         x="512.1245931370129"
+         width="60.602679590261914"
+         height="10"
+         y="90"
+         fill="white"
+         id="rect439" />
+    </g>
+    <g
+       id="g441">
+      <rect
+         class="Chr15rect"
+         x="27.272727272725213"
+         width="3.4628363814881524"
+         height="10"
+         y="130"
+         fill="#808080"
+         id="rect440" />
+    </g>
+    <g
+       id="g442">
+      <rect
+         class="Chr15rect"
+         x="30.735563654213365"
+         width="2.434331375387103"
+         height="10"
+         y="130"
+         fill="#C0C0C0"
+         id="rect441" />
+    </g>
+    <g
+       id="g443">
+      <rect
+         class="Chr15rect"
+         x="33.16989502960047"
+         width="5.477245594620975"
+         height="10"
+         y="130"
+         fill="#808080"
+         id="rect442" />
+    </g>
+    <g
+       id="g444">
+      <rect
+         class="Chr15rect"
+         x="38.64714062422144"
+         width="4.26007990692743"
+         height="10"
+         y="130"
+         fill="#BDB76B"
+         id="rect443" />
+    </g>
+    <g
+       id="g445">
+      <rect
+         class="Chr15rect"
+         x="42.90722053114887"
+         width="4.868662750774206"
+         height="10"
+         y="130"
+         fill="#808080"
+         id="rect444" />
+    </g>
+    <g
+       id="g446">
+      <rect
+         class="Chr15rect"
+         x="47.77588328192308"
+         width="0.6085828438467829"
+         height="10"
+         y="130"
+         fill="#E9967A"
+         id="rect445" />
+    </g>
+    <g
+       id="g447">
+      <rect
+         class="Chr15rect"
+         x="48.38446612576986"
+         width="2.434331375387096"
+         height="10"
+         y="130"
+         fill="#BDB76B"
+         id="rect446" />
+    </g>
+    <g
+       id="g448">
+      <rect
+         class="Chr15rect"
+         x="50.81879750115696"
+         width="9.737325501548412"
+         height="10"
+         y="130"
+         fill="#808080"
+         id="rect447" />
+    </g>
+    <g
+       id="g449">
+      <rect
+         class="Chr15rect"
+         x="60.55612300270537"
+         width="0.6085828438467757"
+         height="10"
+         y="130"
+         fill="#BDB76B"
+         id="rect448" />
+    </g>
+    <g
+       id="g450">
+      <rect
+         class="Chr15rect"
+         x="61.164705846552145"
+         width="12.171656876935522"
+         height="10"
+         y="130"
+         fill="#808080"
+         id="rect449" />
+    </g>
+    <g
+       id="g451">
+      <rect
+         class="Chr15rect"
+         x="73.33636272348767"
+         width="31.646307880032325"
+         height="10"
+         y="130"
+         fill="#C0C0C0"
+         id="rect450" />
+    </g>
+    <g
+       id="g452">
+      <rect
+         class="Chr15rect"
+         x="104.98267060351999"
+         width="172.2289448086375"
+         height="10"
+         y="130"
+         fill="white"
+         id="rect451" />
+    </g>
+    <g
+       id="g453">
+      <rect
+         class="Chr15rect"
+         x="277.21161541215747"
+         width="3.0429142192339214"
+         height="10"
+         y="130"
+         fill="#8A91D0"
+         id="rect452" />
+    </g>
+    <g
+       id="g454">
+      <rect
+         class="Chr15rect"
+         x="280.2545296313914"
+         width="6.694411282314491"
+         height="10"
+         y="130"
+         fill="white"
+         id="rect453" />
+    </g>
+    <g
+       id="g455">
+      <rect
+         class="Chr15rect"
+         x="286.9489409137059"
+         width="6.085828438467786"
+         height="10"
+         y="130"
+         fill="#8A91D0"
+         id="rect454" />
+    </g>
+    <g
+       id="g456">
+      <rect
+         class="Chr15rect"
+         x="293.03476935217367"
+         width="48.07804466389524"
+         height="10"
+         y="130"
+         fill="white"
+         id="rect455" />
+    </g>
+    <g
+       id="g457">
+      <rect
+         class="Chr15rect"
+         x="341.1128140160689"
+         width="0.6085828438467615"
+         height="10"
+         y="130"
+         fill="#FFFF00"
+         id="rect456" />
+    </g>
+    <g
+       id="g458">
+      <rect
+         class="Chr15rect"
+         x="341.72139685991567"
+         width="1.2171656876936368"
+         height="10"
+         y="130"
+         fill="#FF4500"
+         id="rect457" />
+    </g>
+    <g
+       id="g459">
+      <rect
+         class="Chr15rect"
+         x="342.9385625476093"
+         width="4.868662750774149"
+         height="10"
+         y="130"
+         fill="#006400"
+         id="rect458" />
+    </g>
+    <g
+       id="g460">
+      <rect
+         class="Chr15rect"
+         x="347.80722529838346"
+         width="1.217165687693523"
+         height="10"
+         y="130"
+         fill="#FFFF00"
+         id="rect459" />
+    </g>
+    <g
+       id="g461">
+      <rect
+         class="Chr15rect"
+         x="349.024390986077"
+         width="43.81796475696791"
+         height="10"
+         y="130"
+         fill="white"
+         id="rect460" />
+    </g>
+    <g
+       id="g462">
+      <rect
+         class="Chr15rect"
+         x="392.8423557430449"
+         width="7.302994126161252"
+         height="10"
+         y="130"
+         fill="#C0C0C0"
+         id="rect461" />
+    </g>
+    <g
+       id="g463">
+      <rect
+         class="Chr15rect"
+         x="400.14534986920614"
+         width="99.80758639087122"
+         height="10"
+         y="130"
+         fill="white"
+         id="rect462" />
+    </g>
+    <g
+       id="g464">
+      <rect
+         class="Chr15rect"
+         x="499.95293626007737"
+         width="4.868662750774206"
+         height="10"
+         y="130"
+         fill="#FF0000"
+         id="rect463" />
+    </g>
+    <g
+       id="g465">
+      <rect
+         class="Chr15rect"
+         x="504.82159901085157"
+         width="67.90567371642322"
+         height="10"
+         y="130"
+         fill="white"
+         id="rect464" />
+    </g>
+    <g
+       id="g466">
+      <rect
+         class="Chr15rect"
+         x="27.272727272725213"
+         width="2.245670693794601"
+         height="10"
+         y="150"
+         fill="#808080"
+         id="rect465" />
+    </g>
+    <g
+       id="g467">
+      <rect
+         class="Chr15rect"
+         x="29.518397966519814"
+         width="4.26007990692743"
+         height="10"
+         y="150"
+         fill="#C0C0C0"
+         id="rect466" />
+    </g>
+    <g
+       id="g468">
+      <rect
+         class="Chr15rect"
+         x="33.778477873447244"
+         width="6.694411282314526"
+         height="10"
+         y="150"
+         fill="#808080"
+         id="rect467" />
+    </g>
+    <g
+       id="g469">
+      <rect
+         class="Chr15rect"
+         x="40.47288915576177"
+         width="0.6085828438467829"
+         height="10"
+         y="150"
+         fill="#BDB76B"
+         id="rect468" />
+    </g>
+    <g
+       id="g470">
+      <rect
+         class="Chr15rect"
+         x="41.08147199960855"
+         width="1.2171656876935515"
+         height="10"
+         y="150"
+         fill="#C0C0C0"
+         id="rect469" />
+    </g>
+    <g
+       id="g471">
+      <rect
+         class="Chr15rect"
+         x="42.298637687302104"
+         width="4.868662750774199"
+         height="10"
+         y="150"
+         fill="#808080"
+         id="rect470" />
+    </g>
+    <g
+       id="g472">
+      <rect
+         class="Chr15rect"
+         x="47.1673004380763"
+         width="1.2171656876935586"
+         height="10"
+         y="150"
+         fill="#BDB76B"
+         id="rect471" />
+    </g>
+    <g
+       id="g473">
+      <rect
+         class="Chr15rect"
+         x="48.38446612576986"
+         width="1.2171656876935515"
+         height="10"
+         y="150"
+         fill="#E9967A"
+         id="rect472" />
+    </g>
+    <g
+       id="g474">
+      <rect
+         class="Chr15rect"
+         x="49.60163181346341"
+         width="1.8257485315403272"
+         height="10"
+         y="150"
+         fill="#BDB76B"
+         id="rect473" />
+    </g>
+    <g
+       id="g475">
+      <rect
+         class="Chr15rect"
+         x="51.42738034500374"
+         width="15.82315394001617"
+         height="10"
+         y="150"
+         fill="#808080"
+         id="rect474" />
+    </g>
+    <g
+       id="g476">
+      <rect
+         class="Chr15rect"
+         x="67.25053428501991"
+         width="29.21197650464522"
+         height="10"
+         y="150"
+         fill="#C0C0C0"
+         id="rect475" />
+    </g>
+    <g
+       id="g477">
+      <rect
+         class="Chr15rect"
+         x="96.46251078966513"
+         width="1.2171656876935657"
+         height="10"
+         y="150"
+         fill="#808080"
+         id="rect476" />
+    </g>
+    <g
+       id="g478">
+      <rect
+         class="Chr15rect"
+         x="97.6796764773587"
+         width="4.868662750774192"
+         height="10"
+         y="150"
+         fill="#C0C0C0"
+         id="rect477" />
+    </g>
+    <g
+       id="g479">
+      <rect
+         class="Chr15rect"
+         x="102.54833922813289"
+         width="84.5930152947018"
+         height="10"
+         y="150"
+         fill="white"
+         id="rect478" />
+    </g>
+    <g
+       id="g480">
+      <rect
+         class="Chr15rect"
+         x="187.1413545228347"
+         width="2.434331375387103"
+         height="10"
+         y="150"
+         fill="#8A91D0"
+         id="rect479" />
+    </g>
+    <g
+       id="g481">
+      <rect
+         class="Chr15rect"
+         x="189.5756858982218"
+         width="61.466867228524364"
+         height="10"
+         y="150"
+         fill="white"
+         id="rect480" />
+    </g>
+    <g
+       id="g482">
+      <rect
+         class="Chr15rect"
+         x="251.04255312674616"
+         width="20.083233846943585"
+         height="10"
+         y="150"
+         fill="#C0C0C0"
+         id="rect481" />
+    </g>
+    <g
+       id="g483">
+      <rect
+         class="Chr15rect"
+         x="271.12578697368974"
+         width="9.737325501548412"
+         height="10"
+         y="150"
+         fill="#8A91D0"
+         id="rect482" />
+    </g>
+    <g
+       id="g484">
+      <rect
+         class="Chr15rect"
+         x="280.86311247523815"
+         width="61.466867228524336"
+         height="10"
+         y="150"
+         fill="white"
+         id="rect483" />
+    </g>
+    <g
+       id="g485">
+      <rect
+         class="Chr15rect"
+         x="342.3299797037625"
+         width="0.6085828438468184"
+         height="10"
+         y="150"
+         fill="#FFFF00"
+         id="rect484" />
+    </g>
+    <g
+       id="g486">
+      <rect
+         class="Chr15rect"
+         x="342.9385625476093"
+         width="35.297804943112965"
+         height="10"
+         y="150"
+         fill="white"
+         id="rect485" />
+    </g>
+    <g
+       id="g487">
+      <rect
+         class="Chr15rect"
+         x="378.2363674907223"
+         width="25.560479441564553"
+         height="10"
+         y="150"
+         fill="#C0C0C0"
+         id="rect486" />
+    </g>
+    <g
+       id="g488">
+      <rect
+         class="Chr15rect"
+         x="403.7968469322868"
+         width="94.93892364009702"
+         height="10"
+         y="150"
+         fill="white"
+         id="rect487" />
+    </g>
+    <g
+       id="g489">
+      <rect
+         class="Chr15rect"
+         x="498.73577057238384"
+         width="0.6085828438467615"
+         height="10"
+         y="150"
+         fill="#FFFF00"
+         id="rect488" />
+    </g>
+    <g
+       id="g490">
+      <rect
+         class="Chr15rect"
+         x="499.3443534162306"
+         width="5.4772455946209675"
+         height="10"
+         y="150"
+         fill="#FF0000"
+         id="rect489" />
+    </g>
+    <g
+       id="g491">
+      <rect
+         class="Chr15rect"
+         x="504.82159901085157"
+         width="67.90567371642322"
+         height="10"
+         y="150"
+         fill="white"
+         id="rect490" />
+    </g>
+    <g
+       id="g492">
+      <rect
+         class="Chr15rect"
+         x="27.272727272725213"
+         width="10.765830507649461"
+         height="10"
+         y="100"
+         fill="#808080"
+         id="rect491" />
+    </g>
+    <g
+       id="g493">
+      <rect
+         class="Chr15rect"
+         x="38.038557780374674"
+         width="0.6085828438467686"
+         height="10"
+         y="100"
+         fill="#BDB76B"
+         id="rect492" />
+    </g>
+    <g
+       id="g494">
+      <rect
+         class="Chr15rect"
+         x="38.64714062422144"
+         width="3.6514970630806616"
+         height="10"
+         y="100"
+         fill="#C0C0C0"
+         id="rect493" />
+    </g>
+    <g
+       id="g495">
+      <rect
+         class="Chr15rect"
+         x="42.298637687302104"
+         width="4.868662750774199"
+         height="10"
+         y="100"
+         fill="#808080"
+         id="rect494" />
+    </g>
+    <g
+       id="g496">
+      <rect
+         class="Chr15rect"
+         x="47.1673004380763"
+         width="3.6514970630806545"
+         height="10"
+         y="100"
+         fill="#BDB76B"
+         id="rect495" />
+    </g>
+    <g
+       id="g497">
+      <rect
+         class="Chr15rect"
+         x="50.81879750115696"
+         width="5.477245594620982"
+         height="10"
+         y="100"
+         fill="#808080"
+         id="rect496" />
+    </g>
+    <g
+       id="g498">
+      <rect
+         class="Chr15rect"
+         x="56.29604309577794"
+         width="3.6514970630806616"
+         height="10"
+         y="100"
+         fill="#C0C0C0"
+         id="rect497" />
+    </g>
+    <g
+       id="g499">
+      <rect
+         class="Chr15rect"
+         x="59.9475401588586"
+         width="19.47465100309681"
+         height="10"
+         y="100"
+         fill="#808080"
+         id="rect498" />
+    </g>
+    <g
+       id="g500">
+      <rect
+         class="Chr15rect"
+         x="79.42219116195541"
+         width="4.868662750774206"
+         height="10"
+         y="100"
+         fill="#C0C0C0"
+         id="rect499" />
+    </g>
+    <g
+       id="g501">
+      <rect
+         class="Chr15rect"
+         x="84.29085391272962"
+         width="114.41357464319383"
+         height="10"
+         y="100"
+         fill="white"
+         id="rect500" />
+    </g>
+    <g
+       id="g502">
+      <rect
+         class="Chr15rect"
+         x="198.70442855592344"
+         width="3.0429142192338645"
+         height="10"
+         y="100"
+         fill="#8A91D0"
+         id="rect501" />
+    </g>
+    <g
+       id="g503">
+      <rect
+         class="Chr15rect"
+         x="201.7473427751573"
+         width="83.37584960700823"
+         height="10"
+         y="100"
+         fill="white"
+         id="rect502" />
+    </g>
+    <g
+       id="g504">
+      <rect
+         class="Chr15rect"
+         x="285.12319238216554"
+         width="3.0429142192339214"
+         height="10"
+         y="100"
+         fill="#8A91D0"
+         id="rect503" />
+    </g>
+    <g
+       id="g505">
+      <rect
+         class="Chr15rect"
+         x="288.16610660139946"
+         width="4.260079906927444"
+         height="10"
+         y="100"
+         fill="white"
+         id="rect504" />
+    </g>
+    <g
+       id="g506">
+      <rect
+         class="Chr15rect"
+         x="292.4261865083269"
+         width="18.257485315403244"
+         height="10"
+         y="100"
+         fill="#C0C0C0"
+         id="rect505" />
+    </g>
+    <g
+       id="g507">
+      <rect
+         class="Chr15rect"
+         x="310.68367182373015"
+         width="0.6085828438467615"
+         height="10"
+         y="100"
+         fill="#FFFF00"
+         id="rect506" />
+    </g>
+    <g
+       id="g508">
+      <rect
+         class="Chr15rect"
+         x="311.2922546675769"
+         width="29.820559348491997"
+         height="10"
+         y="100"
+         fill="white"
+         id="rect507" />
+    </g>
+    <g
+       id="g509">
+      <rect
+         class="Chr15rect"
+         x="341.1128140160689"
+         width="1.8257485315403983"
+         height="10"
+         y="100"
+         fill="#FFFF00"
+         id="rect508" />
+    </g>
+    <g
+       id="g510">
+      <rect
+         class="Chr15rect"
+         x="342.9385625476093"
+         width="3.651497063080626"
+         height="10"
+         y="100"
+         fill="#006400"
+         id="rect509" />
+    </g>
+    <g
+       id="g511">
+      <rect
+         class="Chr15rect"
+         x="346.59005961068993"
+         width="1.217165687693523"
+         height="10"
+         y="100"
+         fill="#FF0000"
+         id="rect510" />
+    </g>
+    <g
+       id="g512">
+      <rect
+         class="Chr15rect"
+         x="347.80722529838346"
+         width="0.6085828438467615"
+         height="10"
+         y="100"
+         fill="#FFFF00"
+         id="rect511" />
+    </g>
+    <g
+       id="g513">
+      <rect
+         class="Chr15rect"
+         x="348.4158081422302"
+         width="150.92854527400038"
+         height="10"
+         y="100"
+         fill="white"
+         id="rect512" />
+    </g>
+    <g
+       id="g514">
+      <rect
+         class="Chr15rect"
+         x="499.3443534162306"
+         width="0.6085828438467615"
+         height="10"
+         y="100"
+         fill="#FFFF00"
+         id="rect513" />
+    </g>
+    <g
+       id="g515">
+      <rect
+         class="Chr15rect"
+         x="499.95293626007737"
+         width="0.6085828438467615"
+         height="10"
+         y="100"
+         fill="#FF4500"
+         id="rect514" />
+    </g>
+    <g
+       id="g516">
+      <rect
+         class="Chr15rect"
+         x="500.5615191039241"
+         width="6.085828438467729"
+         height="10"
+         y="100"
+         fill="#FF0000"
+         id="rect515" />
+    </g>
+    <g
+       id="g517">
+      <rect
+         class="Chr15rect"
+         x="506.64734754239186"
+         width="2.43433137538716"
+         height="10"
+         y="100"
+         fill="#FFFF00"
+         id="rect516" />
+    </g>
+    <g
+       id="g518">
+      <rect
+         class="Chr15rect"
+         x="509.081678917779"
+         width="63.64559380949578"
+         height="10"
+         y="100"
+         fill="white"
+         id="rect517" />
+    </g>
+    <g
+       id="g519">
+      <rect
+         class="Chr15rect"
+         x="27.272727272725213"
+         width="7.114333444568807"
+         height="10"
+         y="180"
+         fill="#808080"
+         id="rect518" />
+    </g>
+    <g
+       id="g520">
+      <rect
+         class="Chr15rect"
+         x="34.38706071729402"
+         width="1.2171656876935515"
+         height="10"
+         y="180"
+         fill="#BDB76B"
+         id="rect519" />
+    </g>
+    <g
+       id="g521">
+      <rect
+         class="Chr15rect"
+         x="35.60422640498757"
+         width="0.6085828438467757"
+         height="10"
+         y="180"
+         fill="#808080"
+         id="rect520" />
+    </g>
+    <g
+       id="g522">
+      <rect
+         class="Chr15rect"
+         x="36.21280924883435"
+         width="5.477245594620975"
+         height="10"
+         y="180"
+         fill="#BDB76B"
+         id="rect521" />
+    </g>
+    <g
+       id="g523">
+      <rect
+         class="Chr15rect"
+         x="41.69005484345532"
+         width="0.6085828438467829"
+         height="10"
+         y="180"
+         fill="#808080"
+         id="rect522" />
+    </g>
+    <g
+       id="g524">
+      <rect
+         class="Chr15rect"
+         x="42.298637687302104"
+         width="2.434331375387096"
+         height="10"
+         y="180"
+         fill="#BDB76B"
+         id="rect523" />
+    </g>
+    <g
+       id="g525">
+      <rect
+         class="Chr15rect"
+         x="44.7329690626892"
+         width="2.434331375387103"
+         height="10"
+         y="180"
+         fill="#808080"
+         id="rect524" />
+    </g>
+    <g
+       id="g526">
+      <rect
+         class="Chr15rect"
+         x="47.1673004380763"
+         width="3.0429142192338787"
+         height="10"
+         y="180"
+         fill="#BDB76B"
+         id="rect525" />
+    </g>
+    <g
+       id="g527">
+      <rect
+         class="Chr15rect"
+         x="50.21021465731018"
+         width="9.128742657701636"
+         height="10"
+         y="180"
+         fill="#808080"
+         id="rect526" />
+    </g>
+    <g
+       id="g528">
+      <rect
+         class="Chr15rect"
+         x="59.33895731501182"
+         width="3.0429142192338787"
+         height="10"
+         y="180"
+         fill="#BDB76B"
+         id="rect527" />
+    </g>
+    <g
+       id="g529">
+      <rect
+         class="Chr15rect"
+         x="62.3818715342457"
+         width="12.171656876935508"
+         height="10"
+         y="180"
+         fill="#808080"
+         id="rect528" />
+    </g>
+    <g
+       id="g530">
+      <rect
+         class="Chr15rect"
+         x="74.5535284111812"
+         width="0.6085828438467757"
+         height="10"
+         y="180"
+         fill="#BDB76B"
+         id="rect529" />
+    </g>
+    <g
+       id="g531">
+      <rect
+         class="Chr15rect"
+         x="75.16211125502798"
+         width="7.911576970008099"
+         height="10"
+         y="180"
+         fill="#808080"
+         id="rect530" />
+    </g>
+    <g
+       id="g532">
+      <rect
+         class="Chr15rect"
+         x="83.07368822503608"
+         width="0.6085828438467615"
+         height="10"
+         y="180"
+         fill="#BDB76B"
+         id="rect531" />
+    </g>
+    <g
+       id="g533">
+      <rect
+         class="Chr15rect"
+         x="83.68227106888284"
+         width="51.729541726975924"
+         height="10"
+         y="180"
+         fill="#C0C0C0"
+         id="rect532" />
+    </g>
+    <g
+       id="g534">
+      <rect
+         class="Chr15rect"
+         x="135.41181279585876"
+         width="52.338124570822714"
+         height="10"
+         y="180"
+         fill="white"
+         id="rect533" />
+    </g>
+    <g
+       id="g535">
+      <rect
+         class="Chr15rect"
+         x="187.74993736668148"
+         width="1.825748531540313"
+         height="10"
+         y="180"
+         fill="#8A91D0"
+         id="rect534" />
+    </g>
+    <g
+       id="g536">
+      <rect
+         class="Chr15rect"
+         x="189.5756858982218"
+         width="119.89082023781484"
+         height="10"
+         y="180"
+         fill="white"
+         id="rect535" />
+    </g>
+    <g
+       id="g537">
+      <rect
+         class="Chr15rect"
+         x="309.4665061360366"
+         width="1.217165687693523"
+         height="10"
+         y="180"
+         fill="#FFFF00"
+         id="rect536" />
+    </g>
+    <g
+       id="g538">
+      <rect
+         class="Chr15rect"
+         x="310.68367182373015"
+         width="16.431736783862902"
+         height="10"
+         y="180"
+         fill="white"
+         id="rect537" />
+    </g>
+    <g
+       id="g539">
+      <rect
+         class="Chr15rect"
+         x="327.11540860759305"
+         width="3.0429142192338645"
+         height="10"
+         y="180"
+         fill="#8A91D0"
+         id="rect538" />
+    </g>
+    <g
+       id="g540">
+      <rect
+         class="Chr15rect"
+         x="330.1583228268269"
+         width="11.563074033088753"
+         height="10"
+         y="180"
+         fill="white"
+         id="rect539" />
+    </g>
+    <g
+       id="g541">
+      <rect
+         class="Chr15rect"
+         x="341.72139685991567"
+         width="2.43433137538716"
+         height="10"
+         y="180"
+         fill="#FFFF00"
+         id="rect540" />
+    </g>
+    <g
+       id="g542">
+      <rect
+         class="Chr15rect"
+         x="344.15572823530283"
+         width="4.260079906927388"
+         height="10"
+         y="180"
+         fill="#006400"
+         id="rect541" />
+    </g>
+    <g
+       id="g543">
+      <rect
+         class="Chr15rect"
+         x="348.4158081422302"
+         width="0.6085828438467615"
+         height="10"
+         y="180"
+         fill="#FFFF00"
+         id="rect542" />
+    </g>
+    <g
+       id="g544">
+      <rect
+         class="Chr15rect"
+         x="349.024390986077"
+         width="4.868662750774206"
+         height="10"
+         y="180"
+         fill="#C0C0C0"
+         id="rect543" />
+    </g>
+    <g
+       id="g545">
+      <rect
+         class="Chr15rect"
+         x="353.8930537368512"
+         width="146.05988252322618"
+         height="10"
+         y="180"
+         fill="white"
+         id="rect544" />
+    </g>
+    <g
+       id="g546">
+      <rect
+         class="Chr15rect"
+         x="499.95293626007737"
+         width="0.6085828438467615"
+         height="10"
+         y="180"
+         fill="#FF0000"
+         id="rect545" />
+    </g>
+    <g
+       id="g547">
+      <rect
+         class="Chr15rect"
+         x="500.5615191039241"
+         width="0.6085828438468184"
+         height="10"
+         y="180"
+         fill="#FF4500"
+         id="rect546" />
+    </g>
+    <g
+       id="g548">
+      <rect
+         class="Chr15rect"
+         x="501.17010194777095"
+         width="1.8257485315402846"
+         height="10"
+         y="180"
+         fill="#FFFF00"
+         id="rect547" />
+    </g>
+    <g
+       id="g549">
+      <rect
+         class="Chr15rect"
+         x="502.99585047931123"
+         width="1.8257485315403414"
+         height="10"
+         y="180"
+         fill="#FF4500"
+         id="rect548" />
+    </g>
+    <g
+       id="g550">
+      <rect
+         class="Chr15rect"
+         x="504.82159901085157"
+         width="1.217165687693523"
+         height="10"
+         y="180"
+         fill="#FFFF00"
+         id="rect549" />
+    </g>
+    <g
+       id="g551">
+      <rect
+         class="Chr15rect"
+         x="506.0387646985451"
+         width="14.605988252322675"
+         height="10"
+         y="180"
+         fill="#C0C0C0"
+         id="rect550" />
+    </g>
+    <g
+       id="g552">
+      <rect
+         class="Chr15rect"
+         x="520.6447529508678"
+         width="52.082519776407025"
+         height="10"
+         y="180"
+         fill="white"
+         id="rect551" />
+    </g>
+    <g
+       id="g553">
+      <rect
+         class="Chr15rect"
+         x="27.272727272725213"
+         width="10.157247663802686"
+         height="10"
+         y="170"
+         fill="#808080"
+         id="rect552" />
+    </g>
+    <g
+       id="g554">
+      <rect
+         class="Chr15rect"
+         x="37.4299749365279"
+         width="1.2171656876935444"
+         height="10"
+         y="170"
+         fill="#E9967A"
+         id="rect553" />
+    </g>
+    <g
+       id="g555">
+      <rect
+         class="Chr15rect"
+         x="38.64714062422144"
+         width="4.26007990692743"
+         height="10"
+         y="170"
+         fill="#CD5C5C"
+         id="rect554" />
+    </g>
+    <g
+       id="g556">
+      <rect
+         class="Chr15rect"
+         x="42.90722053114887"
+         width="4.868662750774206"
+         height="10"
+         y="170"
+         fill="#808080"
+         id="rect555" />
+    </g>
+    <g
+       id="g557">
+      <rect
+         class="Chr15rect"
+         x="47.77588328192308"
+         width="1.2171656876935515"
+         height="10"
+         y="170"
+         fill="#CD5C5C"
+         id="rect556" />
+    </g>
+    <g
+       id="g558">
+      <rect
+         class="Chr15rect"
+         x="48.99304896961663"
+         width="0.6085828438467829"
+         height="10"
+         y="170"
+         fill="#E9967A"
+         id="rect557" />
+    </g>
+    <g
+       id="g559">
+      <rect
+         class="Chr15rect"
+         x="49.60163181346341"
+         width="1.2171656876935444"
+         height="10"
+         y="170"
+         fill="#BDB76B"
+         id="rect558" />
+    </g>
+    <g
+       id="g560">
+      <rect
+         class="Chr15rect"
+         x="50.81879750115696"
+         width="3.0429142192338787"
+         height="10"
+         y="170"
+         fill="#808080"
+         id="rect559" />
+    </g>
+    <g
+       id="g561">
+      <rect
+         class="Chr15rect"
+         x="53.861711720390836"
+         width="0.6085828438467757"
+         height="10"
+         y="170"
+         fill="#BDB76B"
+         id="rect560" />
+    </g>
+    <g
+       id="g562">
+      <rect
+         class="Chr15rect"
+         x="54.47029456423761"
+         width="4.868662750774206"
+         height="10"
+         y="170"
+         fill="#808080"
+         id="rect561" />
+    </g>
+    <g
+       id="g563">
+      <rect
+         class="Chr15rect"
+         x="59.33895731501182"
+         width="0.6085828438467829"
+         height="10"
+         y="170"
+         fill="#BDB76B"
+         id="rect562" />
+    </g>
+    <g
+       id="g564">
+      <rect
+         class="Chr15rect"
+         x="59.9475401588586"
+         width="1.2171656876935444"
+         height="10"
+         y="170"
+         fill="#E9967A"
+         id="rect563" />
+    </g>
+    <g
+       id="g565">
+      <rect
+         class="Chr15rect"
+         x="61.164705846552145"
+         width="0.6085828438467757"
+         height="10"
+         y="170"
+         fill="#CD5C5C"
+         id="rect564" />
+    </g>
+    <g
+       id="g566">
+      <rect
+         class="Chr15rect"
+         x="61.77328869039892"
+         width="7.911576970008078"
+         height="10"
+         y="170"
+         fill="#808080"
+         id="rect565" />
+    </g>
+    <g
+       id="g567">
+      <rect
+         class="Chr15rect"
+         x="69.684865660407"
+         width="0.60858284384679"
+         height="10"
+         y="170"
+         fill="#BDB76B"
+         id="rect566" />
+    </g>
+    <g
+       id="g568">
+      <rect
+         class="Chr15rect"
+         x="70.29344850425379"
+         width="2.4343313753870888"
+         height="10"
+         y="170"
+         fill="#808080"
+         id="rect567" />
+    </g>
+    <g
+       id="g569">
+      <rect
+         class="Chr15rect"
+         x="72.72777987964088"
+         width="0.60858284384679"
+         height="10"
+         y="170"
+         fill="#E9967A"
+         id="rect568" />
+    </g>
+    <g
+       id="g570">
+      <rect
+         class="Chr15rect"
+         x="73.33636272348767"
+         width="1.825748531540313"
+         height="10"
+         y="170"
+         fill="#BDB76B"
+         id="rect569" />
+    </g>
+    <g
+       id="g571">
+      <rect
+         class="Chr15rect"
+         x="75.16211125502798"
+         width="5.477245594620982"
+         height="10"
+         y="170"
+         fill="#808080"
+         id="rect570" />
+    </g>
+    <g
+       id="g572">
+      <rect
+         class="Chr15rect"
+         x="80.63935684964896"
+         width="35.90638778695977"
+         height="10"
+         y="170"
+         fill="#C0C0C0"
+         id="rect571" />
+    </g>
+    <g
+       id="g573">
+      <rect
+         class="Chr15rect"
+         x="116.54574463660873"
+         width="160.66587077554874"
+         height="10"
+         y="170"
+         fill="white"
+         id="rect572" />
+    </g>
+    <g
+       id="g574">
+      <rect
+         class="Chr15rect"
+         x="277.21161541215747"
+         width="15.823153940016198"
+         height="10"
+         y="170"
+         fill="#8A91D0"
+         id="rect573" />
+    </g>
+    <g
+       id="g575">
+      <rect
+         class="Chr15rect"
+         x="293.03476935217367"
+         width="49.29521035158882"
+         height="10"
+         y="170"
+         fill="white"
+         id="rect574" />
+    </g>
+    <g
+       id="g576">
+      <rect
+         class="Chr15rect"
+         x="342.3299797037625"
+         width="0.6085828438468184"
+         height="10"
+         y="170"
+         fill="#FFFF00"
+         id="rect575" />
+    </g>
+    <g
+       id="g577">
+      <rect
+         class="Chr15rect"
+         x="342.9385625476093"
+         width="3.651497063080626"
+         height="10"
+         y="170"
+         fill="white"
+         id="rect576" />
+    </g>
+    <g
+       id="g578">
+      <rect
+         class="Chr15rect"
+         x="346.59005961068993"
+         width="0.6085828438467615"
+         height="10"
+         y="170"
+         fill="#FF0000"
+         id="rect577" />
+    </g>
+    <g
+       id="g579">
+      <rect
+         class="Chr15rect"
+         x="347.1986424545367"
+         width="0.6085828438467615"
+         height="10"
+         y="170"
+         fill="#FF4500"
+         id="rect578" />
+    </g>
+    <g
+       id="g580">
+      <rect
+         class="Chr15rect"
+         x="347.80722529838346"
+         width="3.0429142192338645"
+         height="10"
+         y="170"
+         fill="#FFFF00"
+         id="rect579" />
+    </g>
+    <g
+       id="g581">
+      <rect
+         class="Chr15rect"
+         x="350.8501395176173"
+         width="65.72694713545178"
+         height="10"
+         y="170"
+         fill="white"
+         id="rect580" />
+    </g>
+    <g
+       id="g582">
+      <rect
+         class="Chr15rect"
+         x="416.5770866530691"
+         width="4.260079906927444"
+         height="10"
+         y="170"
+         fill="#8A91D0"
+         id="rect581" />
+    </g>
+    <g
+       id="g583">
+      <rect
+         class="Chr15rect"
+         x="420.83716655999655"
+         width="40.16646769388723"
+         height="10"
+         y="170"
+         fill="white"
+         id="rect582" />
+    </g>
+    <g
+       id="g584">
+      <rect
+         class="Chr15rect"
+         x="461.0036342538838"
+         width="2.434331375387046"
+         height="10"
+         y="170"
+         fill="#8A91D0"
+         id="rect583" />
+    </g>
+    <g
+       id="g585">
+      <rect
+         class="Chr15rect"
+         x="463.4379656292708"
+         width="36.514970630806545"
+         height="10"
+         y="170"
+         fill="white"
+         id="rect584" />
+    </g>
+    <g
+       id="g586">
+      <rect
+         class="Chr15rect"
+         x="499.95293626007737"
+         width="4.260079906927388"
+         height="10"
+         y="170"
+         fill="#FF0000"
+         id="rect585" />
+    </g>
+    <g
+       id="g587">
+      <rect
+         class="Chr15rect"
+         x="504.21301616700475"
+         width="0.6085828438468184"
+         height="10"
+         y="170"
+         fill="#FF4500"
+         id="rect586" />
+    </g>
+    <g
+       id="g588">
+      <rect
+         class="Chr15rect"
+         x="504.82159901085157"
+         width="0.6085828438467615"
+         height="10"
+         y="170"
+         fill="#FFFF00"
+         id="rect587" />
+    </g>
+    <g
+       id="g589">
+      <rect
+         class="Chr15rect"
+         x="505.43018185469833"
+         width="1.217165687693523"
+         height="10"
+         y="170"
+         fill="#006400"
+         id="rect588" />
+    </g>
+    <g
+       id="g590">
+      <rect
+         class="Chr15rect"
+         x="506.64734754239186"
+         width="0.6085828438467615"
+         height="10"
+         y="170"
+         fill="white"
+         id="rect589" />
+    </g>
+    <g
+       id="g591">
+      <rect
+         class="Chr15rect"
+         x="507.2559303862386"
+         width="0.6085828438468184"
+         height="10"
+         y="170"
+         fill="#FFFF00"
+         id="rect590" />
+    </g>
+    <g
+       id="g592">
+      <rect
+         class="Chr15rect"
+         x="507.86451323008544"
+         width="64.86275949718936"
+         height="10"
+         y="170"
+         fill="white"
+         id="rect591" />
+    </g>
+    <g
+       id="g593">
+      <rect
+         class="Chr15rect"
+         x="27.272727272725213"
+         width="6.505750600722031"
+         height="10"
+         y="190"
+         fill="#C0C0C0"
+         id="rect592" />
+    </g>
+    <g
+       id="g594">
+      <rect
+         class="Chr15rect"
+         x="33.778477873447244"
+         width="45.64371328850817"
+         height="10"
+         y="190"
+         fill="#808080"
+         id="rect593" />
+    </g>
+    <g
+       id="g595">
+      <rect
+         class="Chr15rect"
+         x="79.42219116195541"
+         width="13.388822564629066"
+         height="10"
+         y="190"
+         fill="#C0C0C0"
+         id="rect594" />
+    </g>
+    <g
+       id="g596">
+      <rect
+         class="Chr15rect"
+         x="92.81101372658448"
+         width="185.00918452941977"
+         height="10"
+         y="190"
+         fill="white"
+         id="rect595" />
+    </g>
+    <g
+       id="g597">
+      <rect
+         class="Chr15rect"
+         x="277.82019825600423"
+         width="1.8257485315403414"
+         height="10"
+         y="190"
+         fill="#8A91D0"
+         id="rect596" />
+    </g>
+    <g
+       id="g598">
+      <rect
+         class="Chr15rect"
+         x="279.6459467875446"
+         width="53.555290258516266"
+         height="10"
+         y="190"
+         fill="white"
+         id="rect597" />
+    </g>
+    <g
+       id="g599">
+      <rect
+         class="Chr15rect"
+         x="333.20123704606084"
+         width="6.694411282314491"
+         height="10"
+         y="190"
+         fill="#C0C0C0"
+         id="rect598" />
+    </g>
+    <g
+       id="g600">
+      <rect
+         class="Chr15rect"
+         x="339.89564832837533"
+         width="3.042914219233978"
+         height="10"
+         y="190"
+         fill="#808080"
+         id="rect599" />
+    </g>
+    <g
+       id="g601">
+      <rect
+         class="Chr15rect"
+         x="342.9385625476093"
+         width="15.823153940016141"
+         height="10"
+         y="190"
+         fill="#C0C0C0"
+         id="rect600" />
+    </g>
+    <g
+       id="g602">
+      <rect
+         class="Chr15rect"
+         x="358.76171648762545"
+         width="60.85828438467752"
+         height="10"
+         y="190"
+         fill="white"
+         id="rect601" />
+    </g>
+    <g
+       id="g603">
+      <rect
+         class="Chr15rect"
+         x="419.62000087230297"
+         width="4.868662750774206"
+         height="10"
+         y="190"
+         fill="#8A91D0"
+         id="rect602" />
+    </g>
+    <g
+       id="g604">
+      <rect
+         class="Chr15rect"
+         x="424.4886636230772"
+         width="39.557884850040466"
+         height="10"
+         y="190"
+         fill="white"
+         id="rect603" />
+    </g>
+    <g
+       id="g605">
+      <rect
+         class="Chr15rect"
+         x="464.04654847311764"
+         width="3.0429142192338645"
+         height="10"
+         y="190"
+         fill="#FFFF00"
+         id="rect604" />
+    </g>
+    <g
+       id="g606">
+      <rect
+         class="Chr15rect"
+         x="467.0894626923515"
+         width="32.2548907238791"
+         height="10"
+         y="190"
+         fill="white"
+         id="rect605" />
+    </g>
+    <g
+       id="g607">
+      <rect
+         class="Chr15rect"
+         x="499.3443534162306"
+         width="0.6085828438467615"
+         height="10"
+         y="190"
+         fill="#FFFF00"
+         id="rect606" />
+    </g>
+    <g
+       id="g608">
+      <rect
+         class="Chr15rect"
+         x="499.95293626007737"
+         width="1.21716568769358"
+         height="10"
+         y="190"
+         fill="#FF4500"
+         id="rect607" />
+    </g>
+    <g
+       id="g609">
+      <rect
+         class="Chr15rect"
+         x="501.17010194777095"
+         width="1.8257485315402846"
+         height="10"
+         y="190"
+         fill="#FF0000"
+         id="rect608" />
+    </g>
+    <g
+       id="g610">
+      <rect
+         class="Chr15rect"
+         x="502.99585047931123"
+         width="1.217165687693523"
+         height="10"
+         y="190"
+         fill="#FF4500"
+         id="rect609" />
+    </g>
+    <g
+       id="g611">
+      <rect
+         class="Chr15rect"
+         x="504.21301616700475"
+         width="4.868662750774263"
+         height="10"
+         y="190"
+         fill="#FFFF00"
+         id="rect610" />
+    </g>
+    <g
+       id="g612">
+      <rect
+         class="Chr15rect"
+         x="509.081678917779"
+         width="3.0429142192338645"
+         height="10"
+         y="190"
+         fill="#006400"
+         id="rect611" />
+    </g>
+    <g
+       id="g613">
+      <rect
+         class="Chr15rect"
+         x="512.1245931370129"
+         width="1.217165687693523"
+         height="10"
+         y="190"
+         fill="#FFFF00"
+         id="rect612" />
+    </g>
+    <g
+       id="g614">
+      <rect
+         class="Chr15rect"
+         x="513.3417588247064"
+         width="59.38551390256839"
+         height="10"
+         y="190"
+         fill="white"
+         id="rect613" />
+    </g>
+    <text
+       text-anchor="middle"
+       transform="translate(-45,135)rotate(-90)"
+       style="font-family: sans-serif;"
+       id="text614">Chromatin state</text>
+    <g
+       class="x axis Chr15"
+       transform="translate(0,200)"
+       id="g619">
+      <g
+         class="tick"
+         transform="translate(97.07109363351191,0)"
+         style="opacity: 1;"
+         id="g615">
+        <line
+           y2="6"
+           x2="0"
+           style="fill: none; stroke: grey;"
+           id="line614" />
+        <text
+           dy=".71em"
+           y="9"
+           x="0"
+           style="text-anchor: middle; font-size: 11px; font-family: sans-serif;"
+           id="text615">23,500,000</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(249.2168045952058,0)"
+         style="opacity: 1;"
+         id="g616">
+        <line
+           y2="6"
+           x2="0"
+           style="fill: none; stroke: grey;"
+           id="line615" />
+        <text
+           dy=".71em"
+           y="9"
+           x="0"
+           style="text-anchor: middle; font-size: 11px; font-family: sans-serif;"
+           id="text616">23,550,000</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(401.36251555689967,0)"
+         style="opacity: 1;"
+         id="g617">
+        <line
+           y2="6"
+           x2="0"
+           style="fill: none; stroke: grey;"
+           id="line616" />
+        <text
+           dy=".71em"
+           y="9"
+           x="0"
+           style="text-anchor: middle; font-size: 11px; font-family: sans-serif;"
+           id="text617">23,600,000</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(553.5082265185936,0)"
+         style="opacity: 1;"
+         id="g618">
+        <line
+           y2="6"
+           x2="0"
+           style="fill: none; stroke: grey;"
+           id="line617" />
+        <text
+           dy=".71em"
+           y="9"
+           x="0"
+           style="text-anchor: middle; font-size: 11px; font-family: sans-serif;"
+           id="text618">23,650,000</text>
+      </g>
+      <path
+         class="domain"
+         d="M0,6V0H600V6"
+         style="fill: none; stroke: grey;"
+         id="path618" />
+    </g>
+    <text
+       text-anchor="middle"
+       transform="translate(300,240)"
+       style="font-family: sans-serif;"
+       id="text619">Chromosome 10</text>
+    <g
+       class="y axis"
+       id="g633">
+      <g
+         class="tick"
+         transform="translate(0,75)"
+         style="opacity: 1;"
+         id="g620">
+        <line
+           x2="-6"
+           y2="0"
+           style="fill: none; stroke: grey;"
+           id="line619" />
+        <text
+           dy=".32em"
+           x="-9"
+           y="0"
+           transform="translate(-5,0)"
+           style="text-anchor: end; font-size: 10px; font-family: sans-serif;"
+           id="text620">E054</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(0,85)"
+         style="opacity: 1;"
+         id="g621">
+        <line
+           x2="-6"
+           y2="0"
+           style="fill: none; stroke: grey;"
+           id="line620" />
+        <text
+           dy=".32em"
+           x="-9"
+           y="0"
+           transform="translate(-5,0)"
+           style="text-anchor: end; font-size: 10px; font-family: sans-serif;"
+           id="text621">E053</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(0,95)"
+         style="opacity: 1;"
+         id="g622">
+        <line
+           x2="-6"
+           y2="0"
+           style="fill: none; stroke: grey;"
+           id="line621" />
+        <text
+           dy=".32em"
+           x="-9"
+           y="0"
+           transform="translate(-5,0)"
+           style="text-anchor: end; font-size: 10px; font-family: sans-serif;"
+           id="text622">E071</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(0,105)"
+         style="opacity: 1;"
+         id="g623">
+        <line
+           x2="-6"
+           y2="0"
+           style="fill: none; stroke: grey;"
+           id="line622" />
+        <text
+           dy=".32em"
+           x="-9"
+           y="0"
+           transform="translate(-5,0)"
+           style="text-anchor: end; font-size: 10px; font-family: sans-serif;"
+           id="text623">E074</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(0,115)"
+         style="opacity: 1;"
+         id="g624">
+        <line
+           x2="-6"
+           y2="0"
+           style="fill: none; stroke: grey;"
+           id="line623" />
+        <text
+           dy=".32em"
+           x="-9"
+           y="0"
+           transform="translate(-5,0)"
+           style="text-anchor: end; font-size: 10px; font-family: sans-serif;"
+           id="text624">E068</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(0,125)"
+         style="opacity: 1;"
+         id="g625">
+        <line
+           x2="-6"
+           y2="0"
+           style="fill: none; stroke: grey;"
+           id="line624" />
+        <text
+           dy=".32em"
+           x="-9"
+           y="0"
+           transform="translate(-5,0)"
+           style="text-anchor: end; font-size: 10px; font-family: sans-serif;"
+           id="text625">E069</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(0,135)"
+         style="opacity: 1;"
+         id="g626">
+        <line
+           x2="-6"
+           y2="0"
+           style="fill: none; stroke: grey;"
+           id="line625" />
+        <text
+           dy=".32em"
+           x="-9"
+           y="0"
+           transform="translate(-5,0)"
+           style="text-anchor: end; font-size: 10px; font-family: sans-serif;"
+           id="text626">E072</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(0,145)"
+         style="opacity: 1;"
+         id="g627">
+        <line
+           x2="-6"
+           y2="0"
+           style="fill: none; stroke: grey;"
+           id="line626" />
+        <text
+           dy=".32em"
+           x="-9"
+           y="0"
+           transform="translate(-5,0)"
+           style="text-anchor: end; font-size: 10px; font-family: sans-serif;"
+           id="text627">E067</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(0,155)"
+         style="opacity: 1;"
+         id="g628">
+        <line
+           x2="-6"
+           y2="0"
+           style="fill: none; stroke: grey;"
+           id="line627" />
+        <text
+           dy=".32em"
+           x="-9"
+           y="0"
+           transform="translate(-5,0)"
+           style="text-anchor: end; font-size: 10px; font-family: sans-serif;"
+           id="text628">E073</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(0,165)"
+         style="opacity: 1;"
+         id="g629">
+        <line
+           x2="-6"
+           y2="0"
+           style="fill: none; stroke: grey;"
+           id="line628" />
+        <text
+           dy=".32em"
+           x="-9"
+           y="0"
+           transform="translate(-5,0)"
+           style="text-anchor: end; font-size: 10px; font-family: sans-serif;"
+           id="text629">E070</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(0,175)"
+         style="opacity: 1;"
+         id="g630">
+        <line
+           x2="-6"
+           y2="0"
+           style="fill: none; stroke: grey;"
+           id="line629" />
+        <text
+           dy=".32em"
+           x="-9"
+           y="0"
+           transform="translate(-5,0)"
+           style="text-anchor: end; font-size: 10px; font-family: sans-serif;"
+           id="text630">E082</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(0,185)"
+         style="opacity: 1;"
+         id="g631">
+        <line
+           x2="-6"
+           y2="0"
+           style="fill: none; stroke: grey;"
+           id="line630" />
+        <text
+           dy=".32em"
+           x="-9"
+           y="0"
+           transform="translate(-5,0)"
+           style="text-anchor: end; font-size: 10px; font-family: sans-serif;"
+           id="text631">E081</text>
+      </g>
+      <g
+         class="tick"
+         transform="translate(0,195)"
+         style="opacity: 1;"
+         id="g632">
+        <line
+           x2="-6"
+           y2="0"
+           style="fill: none; stroke: grey;"
+           id="line631" />
+        <text
+           dy=".32em"
+           x="-9"
+           y="0"
+           transform="translate(-5,0)"
+           style="text-anchor: end; font-size: 10px; font-family: sans-serif;"
+           id="text632">E125</text>
+      </g>
+      <path
+         class="domain"
+         d="M-6,70H0V200H-6"
+         style="fill: none; stroke: grey;"
+         id="path632" />
+    </g>
+    <rect
+       x="-10"
+       y="70"
+       width="10"
+       height="10"
+       fill="#FFD924"
+       id="rect633" />
+    <rect
+       x="-10"
+       y="80"
+       width="10"
+       height="10"
+       fill="#FFD924"
+       id="rect634" />
+    <rect
+       x="-10"
+       y="90"
+       width="10"
+       height="10"
+       fill="#C5912B"
+       id="rect635" />
+    <rect
+       x="-10"
+       y="100"
+       width="10"
+       height="10"
+       fill="#C5912B"
+       id="rect636" />
+    <rect
+       x="-10"
+       y="110"
+       width="10"
+       height="10"
+       fill="#C5912B"
+       id="rect637" />
+    <rect
+       x="-10"
+       y="120"
+       width="10"
+       height="10"
+       fill="#C5912B"
+       id="rect638" />
+    <rect
+       x="-10"
+       y="130"
+       width="10"
+       height="10"
+       fill="#C5912B"
+       id="rect639" />
+    <rect
+       x="-10"
+       y="140"
+       width="10"
+       height="10"
+       fill="#C5912B"
+       id="rect640" />
+    <rect
+       x="-10"
+       y="150"
+       width="10"
+       height="10"
+       fill="#C5912B"
+       id="rect641" />
+    <rect
+       x="-10"
+       y="160"
+       width="10"
+       height="10"
+       fill="#C5912B"
+       id="rect642" />
+    <rect
+       x="-10"
+       y="170"
+       width="10"
+       height="10"
+       fill="#C5912B"
+       id="rect643" />
+    <rect
+       x="-10"
+       y="180"
+       width="10"
+       height="10"
+       fill="#C5912B"
+       id="rect644" />
+    <rect
+       x="-10"
+       y="190"
+       width="10"
+       height="10"
+       fill="#000000"
+       id="rect645" />
+  </g>
+</svg>

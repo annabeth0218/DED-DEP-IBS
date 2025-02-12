@@ -71,3 +71,10 @@ write.table(do.call(rbind,b), paste0(out.fname,".bivar.lava"), row.names=F,quote
 
 print(paste0("Done! Analysis output written to ",out.fname,".*.lava"))
 
+lava.b <- read.csv("lava/lava2495.bivar.lava", sep="")
+lava.u <- read.csv("lava/lava2495.univ.lava", sep="")
+
+lava.u |>
+  filter(phen == 'IBS') |>
+  
+

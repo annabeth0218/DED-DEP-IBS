@@ -59,5 +59,5 @@ ggsave("combined_plots.pdf", combined_plot, width = 30, height = 20,
        units = "in", device = cairo_pdf, dpi = 300)
 
 # pdf to png
-pdf_dir <- '/Users/annabethlu/Library/Mobile Documents/com~apple~CloudDocs/lab/shchiou/hotspring/Picture_merged.pdf'
+pdf_dir <- 'figs/chord/chord_tilt.pdf'
 pdf_convert(pdf_dir, format = "png", dpi = 300)

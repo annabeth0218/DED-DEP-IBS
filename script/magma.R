@@ -16,6 +16,24 @@ magma_dep_all <- read.delim("~/R_Projects/ded-dep-ibs/fuma/r2_6e-1/dep-1g_524690
 magma_dep <- magma_dep_all |> filter(P < 0.05)
 nrow(magma_dep) #15759 -> 485 .05 -> 98 .01 -> 50 .005 -> 4 .001
 
+magma.ibsded <- inner_join(magma_ibs, magma_ded, by = "GENE") |>
+  select(GENE, SYMBOL = SYMBOL.x, CHR = CHR.x, START = START.x,
+         STOP = STOP.x, Nsnps_ibs = NSNPS.x,
+         Nsnps_ded = NSNPS.y, P_ibs = P.x, P_ded = P.y)
+
+magma.ibsdep <- inner_join(magma_ibs, magma_dep, by = "GENE") |>
+  select(GENE, SYMBOL = SYMBOL.x, CHR = CHR.x, START = START.x,
+         STOP = STOP.x, Nsnps_ibs = NSNPS.x,
+         Nsnps_dep = NSNPS.y, P_ibs = P.x, P_dep = P.y)
+
+magma.deddep <- inner_join(magma_ded, magma_dep, by = "GENE") |>
+  select(GENE, SYMBOL = SYMBOL.x, CHR = CHR.x, START = START.x,
+         STOP = STOP.x, Nsnps_ded = NSNPS.x,
+         Nsnps_dep = NSNPS.y, P_ded = P.x, P_dep = P.y)
+
+write.table(magma.deddep, "magma_deddep.txt", sep = "\t", row.names = FALSE, quote = FALSE)
+
+
 magma.genes_filtered <- magma_ibs |>
   filter(P < 0.01)
 nrow(magma.genes_filtered)

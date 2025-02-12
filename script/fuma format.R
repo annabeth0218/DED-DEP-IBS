@@ -4,14 +4,14 @@ library(BSgenome.Hsapiens.UCSC.hg38) # using GRCh38/hg38
 library(tidyverse)
 
 # import
-gwas.dep <- read.csv('gwas_snp/with_A2/one_sample_gwas/depression_log.csv')
-gwas.ded <- read.csv('gwas_snp/with_A2/one_sample_gwas/dryeye_case60_log.csv')
-gwas.ibs <- read.csv('gwas_snp/with_A2/one_sample_gwas/ibs_case50_log.csv')
+gwas.dep <- read.csv('table/gwas_snp/with_A2/one_sample_gwas/depression_log.csv')
+gwas.ded <- read.csv('table/gwas_snp/with_A2/one_sample_gwas/dryeye_case60_log.csv')
+gwas.ibs <- read.csv('table/gwas_snp/with_A2/one_sample_gwas/ibs_case50_log.csv')
 
-tp <- mtag.dep.two |>
+tp <- gwas.dep |>
   filter(str_detect(SNP, "^rs")) |>
-  select(SNP, A1, A2, N, mtag_beta, mtag_se, mtag_pval, FRQ) 
-write.table(tp, "mtag_gwas_snp/twosample/mtag/two-mtag-dep.txt", 
+  select(CHR, SNP, BP, A1, A2, NMISS, P) 
+write.table(tp, "fuma_dep.txt", 
             sep = " ", quote = FALSE, row.names = FALSE)
 
 tp <- overlap |>
