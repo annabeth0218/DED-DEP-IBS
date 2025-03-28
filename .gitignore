@@ -61,3 +61,7 @@ rsconnect/
 *.synonyms
 *.locfile
 .Rprofile
+# fils too large
+table/gwas_snp/with_A2/
+fuma/job archive/
+lava/input/
