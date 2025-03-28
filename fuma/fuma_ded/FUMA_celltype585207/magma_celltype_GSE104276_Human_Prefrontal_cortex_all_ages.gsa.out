@@ -1,0 +1,12 @@
+# MEAN_SAMPLE_SIZE = 27991
+# TOTAL_GENES = 14898
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE               TYPE  NGENES         BETA     BETA_STD           SE            P
+Astrocytes            COVAR   14898   -0.0071954    -0.013838     0.012854      0.71218
+GABAergic_neurons     COVAR   14898     0.017611     0.027445      0.01949      0.18311
+Microglia             COVAR   14898      0.01113     0.019849      0.01003      0.13357
+Neurons               COVAR   14898   -0.0012547   -0.0022132     0.018968      0.52637
+OPC                   COVAR   14898   -0.0099687    -0.017624     0.019577       0.6947
+Stem_cells            COVAR   14898     -0.01749    -0.033268     0.014444      0.88703

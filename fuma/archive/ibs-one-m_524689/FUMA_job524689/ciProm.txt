@@ -1,1 +1,0 @@
-region2	reg_region	type	tissue/cell	genes

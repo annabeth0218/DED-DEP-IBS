@@ -1,0 +1,26 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14424
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Splatter                            COVAR   14424    0.0066466     0.014654    0.0096597      0.24571 Splatter
+Amygdala_excitatory                 COVAR   14424    0.0013634    0.0043299    0.0034654        0.347 Amygdala_excitatory
+CGE_interneuron                     COVAR   14424     0.012503     0.026284     0.011931      0.14734 CGE_interneuron
+MGE_interneuron                     COVAR   14424    0.0003595   0.00077379     0.011901      0.48795 MGE_interneuron
+LAMP5_LHX6_and_Chandelier           COVAR   14424   -0.0044079   -0.0096209     0.010755      0.65904 LAMP5_LHX6_and_Chandelier
+Deep_layer_near_projecting          COVAR   14424    0.0067749     0.016084    0.0094097      0.23577 Deep_layer_near_projecting
+Deep_layer_corticothalamic_a...     COVAR   14424   -0.0051974    -0.012368      0.01069      0.68658 Deep_layer_corticothalamic_and_6b
+Deep_layer_intratelencephalic       COVAR   14424    -0.015424    -0.036651     0.011163      0.91645 Deep_layer_intratelencephalic
+Upper_layer_intratelencephal...     COVAR   14424    -0.013702    -0.031922     0.011036      0.89279 Upper_layer_intratelencephalic
+Miscellaneous                       COVAR   14424    -0.012347    -0.026471     0.010155      0.88798 Miscellaneous
+Medium_spiny_neuron                 COVAR   14424   -0.0004158   -0.0013134    0.0035128      0.54711 Medium_spiny_neuron
+Eccentric_medium_spiny_neuron       COVAR   14424    -0.010702    -0.026611    0.0051389      0.98135 Eccentric_medium_spiny_neuron
+Hippocampal_dentate_gyrus           COVAR   14424    -0.001858    -0.005896    0.0035272      0.70082 Hippocampal_dentate_gyrus
+Committed_oligodendrocyte_pr...     COVAR   14424    0.0021761    0.0045483    0.0043793      0.30963 Committed_oligodendrocyte_precursor
+Oligodendrocyte_precursor           COVAR   14424    0.0028603    0.0049206    0.0082715      0.36475 Oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   14424   -0.0028664   -0.0044075    0.0073462       0.6518 Oligodendrocyte
+Astrocyte                           COVAR   14424    0.0043398    0.0064906    0.0077678      0.28819 Astrocyte
+Fibroblast                          COVAR   14424    0.0075368     0.010953    0.0073367      0.15216 Fibroblast
+Vascular                            COVAR   14424    0.0062985    0.0086848      0.00756      0.20239 Vascular
+Microglia                           COVAR   14424     0.011374     0.014489    0.0079354     0.075902 Microglia

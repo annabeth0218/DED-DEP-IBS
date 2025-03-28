@@ -1,0 +1,15 @@
+# MEAN_SAMPLE_SIZE = 27991
+# TOTAL_GENES = 13740
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Miscellaneous                       COVAR   13740   -0.0031153   -0.0031063     0.010922      0.61226 Miscellaneous
+Microglia                           COVAR   13740     0.011033     0.013521    0.0096468      0.12638 Microglia
+Vascular                            COVAR   13740     0.015998     0.020678    0.0097334     0.050139 Vascular
+Fibroblast                          COVAR   13740    0.0029605    0.0037739     0.011137      0.39519 Fibroblast
+Astrocyte                           COVAR   13740    0.0052945    0.0092273    0.0083358      0.26267 Astrocyte
+Amygdala_excitatory                 COVAR   13740   -0.0034131    -0.010612    0.0036548      0.82481 Amygdala_excitatory
+Oligodendrocyte_precursor           COVAR   13740    0.0020856    0.0035966    0.0097896      0.41565 Oligodendrocyte_precursor
+Committed_oligodendrocyte_pr...     COVAR   13740    -0.009736    -0.016022     0.010138      0.83156 Committed_oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   13740   -0.0073011    -0.011986    0.0083401      0.80932 Oligodendrocyte

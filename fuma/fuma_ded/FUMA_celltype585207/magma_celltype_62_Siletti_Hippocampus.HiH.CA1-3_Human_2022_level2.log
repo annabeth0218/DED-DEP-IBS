@@ -1,0 +1,40 @@
+Welcome to MAGMA v1.10 (linux)
+Using flags:
+	--gene-results /new_data/users_data/celltype/585207/magma.genes.raw
+	--gene-covar /data/MAGMA/celltype/62_Siletti_Hippocampus.HiH.CA1-3_Human_2022_level2.txt
+	--model condition-hide=Average direction=greater
+	--out /new_data/users_data/celltype/585207/magma_celltype_62_Siletti_Hippocampus.HiH.CA1-3_Human_2022_level2
+
+Start time is 11:49:42, Saturday 15 Feb 2025
+
+Reading file /new_data/users_data/celltype/585207/magma.genes.raw... 
+	15763 genes read from file
+Loading gene-level covariates...
+Reading file /data/MAGMA/celltype/62_Siletti_Hippocampus.HiH.CA1-3_Human_2022_level2.txt... 
+	detected 24 variables in file (using all)
+	found 24 valid gene covariates, for 14498 genes defined in genotype data
+Processing missing values...
+	found 1265 genes not present in all input files: removing these from analysis
+	14498 genes remaining in analysis
+Preparing variables for analysis...
+	truncating Z-scores 3 points below zero or 6 standard deviations above the mean
+	truncating covariate values more than 5 standard deviations from the mean
+	total variables available for analysis: 24 gene covariates
+
+Parsing model specifications...
+Inverting gene-gene correlation matrix...
+Performing regression analysis...
+	testing direction: one-sided, positive (sets), one-sided, positive (covar)
+	conditioning on internal variables:
+		gene size, log(gene size)
+		gene density, log(gene density)
+		sample size, log(sample size)
+		inverse mac, log(inverse mac)
+	conditioning on input variables (no output):
+		Average (covar)
+	analysing individual variables
+
+	analysing single-variable models (number of models: 23)
+	writing results to file /new_data/users_data/celltype/585207/magma_celltype_62_Siletti_Hippocampus.HiH.CA1-3_Human_2022_level2.gsa.out
+
+End time is 11:49:49, Saturday 15 Feb 2025 (elapsed: 00:00:07)

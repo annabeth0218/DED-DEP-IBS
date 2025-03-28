@@ -1,0 +1,10 @@
+# MEAN_SAMPLE_SIZE = 27996
+# TOTAL_GENES = 12300
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE           TYPE  NGENES         BETA     BETA_STD           SE            P
+Blood_pre_cDC     COVAR   12300           NA           NA           NA           NA
+CB_pre_cDC        COVAR   12300    0.0025279    0.0026565     0.032889      0.46937
+CD141_cDC         COVAR   12300           NA           NA           NA           NA
+CD1c_cDC          COVAR   12300           NA           NA           NA           NA

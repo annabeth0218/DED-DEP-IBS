@@ -1,0 +1,25 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14171
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Oligodendrocyte                     COVAR   14171   -0.0024316   -0.0035591    0.0078568      0.62152 Oligodendrocyte
+Committed_oligodendrocyte_pr...     COVAR   14171   -0.0002325  -0.00031128     0.007478       0.5124 Committed_oligodendrocyte_precursor
+Upper_rhombic_lip                   COVAR   14171  -0.00023178  -0.00059952    0.0034044      0.52714 Upper_rhombic_lip
+Lower_rhombic_lip                   COVAR   14171     0.031131     0.024892      0.01715     0.034753 Lower_rhombic_lip
+Midbrain_derived_inhibitory         COVAR   14171     0.022315     0.045809    0.0088175    0.0056972 Midbrain_derived_inhibitory
+CGE_interneuron                     COVAR   14171    0.0091147     0.018906    0.0091164      0.15871 CGE_interneuron
+Splatter                            COVAR   14171    0.0023234    0.0053732    0.0094275      0.40267 Splatter
+MGE_interneuron                     COVAR   14171   -0.0068684    -0.018804    0.0047898      0.92419 MGE_interneuron
+Thalamic_excitatory                 COVAR   14171   -0.0041408   -0.0096437    0.0063447        0.743 Thalamic_excitatory
+Upper_layer_intratelencephal...     COVAR   14171   -0.0069205    -0.016052    0.0064055      0.86001 Upper_layer_intratelencephalic
+Deep_layer_intratelencephalic       COVAR   14171   -0.0055495     -0.01732    0.0032476      0.95625 Deep_layer_intratelencephalic
+Medium_spiny_neuron                 COVAR   14171     0.001669    0.0041471    0.0073009      0.40959 Medium_spiny_neuron
+Eccentric_medium_spiny_neuron       COVAR   14171    0.0041934    0.0093003    0.0075392      0.28904 Eccentric_medium_spiny_neuron
+Astrocyte                           COVAR   14171    0.0093292     0.011647    0.0091663       0.1544 Astrocyte
+Oligodendrocyte_precursor           COVAR   14171    0.0077696     0.010766     0.010618      0.23216 Oligodendrocyte_precursor
+Fibroblast                          COVAR   14171    0.0040227    0.0047057     0.009176      0.33055 Fibroblast
+Vascular                            COVAR   14171    0.0080207    0.0080097     0.010649      0.22567 Vascular
+Miscellaneous                       COVAR   14171   -0.0082537   -0.0066228     0.011512      0.76329 Miscellaneous
+Microglia                           COVAR   14171     0.010036     0.009689     0.010142      0.16121 Microglia

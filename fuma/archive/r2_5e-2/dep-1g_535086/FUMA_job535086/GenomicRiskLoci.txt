@@ -1,2 +1,0 @@
-GenomicLocus	uniqID	rsID	chr	pos	p	start	end	nSNPs	nGWASSNPs	nIndSigSNPs	IndSigSNPs	nLeadSNPs	LeadSNPs
-1	10:23506529:A:G	rs927751	10	23506529	1.52e-06	22974158	24206267	720	63	1	rs927751	1	rs927751

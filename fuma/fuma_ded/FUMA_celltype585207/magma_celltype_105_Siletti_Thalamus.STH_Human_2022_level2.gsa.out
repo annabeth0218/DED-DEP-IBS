@@ -1,0 +1,26 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 13880
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Miscellaneous                       COVAR   13880   -0.0043426   -0.0042819     0.009532      0.67565 Miscellaneous
+Microglia                           COVAR   13880    0.0066941     0.007776    0.0085741      0.21749 Microglia
+Fibroblast                          COVAR   13880    0.0055902    0.0068096    0.0088499      0.26381 Fibroblast
+Vascular                            COVAR   13880    0.0049627    0.0052769    0.0098356      0.30694 Vascular
+Astrocyte                           COVAR   13880    0.0036978    0.0043168    0.0097454      0.35218 Astrocyte
+Thalamic_excitatory                 COVAR   13880    0.0076783     0.017186     0.004412     0.040915 Thalamic_excitatory
+LAMP5_LHX6_and_Chandelier           COVAR   13880    -0.003836   -0.0089997    0.0047073      0.79243 LAMP5_LHX6_and_Chandelier
+CGE_interneuron                     COVAR   13880     0.012096     0.021448     0.009302     0.096757 CGE_interneuron
+Splatter                            COVAR   13880    0.0020108    0.0041918     0.010117      0.42123 Splatter
+Mammillary_body                     COVAR   13880   -0.0002297  -0.00052326    0.0061915       0.5148 Mammillary_body
+Committed_oligodendrocyte_pr...     COVAR   13880   -0.0089268    -0.013166    0.0086244      0.84967 Committed_oligodendrocyte_precursor
+Deep_layer_intratelencephalic       COVAR   13880   -0.0045686     -0.01341    0.0032383      0.92084 Deep_layer_intratelencephalic
+Upper_layer_intratelencephal...     COVAR   13880   0.00030122   0.00076296    0.0050136      0.47605 Upper_layer_intratelencephalic
+Hippocampal_CA1_3                   COVAR   13880   -0.0064905    -0.019447    0.0033163      0.97483 Hippocampal_CA1_3
+Hippocampal_dentate_gyrus           COVAR   13880    0.0037801     0.011771    0.0034247      0.13485 Hippocampal_dentate_gyrus
+MGE_interneuron                     COVAR   13880   -0.0022606   -0.0071234    0.0033142      0.75241 MGE_interneuron
+Deep_layer_corticothalamic_a...     COVAR   13880    0.0019811    0.0063331    0.0033469      0.27696 Deep_layer_corticothalamic_and_6b
+Midbrain_derived_inhibitory         COVAR   13880     0.011623     0.021579    0.0090503     0.099542 Midbrain_derived_inhibitory
+Oligodendrocyte_precursor           COVAR   13880    0.0011372    0.0014918     0.010862      0.45831 Oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   13880   -0.0047438   -0.0059172    0.0087852      0.70539 Oligodendrocyte

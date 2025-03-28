@@ -1,0 +1,31 @@
+# MEAN_SAMPLE_SIZE = 27992
+# TOTAL_GENES = 12934
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE      TYPE  NGENES         BETA     BETA_STD           SE            P
+DA0          COVAR   12934    -0.021212   -0.0050155     0.090385      0.59277
+DA1          COVAR   12934    -0.018211   -0.0061991     0.055433      0.62874
+DA2          COVAR   12934    -0.059834    -0.017136      0.06614      0.81717
+Endo         COVAR   12934     0.025229     0.009287     0.036854      0.24681
+Gaba         COVAR   12934   -0.0097894   -0.0024718     0.062543      0.56219
+Mgl          COVAR   12934    -0.004561   -0.0013657     0.043525      0.54173
+NbGaba       COVAR   12934     0.040469     0.011296     0.053131      0.22313
+NbM          COVAR   12934     0.035662      0.01016     0.093565      0.35155
+NbML1        COVAR   12934     0.092711     0.028237     0.086425      0.14171
+NbML5        COVAR   12934     0.019416    0.0050064     0.081489      0.40584
+NProg        COVAR   12934     0.038984    0.0098347      0.10097      0.34972
+OMTN         COVAR   12934    -0.020163   -0.0074309     0.073642      0.60788
+OPC          COVAR   12934     0.013839    0.0044275     0.060462      0.40948
+Peric        COVAR   12934     0.020326    0.0067986     0.044857      0.32523
+ProgBP       COVAR   12934   -0.0048283   -0.0014335     0.079408      0.52424
+ProgFPL      COVAR   12934    -0.012244   -0.0048447     0.054224      0.58932
+ProgFPM      COVAR   12934    -0.021337   -0.0065575     0.066514      0.62581
+ProgM        COVAR   12934     0.015332    0.0049807     0.071586      0.41521
+Rgl1         COVAR   12934    -0.040623    -0.013485     0.067372      0.72673
+Rgl2a        COVAR   12934    -0.050629    -0.018266     0.060588      0.79831
+Rgl2b        COVAR   12934     0.012048    0.0032826     0.080562      0.44056
+Rgl2c        COVAR   12934    -0.028793    -0.009855     0.056454      0.69498
+Rgl3         COVAR   12934    -0.069714    -0.025934     0.050836      0.91485
+RN           COVAR   12934     0.063384     0.017658     0.075686      0.20118
+Sert         COVAR   12934    -0.015118   -0.0063636     0.038789      0.65164

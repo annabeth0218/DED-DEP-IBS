@@ -1,0 +1,25 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14367
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Hippocampal_CA4                     COVAR   14367   -0.0037417   -0.0095876      0.00868      0.66679 Hippocampal_CA4
+Hippocampal_CA1_3                   COVAR   14367    -0.010971    -0.028161    0.0092622      0.88188 Hippocampal_CA1_3
+Deep_layer_corticothalamic_a...     COVAR   14367   -0.0035022   -0.0089529    0.0094227      0.64493 Deep_layer_corticothalamic_and_6b
+Deep_layer_intratelencephalic       COVAR   14367   -0.0048343    -0.012349    0.0092428      0.69952 Deep_layer_intratelencephalic
+Deep_layer_near_projecting          COVAR   14367   -0.0015216   -0.0044097    0.0045777       0.6302 Deep_layer_near_projecting
+Hippocampal_dentate_gyrus           COVAR   14367    0.0028626    0.0071215    0.0088914      0.37375 Hippocampal_dentate_gyrus
+Amygdala_excitatory                 COVAR   14367  -0.00099862   -0.0031401    0.0033396      0.61754 Amygdala_excitatory
+CGE_interneuron                     COVAR   14367    0.0092545     0.020621     0.011657      0.21363 CGE_interneuron
+LAMP5_LHX6_and_Chandelier           COVAR   14367   -0.0047095     -0.01127    0.0094518      0.69085 LAMP5_LHX6_and_Chandelier
+MGE_interneuron                     COVAR   14367   -0.0088052    -0.020994      0.01086      0.79125 MGE_interneuron
+Miscellaneous                       COVAR   14367    0.0035711    0.0047179    0.0079479      0.32661 Miscellaneous
+Splatter                            COVAR   14367   0.00085332    0.0020586    0.0085687      0.46034 Splatter
+Committed_oligodendrocyte_pr...     COVAR   14367   0.00021884   0.00036802     0.006645      0.48686 Committed_oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   14367   -0.0047264   -0.0079237    0.0069138      0.75288 Oligodendrocyte
+Oligodendrocyte_precursor           COVAR   14367   -0.0015777   -0.0029512    0.0079439      0.57871 Oligodendrocyte_precursor
+Ependymal                           COVAR   14367    0.0024017    0.0051912    0.0046995      0.30466 Ependymal
+Astrocyte                           COVAR   14367    0.0051468    0.0090777    0.0070533      0.23279 Astrocyte
+Vascular                            COVAR   14367    0.0044348     0.006175    0.0076149      0.28016 Vascular
+Microglia                           COVAR   14367    0.0090493       0.0129    0.0073446      0.10896 Microglia

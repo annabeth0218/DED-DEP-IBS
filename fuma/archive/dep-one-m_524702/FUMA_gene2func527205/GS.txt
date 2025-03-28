@@ -1,8 +1,0 @@
-Category	GeneSet	N_genes	N_overlap	p	adjP	genes	link
-GWAScatalog	Dental caries (decayed	18	4	3.370300468089094e-08	0.0001491357957129424	IQGAP2:F2R:CRHBP:SNORA47	
-Positional_gene_sets	chr1q24	77	15	3.612220025631461e-27	1.0836660076894384e-24	RP11-280O1.2:LRRC52:MGST3:ALDH9A1:RP11-466F5.6:TMCO1:UCK2:FAM78B:MIR921:FMO9P:POGK:ILDR2:MAEL:GPA33:DUSP27	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr1q24
-Positional_gene_sets	chr10p12	67	12	2.4586139864749454e-21	3.687920979712418e-19	COMMD3:COMMD3-BMI1:BMI1:SPAG6:ARMC3:MSRB2:PTF1A:C10orf67:OTUD1:MIR603:ENKUR:THNSL1	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr10p12
-Positional_gene_sets	chr5q13	65	7	3.45979475694872e-11	3.45979475694872e-09	IQGAP2:F2R:CRHBP:AGGF1:ZBED3:SNORA47:PDE8B	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr5q13
-Positional_gene_sets	chr5q14	62	5	1.1592130029277699e-07	8.694097521958274e-06	WDR41:AP3B1:CTD-2037K23.2:SCAMP1:ARSB	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr5q14
-Positional_gene_sets	chr1q23	150	6	3.8205796947897433e-07	2.292347816873846e-05	C1orf226:C1orf111:RGS5:RP11-267N12.3:NUF2:PBX1:RXRG	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr1q23
-Cell_type_signature	MANNO_MIDBRAIN_NEUROTYPES_HRGL3	548	8	7.794177875180793e-06	0.006469167636400058	C1orf226:RXRG:ALDH9A1:IQGAP2:PDE8B:SPAG6:ARMC3:ENKUR	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MANNO_MIDBRAIN_NEUROTYPES_HRGL3

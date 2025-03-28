@@ -1,0 +1,27 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14207
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Upper_rhombic_lip                   COVAR   14207     0.011484     0.027519     0.003559   0.00062727 Upper_rhombic_lip
+Deep_layer_near_projecting          COVAR   14207   -0.0027093     -0.00802    0.0033216      0.79265 Deep_layer_near_projecting
+Deep_layer_corticothalamic_a...     COVAR   14207  -0.00084703   -0.0023581    0.0047502      0.57076 Deep_layer_corticothalamic_and_6b
+Deep_layer_intratelencephalic       COVAR   14207   -0.0016889   -0.0052097    0.0033752      0.69159 Deep_layer_intratelencephalic
+Upper_layer_intratelencephal...     COVAR   14207    -0.002572   -0.0053937    0.0061352      0.66247 Upper_layer_intratelencephalic
+Medium_spiny_neuron                 COVAR   14207    0.0015081    0.0036567    0.0056863      0.39543 Medium_spiny_neuron
+Eccentric_medium_spiny_neuron       COVAR   14207    0.0029371    0.0069856     0.005406      0.29346 Eccentric_medium_spiny_neuron
+CGE_interneuron                     COVAR   14207    0.0011587    0.0021001     0.011767      0.46078 CGE_interneuron
+MGE_interneuron                     COVAR   14207   -0.0036163   -0.0071005     0.010237      0.63805 MGE_interneuron
+Splatter                            COVAR   14207    -0.012416    -0.023326     0.012006      0.84945 Splatter
+LAMP5_LHX6_and_Chandelier           COVAR   14207   -0.0025927   -0.0053347    0.0088663      0.61501 LAMP5_LHX6_and_Chandelier
+Midbrain_derived_inhibitory         COVAR   14207   0.00074382    0.0016122    0.0086632      0.46579 Midbrain_derived_inhibitory
+Thalamic_excitatory                 COVAR   14207    -0.017741    -0.040997    0.0071761      0.99328 Thalamic_excitatory
+Committed_oligodendrocyte_pr...     COVAR   14207    -0.012925    -0.017224     0.010327      0.89462 Committed_oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   14207    -0.010493    -0.012704    0.0091676      0.87381 Oligodendrocyte
+Oligodendrocyte_precursor           COVAR   14207   -0.0039501   -0.0054231     0.010551      0.64594 Oligodendrocyte_precursor
+Astrocyte                           COVAR   14207    0.0022684    0.0029051    0.0088565      0.39893 Astrocyte
+Fibroblast                          COVAR   14207    -0.003453   -0.0036225     0.010325      0.63097 Fibroblast
+Vascular                            COVAR   14207    0.0042942    0.0042681     0.010664      0.34359 Vascular
+Microglia                           COVAR   14207    0.0046302    0.0052964    0.0087038      0.29738 Microglia
+Miscellaneous                       COVAR   14207   -0.0026278   -0.0024882    0.0097407      0.60633 Miscellaneous

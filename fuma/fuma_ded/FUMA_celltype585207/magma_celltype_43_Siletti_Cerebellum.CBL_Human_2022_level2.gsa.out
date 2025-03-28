@@ -1,0 +1,19 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14092
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Upper_rhombic_lip                   COVAR   14092   -0.0045049   -0.0071835     0.008678      0.69816 Upper_rhombic_lip
+Splatter                            COVAR   14092   -0.0010676    -0.003416    0.0031488      0.63271 Splatter
+Deep_layer_intratelencephalic       COVAR   14092  -0.00097554   -0.0031187    0.0030846      0.62409 Deep_layer_intratelencephalic
+Cerebellar_inhibitory               COVAR   14092   -0.0072337    -0.015832    0.0068955      0.85291 Cerebellar_inhibitory
+Miscellaneous                       COVAR   14092     0.010032     0.013995    0.0075147     0.090948 Miscellaneous
+Astrocyte                           COVAR   14092    0.0050686    0.0092406    0.0074023      0.24676 Astrocyte
+Bergmann_glia                       COVAR   14092   -0.0015885   -0.0029394    0.0076987      0.58173 Bergmann_glia
+Oligodendrocyte_precursor           COVAR   14092    -0.002732   -0.0050538    0.0089249      0.62024 Oligodendrocyte_precursor
+Committed_oligodendrocyte_pr...     COVAR   14092    0.0018665    0.0044321    0.0043011      0.33216 Committed_oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   14092   -0.0091915    -0.015967    0.0074123      0.89251 Oligodendrocyte
+Vascular                            COVAR   14092     0.010105     0.013607    0.0088925      0.12791 Vascular
+Fibroblast                          COVAR   14092    0.0015152    0.0022899    0.0086851      0.43075 Fibroblast
+Microglia                           COVAR   14092    0.0068827     0.010634    0.0071886      0.16918 Microglia

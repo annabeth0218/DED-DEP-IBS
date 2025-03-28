@@ -1,0 +1,25 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14149
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Committed_oligodendrocyte_pr...     COVAR   14149     0.004811    0.0092748    0.0083084      0.28128 Committed_oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   14149   -0.0030783   -0.0046537    0.0079003      0.65159 Oligodendrocyte
+Upper_rhombic_lip                   COVAR   14149    -0.001041   -0.0015836    0.0097447      0.54254 Upper_rhombic_lip
+Cerebellar_inhibitory               COVAR   14149   -0.0048652    -0.010034    0.0093428      0.69872 Cerebellar_inhibitory
+Splatter                            COVAR   14149    -0.007982    -0.017246     0.010543      0.77551 Splatter
+CGE_interneuron                     COVAR   14149   -0.0015709    -0.004264    0.0045795      0.63421 CGE_interneuron
+Upper_layer_intratelencephal...     COVAR   14149   -0.0016852   -0.0038602    0.0047884      0.63756 Upper_layer_intratelencephalic
+Miscellaneous                       COVAR   14149   0.00034577    0.0003832     0.010703      0.48711 Miscellaneous
+Lower_rhombic_lip                   COVAR   14149    -0.001501   -0.0035864    0.0079511      0.57487 Lower_rhombic_lip
+Amygdala_excitatory                 COVAR   14149   -0.0056705    -0.018079    0.0035648      0.94415 Amygdala_excitatory
+Midbrain_derived_inhibitory         COVAR   14149     0.008992     0.019724    0.0076588      0.12019 Midbrain_derived_inhibitory
+Oligodendrocyte_precursor           COVAR   14149    0.0030477    0.0044921    0.0099939       0.3802 Oligodendrocyte_precursor
+Astrocyte                           COVAR   14149    0.0067359    0.0076851     0.010578      0.26213 Astrocyte
+Bergmann_glia                       COVAR   14149  -0.00086801   -0.0015569    0.0071615      0.54823 Bergmann_glia
+Ependymal                           COVAR   14149    0.0089508     0.016209    0.0064058     0.081176 Ependymal
+Choroid_plexus                      COVAR   14149   1.9466e-05    4.057e-05    0.0058964      0.49868 Choroid_plexus
+Fibroblast                          COVAR   14149   -0.0020694   -0.0026524     0.009123      0.58972 Fibroblast
+Vascular                            COVAR   14149    0.0090963     0.011972    0.0084427      0.14066 Vascular
+Microglia                           COVAR   14149    0.0071818    0.0075113    0.0096556      0.22851 Microglia

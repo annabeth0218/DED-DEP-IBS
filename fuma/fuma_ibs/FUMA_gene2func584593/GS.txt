@@ -1,0 +1,31 @@
+Category	GeneSet	N_genes	N_overlap	p	adjP	genes	link
+Cancer_gene_neighborhoods	MORF_DEAF1	52	4	4.447771982670553e-05	0.012487109176495053	FH:ATP5G3:XPO7:GTF2A2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_DEAF1
+Cancer_gene_neighborhoods	MORF_PRKDC	178	6	5.8487630803255514e-05	0.012487109176495053	FH:ATP5G3:SEC63:XPO7:BMI1:GTF2A2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_PRKDC
+Cancer_gene_neighborhoods	MORF_GNB1	283	7	9.852212097727033e-05	0.01402298188576481	FH:ATP5G3:SEC63:XPO7:BMI1:GTF2A2:UQCRFS1	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_GNB1
+Cancer_gene_neighborhoods	MORF_RFC4	141	5	0.00019641869347358315	0.0176718838756568	FH:ATP5G3:SEC63:XPO7:GTF2A2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_RFC4
+Cancer_gene_neighborhoods	MORF_BMI1	77	4	0.0002069307245393068	0.0176718838756568	SEC63:XPO7:BMI1:GTF2A2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_BMI1
+Cancer_gene_neighborhoods	MORF_PPP1CC	154	5	0.0002955909760311848	0.021036224460885985	FH:ATP5G3:SEC63:XPO7:GTF2A2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_PPP1CC
+Cancer_gene_neighborhoods	MORF_PAPSS1	94	4	0.00044412992363063213	0.027091925341468558	SEC63:XPO7:BMI1:GTF2A2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_PAPSS1
+Cancer_gene_neighborhoods	MORF_RFC1	104	4	0.0006507773294075255	0.03473523995712668	SEC63:INTS10:BMI1:GTF2A2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_RFC1
+Cancer_gene_neighborhoods	MORF_DNMT1	109	4	0.0007761932041441946	0.03682605535217457	FH:ATP5G3:XPO7:GTF2A2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_DNMT1
+Wikipathways	WP_METABOLIC_PATHWAY_OF_LDL_HDL_AND_TG_INCLUDING_DISEASES	17	3	3.38776748794848e-05	0.024832335686662356	LPL:LIPC:ANXA2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/WP_METABOLIC_PATHWAY_OF_LDL_HDL_AND_TG_INCLUDING_DISEASES
+Computational_gene_sets	MORF_DEAF1	52	4	4.447771982670553e-05	0.025091193614596614	FH:ATP5G3:XPO7:GTF2A2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_DEAF1
+Computational_gene_sets	MORF_PRKDC	178	6	5.8487630803255514e-05	0.025091193614596614	FH:ATP5G3:SEC63:XPO7:BMI1:GTF2A2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_PRKDC
+Computational_gene_sets	MORF_GNB1	283	7	9.852212097727033e-05	0.028177326599499314	FH:ATP5G3:SEC63:XPO7:BMI1:GTF2A2:UQCRFS1	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_GNB1
+Computational_gene_sets	MORF_RFC4	141	5	0.00019641869347358315	0.03550931233094504	FH:ATP5G3:SEC63:XPO7:GTF2A2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_RFC4
+Computational_gene_sets	MORF_BMI1	77	4	0.0002069307245393068	0.03550931233094504	SEC63:XPO7:BMI1:GTF2A2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_BMI1
+Computational_gene_sets	MORF_PPP1CC	154	5	0.0002955909760311848	0.042269509572459424	FH:ATP5G3:SEC63:XPO7:GTF2A2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/MORF_PPP1CC
+GWAScatalog	Persistent hepatitis B virus infection	7	4	6.5459872757769195e-09	2.8965993695312868e-05	CSGALNACT1:INTS10:LPL:LZTS1	
+GWAScatalog	Coronary artery calcified atherosclerotic plaque (90 or 130 HU threshold) in type 2 diabetes	26	4	2.6469932041656218e-06	0.004088000152485896	PDSS2:PSD3:MYO1E:PTPRM	
+GWAScatalog	Non-HDL cholesterol levels	8	3	2.8594114288748153e-06	0.004088000152485896	INTS10:LPL:PLXDC2	
+GWAScatalog	Metabolite levels	1249	17	3.6953673694787755e-06	0.004088000152485896	FH:KMO:EVX2:PDSS2:SESN1:INTS10:LPL:DOK2:XPO7:AQP9:LIPC:ADAM10:RNF111:CCNB2:MYO1E:FAM81A:POP4	
+GWAScatalog	Urinary albumin excretion rate in type 1 diabetes	3	2	4.2029709503312506e-05	0.03719629291043157	PSD3:SH2D4A	
+Positional_gene_sets	chr1q43	29	10	6.54712421121338e-18	1.964137263364014e-15	CHRM3:CHRM3-AS1:RGS7:MIR3123:FH:KMO:OPN3:CHML:EXO1:PLD5	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr1q43
+Positional_gene_sets	chr2q31	97	13	4.5647358357212296e-17	6.847103753581844e-15	H3F3AP4:CHN1:ATP5G3:KIAA1715:EVX2:HOXD13:LINC01116:PDE11A:RBM45:OSBPL6:AC009948.5:PRKRA:DFNB59	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr2q31
+Positional_gene_sets	chr19q12	12	7	6.649378887501107e-15	6.649378887501107e-13	LINC00906:CTD-2081K17.2:UQCRFS1:CTC-525D6.1:VSTM2B:POP4:URI1	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr19q12
+Positional_gene_sets	chr15q22	88	11	2.9428268989752996e-14	2.2071201742314746e-12	RNF111:SLTM:CCNB2:MYO1E:MIR2116:LDHAL6B:FAM81A:GCNT3:GTF2A2:ANXA2:RP11-219B17.2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr15q22
+Positional_gene_sets	chr10p12	67	10	7.217196308651727e-14	4.330317785191036e-12	NSUN6:ARL5B:RP11-354E11.2:PLXDC2:MIR4675:COMMD3:COMMD3-BMI1:BMI1:SPAG6:MSRB2	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr10p12
+Positional_gene_sets	chr6q21	64	9	2.37317831218047e-12	1.186589156090235e-10	AIM1:PDSS2:SEC63:ARMC2:SESN1:CEP57L1:PPIL6:SMPD2:MICAL1	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr6q21
+Positional_gene_sets	chr15q21	102	8	4.878306571028862e-09	2.0907028161552264e-07	GCOM1:MYZAP:POLR2M:AQP9:LIPC:RP11-355N15.1:ADAM10:RP11-30K9.6:FAM63B	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr15q21
+Positional_gene_sets	chr8p21	92	7	5.7638040623751134e-08	2.161426523390667e-06	SH2D4A:CSGALNACT1:INTS10:LPL:LZTS1:DOK2:XPO7	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr8p21
+Positional_gene_sets	chr6q12	7	2	0.00029132891704275335	0.009710963901425113	EYS:RP11-406O16.1	http://www.gsea-msigdb.org/gsea/msigdb/human/geneset/chr6q12

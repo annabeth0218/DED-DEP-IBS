@@ -1,0 +1,24 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14432
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Oligodendrocyte                     COVAR   14432   -0.0061497    -0.010737    0.0070607      0.80811 Oligodendrocyte
+Committed_oligodendrocyte_pr...     COVAR   14432    -0.010662    -0.018335    0.0081284      0.90517 Committed_oligodendrocyte_precursor
+Oligodendrocyte_precursor           COVAR   14432  -0.00039569  -0.00070274    0.0089405      0.51765 Oligodendrocyte_precursor
+CGE_interneuron                     COVAR   14432   -0.0059049     -0.01317    0.0073222         0.79 CGE_interneuron
+Splatter                            COVAR   14432    -0.011696    -0.027166     0.008884        0.906 Splatter
+Upper_layer_intratelencephal...     COVAR   14432   -0.0037869   -0.0097259     0.004123      0.82081 Upper_layer_intratelencephalic
+Thalamic_excitatory                 COVAR   14432    -0.011572    -0.028631    0.0076426        0.935 Thalamic_excitatory
+Mammillary_body                     COVAR   14432    0.0017036     0.003827    0.0069167      0.40273 Mammillary_body
+Midbrain_derived_inhibitory         COVAR   14432    0.0071921     0.015802    0.0080636      0.18622 Midbrain_derived_inhibitory
+Upper_rhombic_lip                   COVAR   14432   -0.0028643   -0.0051419    0.0079474      0.64073 Upper_rhombic_lip
+Cerebellar_inhibitory               COVAR   14432    0.0014746    0.0037381    0.0042838      0.36534 Cerebellar_inhibitory
+Astrocyte                           COVAR   14432    0.0040883    0.0061025     0.008041      0.30558 Astrocyte
+Ependymal                           COVAR   14432     0.011892     0.020341     0.006281     0.029171 Ependymal
+Choroid_plexus                      COVAR   14432    0.0022317    0.0050114    0.0034845      0.26094 Choroid_plexus
+Fibroblast                          COVAR   14432    0.0002613   0.00036866    0.0081912      0.48728 Fibroblast
+Vascular                            COVAR   14432     0.010186     0.013063    0.0092524      0.13548 Vascular
+Microglia                           COVAR   14432    0.0050029    0.0066508    0.0078389      0.26167 Microglia
+Miscellaneous                       COVAR   14432   -0.0017805   -0.0019767    0.0090093      0.57833 Miscellaneous

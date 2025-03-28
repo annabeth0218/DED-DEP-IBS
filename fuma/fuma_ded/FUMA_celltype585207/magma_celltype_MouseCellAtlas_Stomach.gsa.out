@@ -1,0 +1,23 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 12702
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                          TYPE  NGENES         BETA     BETA_STD           SE            P
+Antral_mucous_cell_              COVAR   12702     0.062865     0.010427      0.13842      0.32486
+Dendritic_cell                   COVAR   12702    0.0056985    0.0011433      0.11576      0.48037
+Dividing_cell                    COVAR   12702     -0.20117     -0.04382      0.14238      0.92115
+Epithelial_cell_Gkn3_high        COVAR   12702      0.16338     0.029119      0.10992     0.068603
+Epithelial_cell_Krt20_high       COVAR   12702     0.029863    0.0061163      0.13858       0.4147
+Epithelial_cell_Pla2g1b_high     COVAR   12702     0.056725    0.0093663     0.076963      0.23056
+G_cell                           COVAR   12702     0.044989    0.0051175      0.12299      0.35727
+Gastric_mucosal_cell             COVAR   12702     0.020471    0.0034803      0.13413      0.43935
+Macrophage                       COVAR   12702     -0.05164   -0.0062177     0.082518      0.73427
+Muscle_cell                      COVAR   12702     0.088729     0.010791     0.096779      0.17963
+Parietal_cell_                   COVAR   12702  -0.00053484  -0.00013583     0.064372      0.50331
+Pit_cell_Gm26917_high            COVAR   12702     -0.10809    -0.017173      0.12081      0.81451
+Pit_cell_Ifrd1_high              COVAR   12702   -0.0053583   -0.0010891      0.16637      0.51285
+Stomach_cell_Gkn2_high           COVAR   12702     -0.29868    -0.044214      0.23252      0.90051
+Stomach_cell_Mt2_high            COVAR   12702     -0.24989    -0.050003      0.21521       0.8772
+Stomach_cell_Muc5ac_high         COVAR   12702    -0.075695    -0.013715      0.16545      0.67634
+Tuft_cell                        COVAR   12702      0.10194      0.02074     0.097553      0.14802

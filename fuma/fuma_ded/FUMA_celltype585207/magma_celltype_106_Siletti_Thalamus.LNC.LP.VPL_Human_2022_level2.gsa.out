@@ -1,0 +1,19 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 13980
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Miscellaneous                       COVAR   13980   -0.0042675   -0.0056323    0.0078306      0.70711 Miscellaneous
+Microglia                           COVAR   13980    0.0051897    0.0083855    0.0070562      0.23103 Microglia
+Fibroblast                          COVAR   13980    0.0013836    0.0022448    0.0078885      0.43039 Fibroblast
+Vascular                            COVAR   13980    0.0095058     0.014983      0.00791      0.11474 Vascular
+Astrocyte                           COVAR   13980    0.0054105    0.0080187    0.0081969      0.25461 Astrocyte
+Committed_oligodendrocyte_pr...     COVAR   13980    0.0079319     0.013887    0.0087064      0.18115 Committed_oligodendrocyte_precursor
+Thalamic_excitatory                 COVAR   13980   -0.0052508    -0.013164    0.0075076      0.75784 Thalamic_excitatory
+Splatter                            COVAR   13980    -0.015857    -0.038349    0.0092355        0.957 Splatter
+Midbrain_derived_inhibitory         COVAR   13980    0.0021173     0.005472    0.0070302      0.38164 Midbrain_derived_inhibitory
+CGE_interneuron                     COVAR   13980    -0.001317   -0.0032756    0.0070456      0.57414 CGE_interneuron
+LAMP5_LHX6_and_Chandelier           COVAR   13980     0.001435    0.0040472    0.0051643      0.39056 LAMP5_LHX6_and_Chandelier
+Oligodendrocyte_precursor           COVAR   13980   -0.0022631   -0.0046513    0.0082954       0.6075 Oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   13980   -0.0099912    -0.019041    0.0073214      0.91381 Oligodendrocyte

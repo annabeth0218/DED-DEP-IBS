@@ -1,0 +1,24 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14371
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE         TYPE  NGENES         BETA     BETA_STD           SE            P
+Astro           COVAR   14371    -0.022101   -0.0039778     0.077595      0.61211
+CGE_dev         COVAR   14371    -0.083005    -0.015737      0.11045      0.77382
+ID2             COVAR   14371    -0.040711   -0.0096879      0.10774      0.64723
+L2.3_CUX2       COVAR   14371    -0.019239    -0.005831      0.10398      0.57339
+L4_RORB         COVAR   14371    0.0040941    0.0016219     0.063801      0.47442
+L5.6_THEMIS     COVAR   14371     0.044796     0.017049     0.064186      0.24263
+L5.6_TLE4       COVAR   14371    -0.064015    -0.020733     0.076436      0.79883
+LAMP5_NOS1      COVAR   14371    0.0090365    0.0026587     0.064698      0.44446
+MGE_dev         COVAR   14371    -0.054572    -0.010801      0.11869      0.67716
+Micro           COVAR   14371     0.070796     0.011441     0.067595      0.14748
+Oligo           COVAR   14371    -0.040924   -0.0091873     0.062457      0.74384
+OPC             COVAR   14371     -0.00487  -0.00095687        0.087      0.52232
+PN_dev          COVAR   14371     -0.11042    -0.039517     0.066301      0.95207
+PV              COVAR   14371     0.057092     0.014113     0.094764      0.27344
+PV_SCUBE3       COVAR   14371     0.060247     0.014988     0.076898      0.21669
+SST             COVAR   14371   0.00030521   8.7508e-05     0.081436       0.4985
+Vas             COVAR   14371     0.065507     0.012171     0.059069      0.13372
+VIP             COVAR   14371      0.10575     0.025237      0.11018      0.16859

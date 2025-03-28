@@ -1,0 +1,23 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14287
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Midbrain_derived_inhibitory         COVAR   14287    0.0049696     0.012522    0.0074636      0.25276 Midbrain_derived_inhibitory
+Oligodendrocyte_precursor           COVAR   14287   0.00077523    0.0015992    0.0079987       0.4614 Oligodendrocyte_precursor
+Thalamic_excitatory                 COVAR   14287    -0.010686     -0.02641    0.0077799      0.91519 Thalamic_excitatory
+Splatter                            COVAR   14287    -0.011818    -0.027845    0.0093254      0.89746 Splatter
+CGE_interneuron                     COVAR   14287   4.7854e-05   0.00010984     0.007552      0.49747 CGE_interneuron
+LAMP5_LHX6_and_Chandelier           COVAR   14287    0.0058857     0.016152    0.0053149      0.13407 LAMP5_LHX6_and_Chandelier
+MGE_interneuron                     COVAR   14287   -0.0065126    -0.016649    0.0065394      0.84034 MGE_interneuron
+Upper_layer_intratelencephal...     COVAR   14287    -0.002439   -0.0077779    0.0032936      0.77051 Upper_layer_intratelencephalic
+Committed_oligodendrocyte_pr...     COVAR   14287   -0.0065063   -0.0089982    0.0089283      0.76691 Committed_oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   14287   -0.0081421    -0.014884     0.007066      0.87539 Oligodendrocyte
+Choroid_plexus                      COVAR   14287   -0.0017262   -0.0043461    0.0039937      0.66721 Choroid_plexus
+Ependymal                           COVAR   14287     0.016233     0.029997    0.0062925    0.0049501 Ependymal
+Astrocyte                           COVAR   14287    0.0066349     0.011578    0.0075063      0.18838 Astrocyte
+Fibroblast                          COVAR   14287    0.0015148    0.0024174    0.0079458       0.4244 Fibroblast
+Vascular                            COVAR   14287    0.0096849     0.014118    0.0086675      0.13193 Vascular
+Microglia                           COVAR   14287    0.0067068     0.010472    0.0071497      0.17412 Microglia
+Miscellaneous                       COVAR   14287   -0.0054943    -0.007861    0.0073005      0.77415 Miscellaneous

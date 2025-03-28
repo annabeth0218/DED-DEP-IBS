@@ -1,0 +1,28 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14473
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Upper_rhombic_lip                   COVAR   14473    -0.014281    -0.021922    0.0070995      0.97785 Upper_rhombic_lip
+MGE_interneuron                     COVAR   14473    -0.007755    -0.015514     0.011534      0.74932 MGE_interneuron
+Splatter                            COVAR   14473    -0.002281   -0.0041407     0.012911      0.57012 Splatter
+LAMP5_LHX6_and_Chandelier           COVAR   14473   0.00041144   0.00083484     0.010424      0.48426 LAMP5_LHX6_and_Chandelier
+CGE_interneuron                     COVAR   14473    0.0072626     0.013096     0.013731      0.29844 CGE_interneuron
+Deep_layer_corticothalamic_a...     COVAR   14473    0.0082358     0.017818    0.0071793      0.12567 Deep_layer_corticothalamic_and_6b
+Hippocampal_CA1_3                   COVAR   14473   -0.0036511   -0.0081042    0.0090375      0.65689 Hippocampal_CA1_3
+Hippocampal_CA4                     COVAR   14473   -0.0022093   -0.0050939      0.00893       0.5977 Hippocampal_CA4
+Hippocampal_dentate_gyrus           COVAR   14473    0.0089798     0.018592    0.0098834      0.18179 Hippocampal_dentate_gyrus
+Medium_spiny_neuron                 COVAR   14473  -0.00072087    -0.001617    0.0078892       0.5364 Medium_spiny_neuron
+Eccentric_medium_spiny_neuron       COVAR   14473   -0.0071694    -0.015845    0.0080417      0.81367 Eccentric_medium_spiny_neuron
+Upper_layer_intratelencephal...     COVAR   14473   -0.0032061   -0.0070414    0.0084523      0.64777 Upper_layer_intratelencephalic
+Deep_layer_intratelencephalic       COVAR   14473    0.0024042    0.0059665    0.0057941       0.3391 Deep_layer_intratelencephalic
+Committed_oligodendrocyte_pr...     COVAR   14473    -0.008089    -0.012122    0.0098093       0.7952 Committed_oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   14473   -0.0079486    -0.012915    0.0069677      0.87301 Oligodendrocyte
+Oligodendrocyte_precursor           COVAR   14473   -0.0011987   -0.0021459    0.0083541      0.55705 Oligodendrocyte_precursor
+Astrocyte                           COVAR   14473    0.0024803    0.0040185    0.0074543      0.36967 Astrocyte
+Ependymal                           COVAR   14473     0.006198     0.010074    0.0064704      0.16907 Ependymal
+Vascular                            COVAR   14473      0.01159     0.015959    0.0079626      0.07277 Vascular
+Fibroblast                          COVAR   14473   -0.0023616   -0.0033105    0.0078946      0.61758 Fibroblast
+Miscellaneous                       COVAR   14473   -0.0031467   -0.0033737    0.0089887      0.63686 Miscellaneous
+Microglia                           COVAR   14473    0.0059739    0.0077793     0.007819      0.22244 Microglia

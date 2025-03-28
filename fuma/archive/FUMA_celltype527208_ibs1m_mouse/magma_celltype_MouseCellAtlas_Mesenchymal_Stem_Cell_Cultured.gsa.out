@@ -1,9 +1,0 @@
-# MEAN_SAMPLE_SIZE = 54886
-# TOTAL_GENES = 12577
-# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
-# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
-# CONDITIONED_HIDDEN = Average (covar)
-VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
-Mesenchymal_stem_cell_Cxcl1_...     COVAR   12577           NA           NA           NA           NA Mesenchymal_stem_cell_Cxcl1_high
-Mesenchymal_stem_cell_Cxcl10...     COVAR   12577      0.16875     0.034301      0.20879      0.20949 Mesenchymal_stem_cell_Cxcl10_high
-Mesenchymal_stem_cell_Tmsb10...     COVAR   12577           NA           NA           NA           NA Mesenchymal_stem_cell_Tmsb10_high

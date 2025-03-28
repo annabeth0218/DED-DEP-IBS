@@ -1,0 +1,28 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14386
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Upper_layer_intratelencephal...     COVAR   14386    -0.027435     -0.06445     0.011227      0.99272 Upper_layer_intratelencephalic
+Deep_layer_intratelencephalic       COVAR   14386    -0.027453      -0.0673     0.010279      0.99621 Deep_layer_intratelencephalic
+Amygdala_excitatory                 COVAR   14386   -0.0014948   -0.0035915     0.011005      0.55402 Amygdala_excitatory
+Hippocampal_CA1_3                   COVAR   14386   -0.0069553    -0.021759    0.0038789      0.96351 Hippocampal_CA1_3
+Miscellaneous                       COVAR   14386    -0.011306    -0.018941     0.012558      0.81601 Miscellaneous
+Splatter                            COVAR   14386   -0.0039072   -0.0081929      0.01333      0.61528 Splatter
+Deep_layer_corticothalamic_a...     COVAR   14386     -0.01366    -0.033741    0.0094983      0.92479 Deep_layer_corticothalamic_and_6b
+Deep_layer_near_projecting          COVAR   14386   -0.0019442   -0.0048247      0.00714       0.6073 Deep_layer_near_projecting
+Medium_spiny_neuron                 COVAR   14386    -0.017037    -0.036893      0.01145      0.93161 Medium_spiny_neuron
+Eccentric_medium_spiny_neuron       COVAR   14386    -0.010942    -0.023492      0.01198      0.81946 Eccentric_medium_spiny_neuron
+CGE_interneuron                     COVAR   14386    0.0090143     0.018407     0.012929      0.24284 CGE_interneuron
+LAMP5_LHX6_and_Chandelier           COVAR   14386   -0.0049498    -0.010599     0.011502      0.66653 LAMP5_LHX6_and_Chandelier
+MGE_interneuron                     COVAR   14386    -0.012443    -0.027838     0.012108      0.84794 MGE_interneuron
+Midbrain_derived_inhibitory         COVAR   14386    0.0093404     0.025013    0.0043344     0.015593 Midbrain_derived_inhibitory
+Committed_oligodendrocyte_pr...     COVAR   14386  -0.00089862   -0.0012287    0.0092577      0.53866 Committed_oligodendrocyte_precursor
+Oligodendrocyte_precursor           COVAR   14386   0.00093882    0.0015502    0.0091919      0.45933 Oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   14386   -0.0044812   -0.0064977    0.0080265      0.71168 Oligodendrocyte
+Ependymal                           COVAR   14386     0.012155     0.021882    0.0059437     0.020433 Ependymal
+Astrocyte                           COVAR   14386     0.008721     0.012816    0.0086119      0.15562 Astrocyte
+Vascular                            COVAR   14386     0.015586     0.021536    0.0077259     0.021837 Vascular
+Fibroblast                          COVAR   14386    0.0085228     0.011844    0.0081087      0.14662 Fibroblast
+Microglia                           COVAR   14386     0.007714     0.010278    0.0077688      0.16038 Microglia

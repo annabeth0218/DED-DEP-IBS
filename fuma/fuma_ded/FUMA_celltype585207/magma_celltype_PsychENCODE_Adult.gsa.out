@@ -1,0 +1,31 @@
+# MEAN_SAMPLE_SIZE = 27992
+# TOTAL_GENES = 12071
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE       TYPE  NGENES         BETA     BETA_STD           SE            P
+Astro         COVAR   12071     0.057103    0.0077898     0.091389      0.26605
+Endo          COVAR   12071     0.017062    0.0032443     0.060804      0.38951
+Ex1           COVAR   12071     -0.11724    -0.033461      0.10186      0.87514
+Ex2           COVAR   12071     -0.14598    -0.056033     0.085796      0.95556
+Ex3e          COVAR   12071     0.046145     0.010822      0.10849       0.3353
+Ex4           COVAR   12071    -0.039188    -0.008751      0.12661      0.62153
+Ex5b          COVAR   12071    -0.093055    -0.032069     0.098373       0.8279
+Ex6a          COVAR   12071    -0.063614    -0.016989     0.085374      0.77189
+Ex6b          COVAR   12071    -0.045624    -0.012221      0.10173      0.67309
+Ex8           COVAR   12071    -0.097162    -0.029823     0.078897      0.89092
+Ex9           COVAR   12071      0.06171     0.012434     0.062252      0.16078
+In1a          COVAR   12071     -0.06084    -0.012521      0.12075      0.69281
+In1b          COVAR   12071      0.12229     0.024385      0.14133      0.19345
+In1c          COVAR   12071      0.25196     0.043576      0.14703     0.043311
+In3           COVAR   12071      0.33399     0.062087      0.14546     0.010844
+In4a          COVAR   12071     0.093892      0.01697      0.12301      0.22265
+In4b          COVAR   12071    -0.043605     -0.01002       0.1008      0.66734
+In6a          COVAR   12071    -0.067589    -0.013387      0.10681      0.73657
+In6b          COVAR   12071    -0.029714   -0.0069582       0.1042      0.61224
+In7           COVAR   12071      0.10392     0.020594      0.12201       0.1972
+In8           COVAR   12071      0.14948     0.027481      0.14434       0.1502
+Microglia     COVAR   12071      0.19807     0.024629      0.17059      0.12282
+Oligo         COVAR   12071     -0.10076   -0.0097525      0.13073      0.77958
+OPC           COVAR   12071    -0.013636   -0.0020653      0.11896      0.54563
+Per           COVAR   12071   0.00014829   9.6391e-06      0.19855       0.4997

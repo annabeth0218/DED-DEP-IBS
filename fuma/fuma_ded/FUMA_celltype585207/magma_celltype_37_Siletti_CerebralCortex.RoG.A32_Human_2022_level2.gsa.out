@@ -1,0 +1,22 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14370
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Upper_layer_intratelencephal...     COVAR   14370    -0.019154    -0.041872     0.011396      0.95358 Upper_layer_intratelencephalic
+Deep_layer_intratelencephalic       COVAR   14370    -0.018354    -0.044231     0.010255      0.96324 Deep_layer_intratelencephalic
+Miscellaneous                       COVAR   14370    -0.012598    -0.030602    0.0092102      0.91431 Miscellaneous
+Deep_layer_corticothalamic_a...     COVAR   14370   -0.0074767    -0.018217    0.0097301      0.77887 Deep_layer_corticothalamic_and_6b
+Deep_layer_near_projecting          COVAR   14370    0.0044449     0.010478    0.0090257       0.3112 Deep_layer_near_projecting
+MGE_interneuron                     COVAR   14370   -0.0045731   -0.0082749     0.013452      0.63305 MGE_interneuron
+Splatter                            COVAR   14370   -0.0042086    -0.007038     0.011164      0.64691 Splatter
+LAMP5_LHX6_and_Chandelier           COVAR   14370   -0.0018361   -0.0030546     0.012283      0.55941 LAMP5_LHX6_and_Chandelier
+CGE_interneuron                     COVAR   14370     0.011945     0.019035     0.014207      0.20025 CGE_interneuron
+Microglia                           COVAR   14370    0.0072932     0.010753    0.0071939      0.15535 Microglia
+Astrocyte                           COVAR   14370    0.0045612    0.0073974    0.0078246      0.27998 Astrocyte
+Committed_oligodendrocyte_pr...     COVAR   14370   -0.0041361   -0.0058297      0.00845      0.68774 Committed_oligodendrocyte_precursor
+Oligodendrocyte_precursor           COVAR   14370    0.0019458    0.0036204    0.0086304      0.41081 Oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   14370   -0.0048554   -0.0079848    0.0073655      0.74511 Oligodendrocyte
+Fibroblast                          COVAR   14370    0.0049892    0.0081499    0.0062518      0.21243 Fibroblast
+Vascular                            COVAR   14370     0.017976      0.02077    0.0086968     0.019379 Vascular

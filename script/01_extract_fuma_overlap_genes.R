@@ -1,47 +1,21 @@
-# Install and load necessary packages
-if (!requireNamespace("readxl", quietly = TRUE)) install.packages("readxl")
-if (!requireNamespace("dplyr", quietly = TRUE)) install.packages("dplyr")
-if (!requireNamespace("writexl", quietly = TRUE)) install.packages("writexl")
-
 library(readxl)
 library(dplyr)
 
-# Import 3 sheets from the Excel file
-file_path <- "fuma/snp2gene.xlsx"
-ibs_data <- read_excel(file_path, sheet = "ibs-1g")
-ded_data <- read_excel(file_path, sheet = "ded-1g")
-dep_data <- read_excel(file_path, sheet = "dep-1g")
+# fuma output genes 
+file_path <- "fuma/fuma_genes.xlsx"
+fuma_genes.ibs <- read_excel(file_path, sheet = "ibs_genes")
+fuma_genes.ded <- read_excel(file_path, sheet = "ded_genes")
+fuma_genes.dep <- read_excel(file_path, sheet = "dep_genes")
 
-ibs_ded_overlap <- inner_join(ibs_data, ded_data, by = "ensg") %>%
-  select(ensg, symbol = symbol.x)
+df <- fuma_genes.dep |> 
+   filter(posMapSNPs != 0) |> # 5
+   filter(eqtlMapSNPs != 0) |> # 6
+   filter(ciMap == 'Yes') # 19
+  
+# deddep : 0
+# ibsded : 0
+# ibsdep : 10
 
-# Overlap between ibs and dep
-ibs_dep_overlap <- inner_join(ibs_data, dep_data, by = "ensg") %>%
-  select(ensg, symbol = symbol.x)
-
-# Overlap between ded and dep
-ded_dep_overlap <- inner_join(ded_data, dep_data, by = "ensg") %>%
-  select(ensg, symbol = symbol.x)
-
-# Overlap between all three sheets
-all_three_overlap <- reduce(list(ibs_data, ded_data, dep_data), inner_join, by = "ensg") %>%
-  select(ensg, symbol = symbol.x)
-
-df <- read_excel(file_path, sheet = "Sheet1")
-write.table(df, "ibs_dep_overlap.txt", sep = "\t", row.names = FALSE, quote = FALSE)
-
-
-# Export the results to text files
-write.table(ibs_ded_overlap, "ibs_ded_overlap.txt", sep = "\t", row.names = FALSE, quote = FALSE)
-write.table(ibs_dep_overlap, "ibs_dep_overlap.txt", sep = "\t", row.names = FALSE, quote = FALSE)
-write.table(ded_dep_overlap, "ded_dep_overlap.txt", sep = "\t", row.names = FALSE, quote = FALSE)
-write.table(all_three_overlap, "all_three_overlap.txt", sep = "\t", row.names = FALSE, quote = FALSE)
-
-dep.fuma <- dep_data |> filter(posMapSNPs != 0) |>
-  filter(eqtlMapSNPs != 0)
-  # filter(ciMap == 'Yes') # 0
-
-write.table(ibs.fuma, 'ibs_fuma.txt', sep = "\t", row.names = FALSE, quote = FALSE)
-write.table(ded.fuma, 'ded_fuma.txt', sep = "\t", row.names = FALSE, quote = FALSE)
-write.table(dep.fuma, 'dep_fuma.txt', sep = "\t", row.names = FALSE, quote = FALSE)
-
+df <- read_excel('table/Supp_tables.xlsx', sheet = 'eqtl')
+write.table(df, 't2eqtl.txt',
+            sep = "\t", row.names = FALSE, quote = FALSE)

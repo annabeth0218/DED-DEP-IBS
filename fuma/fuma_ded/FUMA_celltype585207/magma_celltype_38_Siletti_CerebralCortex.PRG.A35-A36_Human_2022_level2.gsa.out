@@ -1,0 +1,25 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14440
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Splatter                            COVAR   14440    -0.018577    -0.042674     0.014291      0.90318 Splatter
+CGE_interneuron                     COVAR   14440     0.012006     0.026786     0.012407      0.16661 CGE_interneuron
+LAMP5_LHX6_and_Chandelier           COVAR   14440   -0.0055332    -0.012738     0.011181      0.68966 LAMP5_LHX6_and_Chandelier
+MGE_interneuron                     COVAR   14440    0.0015365    0.0034152      0.01274        0.452 MGE_interneuron
+Eccentric_medium_spiny_neuron       COVAR   14440   -0.0033392   -0.0073781     0.011892      0.61056 Eccentric_medium_spiny_neuron
+Medium_spiny_neuron                 COVAR   14440    -0.011694    -0.027556     0.012315      0.82883 Medium_spiny_neuron
+Amygdala_excitatory                 COVAR   14440    -0.011443    -0.027346     0.012738       0.8155 Amygdala_excitatory
+Miscellaneous                       COVAR   14440   -0.0039135   -0.0083043     0.012947      0.61877 Miscellaneous
+Upper_layer_intratelencephal...     COVAR   14440    -0.011511    -0.028432      0.01048      0.86397 Upper_layer_intratelencephalic
+Deep_layer_intratelencephalic       COVAR   14440    -0.015787    -0.038885     0.011677       0.9118 Deep_layer_intratelencephalic
+Deep_layer_corticothalamic_a...     COVAR   14440    -0.007781    -0.019279      0.01046      0.77151 Deep_layer_corticothalamic_and_6b
+Deep_layer_near_projecting          COVAR   14440    0.0078557     0.019259    0.0090105      0.19166 Deep_layer_near_projecting
+Fibroblast                          COVAR   14440    0.0032983    0.0049555    0.0073017      0.32574 Fibroblast
+Vascular                            COVAR   14440     0.012393     0.016819    0.0076792     0.053298 Vascular
+Microglia                           COVAR   14440    0.0087058     0.012133     0.007386      0.11927 Microglia
+Astrocyte                           COVAR   14440    0.0056873     0.010469    0.0068616       0.2036 Astrocyte
+Committed_oligodendrocyte_pr...     COVAR   14440   -0.0087159    -0.015609    0.0075162      0.87689 Committed_oligodendrocyte_precursor
+Oligodendrocyte_precursor           COVAR   14440    0.0042918    0.0080281    0.0082665      0.30182 Oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   14440   -0.0034995   -0.0055122    0.0073229      0.68363 Oligodendrocyte

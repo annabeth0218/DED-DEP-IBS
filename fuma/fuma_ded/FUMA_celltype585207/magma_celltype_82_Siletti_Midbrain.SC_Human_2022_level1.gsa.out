@@ -1,0 +1,18 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14357
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+neuron                              COVAR   14357   -0.0039502   -0.0077347    0.0070227       0.7131 neuron
+choroid_plexus_epithelial_ce...     COVAR   14357    0.0026274    0.0058715    0.0038111      0.24529 choroid_plexus_epithelial_cell
+fibroblast                          COVAR   14357   -0.0065775   -0.0085298     0.010131       0.7419 fibroblast
+pericyte                            COVAR   14357   -0.0065941   -0.0083245    0.0090106      0.76785 pericyte
+vascular_associated_smooth_m...     COVAR   14357   -0.0024234   -0.0057283    0.0035301      0.75379 vascular_associated_smooth_muscle_cell
+endothelial_cell                    COVAR   14357     0.011372     0.015684     0.007934     0.075892 endothelial_cell
+central_nervous_system_macro...     COVAR   14357    0.0021713    0.0027394    0.0088798      0.40342 central_nervous_system_macrophage
+leukocyte                           COVAR   14357    0.0024135    0.0031945    0.0074303      0.37266 leukocyte
+oligodendrocyte                     COVAR   14357    -0.011398    -0.015716    0.0086622      0.90587 oligodendrocyte
+oligodendrocyte_precursor_ce...     COVAR   14357   -0.0024855   -0.0040731    0.0085272      0.61465 oligodendrocyte_precursor_cell
+ependymal_cell                      COVAR   14357    0.0058018    0.0099177    0.0065663      0.18847 ependymal_cell
+astrocyte                           COVAR   14357   0.00091445    0.0012098     0.010245      0.46444 astrocyte

@@ -1,0 +1,21 @@
+# MEAN_SAMPLE_SIZE = 27991
+# TOTAL_GENES = 14055
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Hippocampal_dentate_gyrus           COVAR   14055  -0.00095255   -0.0024005    0.0081612      0.54646 Hippocampal_dentate_gyrus
+Hippocampal_CA1_3                   COVAR   14055   -0.0066469    -0.016758    0.0072556      0.82018 Hippocampal_CA1_3
+Hippocampal_CA4                     COVAR   14055   -0.0017785     -0.00446    0.0079664      0.58833 Hippocampal_CA4
+LAMP5_LHX6_and_Chandelier           COVAR   14055    0.0047927     0.010613    0.0095136      0.30721 LAMP5_LHX6_and_Chandelier
+CGE_interneuron                     COVAR   14055    0.0028456    0.0061486     0.010955      0.39753 CGE_interneuron
+Splatter                            COVAR   14055   -0.0063659    -0.015445    0.0076915      0.79606 Splatter
+MGE_interneuron                     COVAR   14055   -0.0027952   -0.0064193    0.0091656       0.6198 MGE_interneuron
+Astrocyte                           COVAR   14055    0.0083735     0.014458    0.0076952      0.13827 Astrocyte
+Committed_oligodendrocyte_pr...     COVAR   14055   -0.0080809    -0.015249    0.0081058      0.84059 Committed_oligodendrocyte_precursor
+Oligodendrocyte_precursor           COVAR   14055   0.00019544   0.00039066    0.0083787       0.4907 Oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   14055   -0.0060366    -0.010545    0.0072816      0.79645 Oligodendrocyte
+Vascular                            COVAR   14055     0.010259     0.015845    0.0077583     0.093041 Vascular
+Fibroblast                          COVAR   14055   4.9208e-06   8.1439e-06     0.006316      0.49969 Fibroblast
+Microglia                           COVAR   14055     0.008597     0.013782    0.0070182      0.11031 Microglia
+Miscellaneous                       COVAR   14055  -0.00084161   -0.0019193    0.0038958      0.58552 Miscellaneous

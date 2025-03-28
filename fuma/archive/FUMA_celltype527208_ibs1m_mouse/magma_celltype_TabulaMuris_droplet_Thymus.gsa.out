@@ -1,8 +1,0 @@
-# MEAN_SAMPLE_SIZE = 54884
-# TOTAL_GENES = 12076
-# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
-# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
-# CONDITIONED_HIDDEN = Average (covar)
-VARIABLE          TYPE  NGENES         BETA     BETA_STD           SE            P
-T_cell           COVAR   12076    -0.093258    -0.033154      0.12702      0.76857
-stromal_cell     COVAR   12076     0.033356     0.010745      0.12601      0.39562

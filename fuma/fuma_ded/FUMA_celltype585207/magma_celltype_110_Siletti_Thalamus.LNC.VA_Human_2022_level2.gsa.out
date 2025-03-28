@@ -1,0 +1,27 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14143
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Miscellaneous                       COVAR   14143  -0.00072202  -0.00098078    0.0072467      0.53968 Miscellaneous
+Microglia                           COVAR   14143    0.0059571    0.0098308    0.0063717      0.17492 Microglia
+Oligodendrocyte                     COVAR   14143   -0.0052803    -0.010055    0.0063949      0.79551 Oligodendrocyte
+Committed_oligodendrocyte_pr...     COVAR   14143   -0.0019503   -0.0041897    0.0059624       0.6282 Committed_oligodendrocyte_precursor
+Upper_layer_intratelencephal...     COVAR   14143     -0.01088    -0.026169    0.0058546      0.96842 Upper_layer_intratelencephalic
+Deep_layer_intratelencephalic       COVAR   14143   -0.0030484   -0.0081194    0.0067156      0.67505 Deep_layer_intratelencephalic
+Deep_layer_corticothalamic_a...     COVAR   14143   -0.0061423    -0.018501    0.0043436      0.92132 Deep_layer_corticothalamic_and_6b
+CGE_interneuron                     COVAR   14143     0.009923     0.021363     0.010814      0.17943 CGE_interneuron
+LAMP5_LHX6_and_Chandelier           COVAR   14143   -0.0034328   -0.0080328    0.0050766      0.75054 LAMP5_LHX6_and_Chandelier
+MGE_interneuron                     COVAR   14143     0.010153     0.023593    0.0086172      0.11937 MGE_interneuron
+Splatter                            COVAR   14143   -0.0017984   -0.0041859     0.011448      0.56241 Splatter
+Midbrain_derived_inhibitory         COVAR   14143     0.009348       0.0234     0.007886      0.11794 Midbrain_derived_inhibitory
+Thalamic_excitatory                 COVAR   14143   -0.0088854    -0.022193    0.0072287      0.89049 Thalamic_excitatory
+Medium_spiny_neuron                 COVAR   14143   -0.0028434   -0.0071572    0.0080307      0.63835 Medium_spiny_neuron
+Eccentric_medium_spiny_neuron       COVAR   14143    -0.006078    -0.014469    0.0093389      0.74241 Eccentric_medium_spiny_neuron
+Amygdala_excitatory                 COVAR   14143     0.010778     0.026435    0.0064024     0.046154 Amygdala_excitatory
+Oligodendrocyte_precursor           COVAR   14143    0.0023226     0.004764    0.0075906      0.37981 Oligodendrocyte_precursor
+Astrocyte                           COVAR   14143    0.0048733    0.0088786    0.0070754      0.24549 Astrocyte
+Ependymal                           COVAR   14143    0.0073327     0.015233    0.0054453     0.089062 Ependymal
+Vascular                            COVAR   14143    0.0043487    0.0074912    0.0065245      0.25255 Vascular
+Fibroblast                          COVAR   14143    0.0030824    0.0050171    0.0070804      0.33166 Fibroblast

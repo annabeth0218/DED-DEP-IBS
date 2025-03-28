@@ -1,0 +1,141 @@
+eqtlmap relevance GTEx
+EyeGEx#EyeGEx 2 
+BRAINEAC#CRBL 2 
+GTEx/v6#Brain_Cerebellum 2 0
+GTEx/v7#Brain_Anterior_cingulate_cortex_BA24 2 0
+GTEx/v7#Brain_Cerebellar_Hemisphere 2 0
+GTEx/v7#Brain_Cerebellum 2 0
+GTEx/v7#Brain_Cortex 2 0
+GTEx/v7#Brain_Frontal_Cortex_BA9 2 0
+GTEx/v7#Brain_Nucleus_accumbens_basal_ganglia 2 0
+GTEx/v7#Pituitary 2 0
+GTEx/v8#Brain_Anterior_cingulate_cortex_BA24 2 1
+GTEx/v8#Brain_Caudate_basal_ganglia 2 1
+GTEx/v8#Brain_Cerebellar_Hemisphere 2 1
+GTEx/v8#Brain_Cerebellum 2 1
+GTEx/v8#Brain_Cortex 2 1
+GTEx/v8#Brain_Hippocampus 2 1
+GTEx/v8#Brain_Nucleus_accumbens_basal_ganglia 2 1
+GTEx/v8#Brain_Putamen_basal_ganglia 2 1
+GTEx/v8#Brain_Spinal_cord_cervical_c-1 2 1
+GTEx/v8#Brain_Substantia_nigra 2 1
+GTEx/v8#Pituitary 2 1
+PsychENCODE#PsychENCODE_eQTLs 2 
+GTEx/v6#Colon_Sigmoid 2 0
+GTEx/v6#Colon_Transverse 2 0
+GTEx/v6#Esophagus_Mucosa 2 0
+GTEx/v6#Esophagus_Muscularis 2 0
+GTEx/v7#Colon_Sigmoid 2 0
+GTEx/v7#Colon_Transverse 2 0
+GTEx/v7#Esophagus_Gastroesophageal_Junction 2 0
+GTEx/v7#Esophagus_Mucosa 2 0
+GTEx/v7#Esophagus_Muscularis 2 0
+GTEx/v7#Small_Intestine_Terminal_Ileum 2 0
+GTEx/v7#Stomach 2 0
+GTEx/v8#Colon_Sigmoid 2 1
+GTEx/v8#Colon_Transverse 2 1
+GTEx/v8#Esophagus_Gastroesophageal_Junction 2 1
+GTEx/v8#Esophagus_Mucosa 2 1
+GTEx/v8#Esophagus_Muscularis 2 1
+GTEx/v8#Small_Intestine_Terminal_Ileum 2 1
+GTEx/v8#Stomach 2 1
+BIOSQTL#BIOS_eQTL_geneLevel 1 
+DICE#B_cell_naive 3 
+DICE#Monocyte_classical 3 
+DICE#Monocyte_non_classical 3 
+DICE#NK 3 
+DICE#T_CD4_memory_TREG 3 
+DICE#T_CD4_naive 3 
+DICE#T_CD4_naive_activated 3 
+DICE#T_CD4_naive_TREG 3 
+DICE#T_CD4_TFH 3 
+DICE#T_CD4_TH3 3 
+DICE#T_CD4_TH3_37 3 
+DICE#T_CD4_TH37 3 
+DICE#T_CD4_TH2 3 
+DICE#T_CD8_naive 3 
+DICE#T_CD8_naive_activated 3 
+eQTLcatalogue#BLUEPRINT_ge_monocyte 3 
+eQTLcatalogue#BLUEPRINT_ge_neutrophil 3 
+eQTLcatalogue#CEDAR_neutrophil_CD15 3 
+eQTLcatalogue#CEDAR_T-cell_CD4 3 
+eQTLcatalogue#CEDAR_T-cell_CD8 3 
+eQTLcatalogue#Fairfax_2012_B-cell_CD19 3 
+eQTLcatalogue#Fairfax_2014_LPS2 1 
+eQTLcatalogue#Fairfax_2014_LPS24 1 
+eQTLcatalogue#Fairfax_2014_naive 1 
+eQTLcatalogue#GENCORD_ge_LCL 1 
+eQTLcatalogue#Lepik_2017_ge_blood 1 
+eQTLcatalogue#Naranbhai_2015_neutrophil_CD16 3 
+eQTLcatalogue#Quach_2016_ge_monocyte_IAV 1 
+eQTLcatalogue#Quach_2016_ge_monocyte_LPS 1 
+eQTLcatalogue#Quach_2016_ge_monocyte_naive 3 
+eQTLcatalogue#Quach_2016_ge_monocyte_Pam3CSK4 1 
+eQTLcatalogue#Quach_2016_ge_monocyte_R848 1 
+eQTLcatalogue#TwinsUK_ge_blood 1 
+eQTLcatalogue#TwinsUK_ge_LCL 1 
+eQTLGen#eQTLGen_cis_eQTLs 1 
+GTEx/v6#Adrenal_Gland 1 0
+GTEx/v6#Artery_Aorta 1 0
+GTEx/v6#Artery_Tibial 1 0
+GTEx/v6#Cells_EBV-transformed_lymphocytes 1 0
+GTEx/v6#Nerve_Tibial 1 0
+GTEx/v6#Thyroid 1 0
+GTEx/v6#Whole_Blood 1 0
+GTEx/v7#Adrenal_Gland 1 0
+GTEx/v7#Artery_Aorta 1 0
+GTEx/v7#Artery_Tibial 1 0
+GTEx/v7#Cells_EBV-transformed_lymphocytes 1 1
+GTEx/v7#Nerve_Tibial 1 0
+GTEx/v7#Ovary 1 0
+GTEx/v7#Pancreas 1 0
+GTEx/v7#Thyroid 1 0
+GTEx/v7#Whole_Blood 1 0
+GTEx/v8#Adrenal_Gland 1 1
+GTEx/v8#Artery_Aorta 1 1
+GTEx/v8#Artery_Coronary 1 1
+GTEx/v8#Artery_Tibial 1 1
+GTEx/v8#Cells_EBV-transformed_lymphocytes 1 1
+GTEx/v8#Minor_Salivary_Gland 1 1
+GTEx/v8#Nerve_Tibial 1 1
+GTEx/v8#Pancreas 1 1
+GTEx/v8#Thyroid 1 1
+GTEx/v8#Whole_Blood 1 1
+InsPIRE#Nom_InsPIRE_Islets_Gene_eQTLs_Nominal_Pvalues 1 
+TIGER#Nom_Alonso_Pancreatic_islets 1 
+eQTLcatalogue#TwinsUK_ge_skin 0 
+GTEx/v6#Adipose_Subcutaneous 0 0
+GTEx/v6#Cells_Transformed_fibroblasts 0 0
+GTEx/v6#Heart_Left_Ventricle 0 0
+GTEx/v6#Lung 0 0
+GTEx/v6#Muscle_Skeletal 0 0
+GTEx/v6#Skin_Not_Sun_Exposed_Suprapubic 0 0
+GTEx/v6#Skin_Sun_Exposed_Lower_leg 0 0
+GTEx/v6#Testis 0 0
+GTEx/v7#Adipose_Subcutaneous 0 0
+GTEx/v7#Adipose_Visceral_Omentum 0 0
+GTEx/v7#Cells_Transformed_fibroblasts 0 0
+GTEx/v7#Heart_Atrial_Appendage 0 0
+GTEx/v7#Heart_Left_Ventricle 0 0
+GTEx/v7#Lung 0 0
+GTEx/v7#Muscle_Skeletal 0 0
+GTEx/v7#Skin_Not_Sun_Exposed_Suprapubic 0 0
+GTEx/v7#Skin_Sun_Exposed_Lower_leg 0 0
+GTEx/v7#Spleen 0 0
+GTEx/v7#Testis 0 0
+GTEx/v7#Uterus 0 0
+GTEx/v8#Adipose_Subcutaneous 0 1
+GTEx/v8#Adipose_Visceral_Omentum 0 1
+GTEx/v8#Breast_Mammary_Tissue 0 1
+GTEx/v8#Cells_Cultured_fibroblasts 0 1
+GTEx/v8#Heart_Atrial_Appendage 0 1
+GTEx/v8#Heart_Left_Ventricle 0 1
+GTEx/v8#Lung 0 1
+GTEx/v8#Muscle_Skeletal 0 1
+GTEx/v8#Ovary 0 1
+GTEx/v8#Prostate 0 1
+GTEx/v8#Skin_Not_Sun_Exposed_Suprapubic 0 1
+GTEx/v8#Skin_Sun_Exposed_Lower_leg 0 1
+GTEx/v8#Spleen 0 1
+GTEx/v8#Testis 0 1
+GTEx/v8#Uterus 0 1

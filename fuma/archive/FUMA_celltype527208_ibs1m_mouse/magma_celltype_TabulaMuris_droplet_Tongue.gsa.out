@@ -1,9 +1,0 @@
-# MEAN_SAMPLE_SIZE = 54884
-# TOTAL_GENES = 12076
-# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
-# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
-# CONDITIONED_HIDDEN = Average (covar)
-VARIABLE                     TYPE  NGENES         BETA     BETA_STD           SE            P
-basal_cell_of_epidermis     COVAR   12076     0.045547     0.022374     0.069025      0.25468
-keratinocyte                COVAR   12076    -0.070423    -0.043199     0.049753      0.92152
-unknown                     COVAR   12076     0.007308    0.0030442     0.040057      0.42762

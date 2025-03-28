@@ -1,0 +1,24 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14373
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+Miscellaneous                       COVAR   14373    -0.013867    -0.028362     0.012076      0.87457 Miscellaneous
+Microglia                           COVAR   14373     0.011596     0.015462    0.0076128     0.063869 Microglia
+Vascular                            COVAR   14373     0.013934     0.016419    0.0087157     0.054949 Vascular
+Fibroblast                          COVAR   14373     0.002535    0.0043511     0.005859      0.33264 Fibroblast
+Astrocyte                           COVAR   14373    0.0060921     0.010357     0.007183      0.19819 Astrocyte
+Committed_oligodendrocyte_pr...     COVAR   14373   0.00017706   0.00027668    0.0083765      0.49157 Committed_oligodendrocyte_precursor
+Oligodendrocyte_precursor           COVAR   14373    0.0050298    0.0084888     0.008866      0.28526 Oligodendrocyte_precursor
+Oligodendrocyte                     COVAR   14373   -0.0024329   -0.0033902    0.0081489      0.61736 Oligodendrocyte
+Splatter                            COVAR   14373    0.0053931     0.011124    0.0095907      0.28695 Splatter
+MGE_interneuron                     COVAR   14373   -0.0012594   -0.0025927     0.012295      0.54079 MGE_interneuron
+LAMP5_LHX6_and_Chandelier           COVAR   14373   -0.0026865   -0.0056481      0.01102       0.5963 LAMP5_LHX6_and_Chandelier
+CGE_interneuron                     COVAR   14373    0.0099613     0.020033     0.012846      0.21906 CGE_interneuron
+Eccentric_medium_spiny_neuron       COVAR   14373   -0.0047298    -0.012929    0.0044176      0.85783 Eccentric_medium_spiny_neuron
+Deep_layer_near_projecting          COVAR   14373    0.0017596    0.0040534    0.0093135      0.42507 Deep_layer_near_projecting
+Deep_layer_intratelencephalic       COVAR   14373    -0.015471    -0.035864     0.011012      0.91997 Deep_layer_intratelencephalic
+Upper_layer_intratelencephal...     COVAR   14373    -0.016167     -0.03689     0.010839      0.93209 Upper_layer_intratelencephalic
+Deep_layer_corticothalamic_a...     COVAR   14373   -0.0055416    -0.012814     0.010759      0.69673 Deep_layer_corticothalamic_and_6b
+Hippocampal_CA1_3                   COVAR   14373   -0.0016218   -0.0050637    0.0032656      0.69027 Hippocampal_CA1_3

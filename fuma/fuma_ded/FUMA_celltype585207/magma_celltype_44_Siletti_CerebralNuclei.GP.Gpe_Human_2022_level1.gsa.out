@@ -1,0 +1,17 @@
+# MEAN_SAMPLE_SIZE = 27990
+# TOTAL_GENES = 14466
+# TEST_DIRECTION = one-sided, positive (set), one-sided, positive (covar)
+# CONDITIONED_INTERNAL = gene size, gene density, sample size, inverse mac, log(gene size), log(gene density), log(sample size), log(inverse mac)
+# CONDITIONED_HIDDEN = Average (covar)
+VARIABLE                             TYPE  NGENES         BETA     BETA_STD           SE            P FULL_NAME
+neuron                              COVAR   14466   -0.0027943   -0.0067284    0.0051929      0.70474 neuron
+oligodendrocyte                     COVAR   14466   -0.0060189   -0.0086918    0.0083669      0.76404 oligodendrocyte
+oligodendrocyte_precursor_ce...     COVAR   14466    0.0011316    0.0018224     0.009014      0.45005 oligodendrocyte_precursor_cell
+Bergmann_glial_cell                 COVAR   14466  -0.00055499   -0.0014893    0.0035038      0.56293 Bergmann_glial_cell
+astrocyte                           COVAR   14466     0.006183    0.0094043    0.0093618      0.25449 astrocyte
+fibroblast                          COVAR   14466    0.0030149    0.0039902      0.01037      0.38563 fibroblast
+pericyte                            COVAR   14466    0.0023413    0.0028829     0.010259      0.40974 pericyte
+vascular_associated_smooth_m...     COVAR   14466   -0.0047176   -0.0052531     0.010257      0.67721 vascular_associated_smooth_muscle_cell
+endothelial_cell                    COVAR   14466     0.011399     0.015776     0.008722     0.095632 endothelial_cell
+leukocyte                           COVAR   14466     -0.01388    -0.014158     0.010296      0.91116 leukocyte
+central_nervous_system_macro...     COVAR   14466    0.0061461    0.0078531    0.0087524      0.24128 central_nervous_system_macrophage

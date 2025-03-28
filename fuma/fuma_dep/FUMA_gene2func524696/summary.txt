@@ -1,0 +1,8 @@
+Number of input genes	25
+Number of background genes	57241
+Number of input genes with recognised Ensembl ID	25
+Input genes without recognised Ensembl ID	NA
+Number of background genes with recognised Ensembl ID	56954
+Background genes without recognised Ensembl ID	NA
+Number of input genes with unique entrez ID	14
+Number of background genes with unique entrez ID	24149
