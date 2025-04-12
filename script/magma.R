@@ -4,15 +4,15 @@ library(readr)
 library(ggvenn)
 
 # for ibs-1g r^2 6e-1
-magma_ibs_all <- read.delim("~/R_Projects/ded-dep-ibs/fuma/r2_6e-1/ibs-1g_524698/FUMA_job524698/magma.genes.out") 
+magma_ibs_all <- read.delim("fuma/fuma_ibs/magma.genes.out") 
 magma_ibs <- magma_ibs_all |> filter(P < 0.05)
 nrow(magma_ibs) #15763 -> 930 .05 -> 202 .01 -> 110 .005 -> 24 .001
 # for ded-1g r^2 6e-1
-magma_ded_all <- read.delim("~/R_Projects/ded-dep-ibs/fuma/r2_6e-1/ded-1g_524703/FUMA_job524703/magma.genes.out")
+magma_ded_all <- read.delim("fuma/fuma_ded/magma.genes.out")
 magma_ded <- magma_ded_all |> filter(P < 0.05)
 nrow(magma_ded) #15763 -> 1120 .05 -> 273 .01 -> 141 .005 -> 36 .001
 # for dep-1g r^2 6e-1
-magma_dep_all <- read.delim("~/R_Projects/ded-dep-ibs/fuma/r2_6e-1/dep-1g_524690/FUMA_job524690/magma.genes.out")
+magma_dep_all <- read.delim("fuma/fuma_dep/magma.genes.out")
 magma_dep <- magma_dep_all |> filter(P < 0.05)
 nrow(magma_dep) #15759 -> 485 .05 -> 98 .01 -> 50 .005 -> 4 .001
 

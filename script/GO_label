@@ -1,38 +1,5 @@
-Names_ibs-ded_overlap
-Acute promyelocytic leukemia down
-Production of molecular of immune response down
-# Production of molecular mediator of immune response
-Negative production of cytokine production involved in immune response
-Regulation of neutrophil cheotaxis
-Neural tube development
-Regulation of production of molecular of immune response
-Dendritic cell maturation up       
-MDM4 targets neuroepithelium down
-SEMA4D-induced cell migration and growth cone collapse
-MYC targets down
-
-Names_ibs-dep_overlap
+Names
 Scar complex                                                   
 Positive regulation of APR2/3 complex mediated actin nucleation
 Retinoblastoma
 
-Names_ded-dep_overlap
-Cytokine production involved in immune response
-Positive regulation of cytokine production involved in immune response
-Positive regulation of interleukin 6 production
-Tumor necrosis factor superfamily cytokine production
-Antigen binding
-T-cell receptor signaling
-
-Names_ded-ibs_5e-3
-Protein folding in endoplasmic reticulum
-Histone h3k9me2 methyltransferase activity
-Cellular macromolecule catabolic process
-Proteolysis involved in protein catabolic process
-Microtubule motor activity
-MYC targets downregulation in B cell lymphoma tumors
-
-Names_dep-ibs_5e-3
-Liver cancer
-Deubiquitination
-Negative regulation of protein serine threonine kinase activity

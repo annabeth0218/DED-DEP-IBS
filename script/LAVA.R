@@ -5,9 +5,9 @@ remotes::install_github("josefin-werme/LAVA")
 library(LAVA)
 
 # input
-df <- gwas.ded |> 
-  select(SNP, A1, A2, NMISS, STAT) |>
-  write.table("lava/lava_ded.txt", sep = " ", quote = FALSE, row.names = FALSE)
+df <- gwas.dep |> 
+  select(SNP, A1, A2, NMISS, STAT, P) |>
+  write.table("lava/input/ldsc_ibs.txt", sep = " ", quote = FALSE, row.names = FALSE)
 
 input = process.input(input.info.file="lava/input_info.txt", # input info file
                       sample.overlap.file=NULL,
