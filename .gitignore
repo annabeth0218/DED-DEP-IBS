@@ -65,3 +65,12 @@ rsconnect/
 table/gwas_snp/with_A2/
 fuma/job archive/
 lava/input/
+eqtl maps/expr_CRBL.txt
+eqtl maps/expr_CRBL.txt.gz
+eqtl maps/FairFax_2012_Supp1.xls
+lava/liftover_ibs.txt
+lava/liftover_dep.txt
+lava/liftover_ded.txt
+figs/MR scatter plots/Fig4A.png
+figs/MR scatter plots/Fig4𣓴.png
+fuma/MSigDB_20231Hs_MAGMA.txt

@@ -1,0 +1,8 @@
+Service description,Service ID,Cost ($),Discounts ($),Promotions & others ($),Unrounded subtotal ($),Subtotal ($),Percent change in subtotal compared to previous period
+Compute Engine,6F81-5844-456A,22656.71,0.00,-9840.82,12815.892989,12815.89,New
+Cloud Storage,95FF-2EF5-5EA1,1.85,0.00,-0.18,1.664566,1.66,New
+VM Manager,5E18-9A83-2867,1.87,-1.87,0.00,0.000000,0.00,0%
+Networking,E505-1604-58F8,11.10,-11.10,0.00,0.000000,0.00,0%
+,,,,Subtotal,12817.557555,12817.56
+,,,,Tax,0.000000,0.00
+,,,,Total,12817.557555,12817.56
