@@ -60,6 +60,7 @@ rsconnect/
 *.fam
 *.synonyms
 *.locfile
+*.pem
 .Rprofile
 # fils too large
 table/gwas_snp/with_A2/
@@ -72,6 +73,6 @@ lava/liftover_ibs.txt
 lava/liftover_dep.txt
 lava/liftover_ded.txt
 figs/MR scatter plots/Fig4A.png
-figs/MR scatter plots/Fig4𣓴.png
+figs/MR scatter plots/Fig4直.png
 fuma/MSigDB_20231Hs_MAGMA.txt
 ldsc-python3
