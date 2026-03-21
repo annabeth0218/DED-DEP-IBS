@@ -63,3 +63,4 @@ rsconnect/
 *.pem
 .Rprofile
 ref
+ldsc-python3
