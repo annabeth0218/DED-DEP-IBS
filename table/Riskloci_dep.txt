@@ -1,0 +1,2 @@
+uniqID	rsID	chr	pos	non_effect_allele	effect_allele	MAF	gwasP	or	se	r2	IndSigSNP	GenomicLocus	nearestGene	dist	func	CADD	RDB	minChrState	commonChrState	posMapFilt	eqtlMapFilt	ciMapFilt
+10:23506529:A:G	rs927751	10	23506529	A	G	0.1349	1.52e-06	1.331	0.05944	1	rs927751	1	C10orf115	0	intronic	8.432	5	13	15	1	1	1
