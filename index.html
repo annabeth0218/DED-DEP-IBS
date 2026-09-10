@@ -195,10 +195,9 @@
 (function(){
   "use strict";
 
-  // ---- shared storage (kvdb.io — free, no login for guests) ----
-  var KVDB_BUCKET = "13X3Zk94pA2tuRWZPsiDdz";
-  var KVDB_KEY = "responses";
-  var KVDB_URL = "https://kvdb.io/" + KVDB_BUCKET + "/" + KVDB_KEY;
+  // ---- shared storage (Firebase Realtime Database — free, no login for guests) ----
+  var FIREBASE_DB_URL = "https://gather-kj-default-rtdb.firebaseio.com";
+  var DATA_URL = FIREBASE_DB_URL + "/gathering/responses.json";
   var POLL_MS = 6000;
 
   var START = Date.UTC(2026, 8, 21);
@@ -209,7 +208,10 @@
 
   function isoOf(utcMs){ return new Date(utcMs).toISOString().slice(0,10); }
   function inRange(utcMs){ return utcMs >= START && utcMs <= END; }
-  function slugify(name){ return name.trim().toLowerCase().replace(/\s+/g," "); }
+  function slugify(name){
+    // Firebase keys can't contain . # $ / [ ] — strip those, keep everything else.
+    return name.trim().toLowerCase().replace(/\s+/g," ").replace(/[.#$/\[\]]/g, "");
+  }
   function initials(name){
     var parts = name.trim().split(/\s+/).filter(Boolean);
     if(!parts.length) return "?";
@@ -426,17 +428,17 @@
   }
 
   // ---- remote sync ----
+  // Firebase Realtime Database REST API: GET returns the raw JSON value
+  // stored at the path (or the literal "null" when nothing is there yet).
   function fetchRemote(){
-    return fetch(KVDB_URL, { cache: "no-store" }).then(function(res){
-      if(res.status === 404) return { responses: {} };
+    return fetch(DATA_URL, { cache: "no-store" }).then(function(res){
       if(!res.ok) throw new Error("fetch failed: " + res.status);
       return res.text().then(function(text){
-        if(!text) return { responses: {} };
+        if(!text || text === "null") return { responses: {} };
         try{
           var parsed = JSON.parse(text);
           if(!parsed || typeof parsed !== "object") parsed = {};
-          if(!parsed.responses) parsed.responses = {};
-          return parsed;
+          return { responses: parsed };
         }catch(e){ return { responses: {} }; }
       });
     });
@@ -459,8 +461,8 @@
   }
 
   function pushRemote(newResponses){
-    var body = JSON.stringify({ responses: newResponses });
-    return fetch(KVDB_URL, { method: "POST", body: body });
+    // PUT replaces the whole value at DATA_URL (the "responses" node).
+    return fetch(DATA_URL, { method: "PUT", body: JSON.stringify(newResponses) });
   }
 
   function saveMine(){
