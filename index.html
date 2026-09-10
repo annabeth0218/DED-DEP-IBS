@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gathering w/KJ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Karla:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    color-scheme: light;
+    --bg: #faf5ee;
+    --surface: #ffffff;
+    --surface-2: #f3ebe0;
+    --text: #2a211b;
+    --text-muted: #6b5d52;
+    --border: #e8ddd0;
+    --accent: #a6383d;
+    --accent-ink: #ffffff;
+    --heat: #d99a3d;
+    --good: #4f7a5b;
+    --shadow: 0 1px 2px rgba(42,33,27,0.06), 0 6px 20px rgba(42,33,27,0.06);
+  }
+  *{ box-sizing: border-box; }
+  html,body{ margin:0; padding:0; }
+  body{
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Karla", ui-sans-serif, system-ui, sans-serif;
+    padding-inline: 20px;
+    padding-block: 32px 64px;
+  }
+  h1,h2,h3{ font-family: "Fraunces", Georgia, serif; margin: 0; }
+  .wrap{ max-width: 1040px; margin-inline: auto; display: flex; flex-direction: column; gap: 28px; }
+
+  header{ display:flex; flex-direction:column; gap:10px; align-items:flex-start; }
+  .eyebrow{ font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  h1{ font-size: clamp(28px, 4vw, 40px); font-weight: 600; }
+  header p{ margin:0; color: var(--text-muted); font-size: 15px; max-width: 60ch; line-height:1.55; }
+
+  .card{
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    padding: 20px;
+  }
+
+  .joinbar{ display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
+  .joinbar .field{ display:flex; flex-direction:column; gap:4px; flex:1 1 220px; }
+  .joinbar label{ font-size:12px; color:var(--text-muted); font-weight:600; }
+  input[type="text"]{
+    font: inherit; font-size:15px; padding:10px 12px; border-radius:10px;
+    border:1px solid var(--border); background:var(--surface-2); color:var(--text); width:100%;
+  }
+  input[type="text"]:focus{ outline:2px solid var(--accent); outline-offset:1px; }
+  button{
+    font: inherit; font-weight:600; font-size:14px; border-radius:10px; border:1px solid transparent;
+    padding:10px 16px; cursor:pointer; transition: transform .06s ease, opacity .15s ease;
+  }
+  button:active{ transform: translateY(1px); }
+  button:disabled{ opacity:.5; cursor:not-allowed; }
+  button:focus-visible{ outline:2px solid var(--accent); outline-offset:2px; }
+  .btn-primary{ background:var(--accent); color:var(--accent-ink); }
+  .btn-ghost{ background:transparent; border-color:var(--border); color:var(--text); }
+  .btn-ghost:hover{ background:var(--surface-2); }
+  .btn-danger{ background:transparent; border-color:var(--border); color:var(--accent); }
+
+  .editing-panel{ display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; }
+  #editingPanel[hidden]{ display:none; }
+  .editing-panel .who{ display:flex; align-items:center; gap:10px; font-size:14px; }
+  .who .avatar{
+    width:32px; height:32px; border-radius:50%; background: var(--accent); color: var(--accent-ink);
+    display:flex; align-items:center; justify-content:center; font-weight:700; font-size:13px; flex:none;
+  }
+  .who .count{ color:var(--text-muted); font-variant-numeric: tabular-nums; }
+  .actions{ display:flex; gap:8px; flex-wrap:wrap; }
+  .status{ font-size:13px; color:var(--text-muted); min-height:1.2em; }
+  .status[data-tone="bad"]{ color: var(--accent); }
+  .status[data-tone="good"]{ color: var(--good); }
+
+  .months{ display:grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap:16px; }
+  .month{ display:flex; flex-direction:column; gap:10px; }
+  .month h3{ font-size:17px; font-weight:500; }
+  .weekdays, .days{ display:grid; grid-template-columns: repeat(7, 1fr); gap:4px; }
+  .weekdays div{ font-size:11px; text-align:center; color:var(--text-muted); font-weight:600; letter-spacing:.03em; }
+  .day{
+    position:relative; aspect-ratio:1; border-radius:9px; display:flex; align-items:flex-start; justify-content:flex-start;
+    padding:5px 6px; font-size:12px; font-weight:600; font-variant-numeric:tabular-nums;
+    background: var(--surface-2); border:1px solid var(--border); color:var(--text);
+  }
+  .day.blank{ background:transparent; border-color:transparent; }
+  .day.out{ background:transparent; border-color:transparent; color:var(--text-muted); opacity:.35; }
+  .day.clickable{ cursor:pointer; }
+  .day.clickable:hover{ border-color: var(--accent); }
+  .day.mine{ box-shadow: inset 0 0 0 2px var(--accent); }
+  .day .badge{ position:absolute; bottom:4px; right:5px; font-size:10px; font-weight:700; color:var(--text-muted); }
+  .day .check{ position:absolute; top:3px; right:4px; color:var(--accent); font-size:11px; }
+  .day.spotlight{ box-shadow: inset 0 0 0 2px var(--good); }
+
+  .legend{ display:flex; align-items:center; gap:8px; font-size:12px; color:var(--text-muted); flex-wrap:wrap; }
+  .legend .swatch{ width:14px; height:14px; border-radius:4px; border:1px solid var(--border); }
+
+  .lower{ display:grid; grid-template-columns: 1.1fr 1fr; gap:16px; }
+  @media (max-width: 720px){ .lower{ grid-template-columns: 1fr; } }
+  .lower h2{ font-size:18px; font-weight:600; margin-bottom:12px; }
+  .empty{ color:var(--text-muted); font-size:14px; }
+
+  .best-list{ display:flex; flex-direction:column; gap:8px; }
+  .best-row{ display:flex; align-items:center; gap:12px; padding:10px 12px; border-radius:12px; background:var(--surface-2); }
+  .best-row .rank{ font-family:"Fraunces",serif; font-size:18px; color:var(--accent); width:22px; flex:none; }
+  .best-row .date{ font-weight:600; flex:1; }
+  .best-row .date small{ display:block; font-weight:400; color:var(--text-muted); font-size:12px; }
+  .best-row .n{ font-variant-numeric:tabular-nums; color:var(--text-muted); font-size:13px; }
+
+  .people{ display:flex; flex-direction:column; gap:8px; }
+  .person{
+    display:flex; align-items:center; justify-content:space-between; gap:10px; padding:9px 12px;
+    border-radius:12px; border:1px solid var(--border); background:var(--surface-2); cursor:pointer;
+  }
+  .person.active{ box-shadow: inset 0 0 0 2px var(--good); }
+  .person .name{ font-weight:600; font-size:14px; }
+  .person .n{ font-size:12px; color:var(--text-muted); font-variant-numeric: tabular-nums; }
+
+  footer{ text-align:center; color:var(--text-muted); font-size:12px; padding-top:8px; }
+  .synctag{ font-size:11px; color:var(--text-muted); }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Dinner planning</div>
+    <h1>Gathering w/KJ</h1>
+    <p>Pick every day you could make it to dinner. No account needed &mdash; just type your name and click your open dates on the calendar below. The best dates for everyone update as people respond.</p>
+  </header>
+
+  <div class="card joinbar">
+    <div class="field">
+      <label for="nameInput">Your name</label>
+      <input id="nameInput" type="text" placeholder="e.g. Annabeth" autocomplete="name" maxlength="40">
+    </div>
+    <button id="joinBtn" class="btn-primary">I'm in &mdash; pick my dates</button>
+  </div>
+
+  <div id="editingPanel" class="card editing-panel" hidden>
+    <div class="who">
+      <div class="avatar" id="editAvatar"></div>
+      <div>
+        <div id="editName" style="font-weight:600;"></div>
+        <div class="count"><span id="selCount">0</span> day(s) selected &middot; tap dates on the calendar to toggle</div>
+      </div>
+    </div>
+    <div class="actions">
+      <button id="saveBtn" class="btn-primary">Save my availability</button>
+      <button id="clearBtn" class="btn-danger">Remove my response</button>
+      <button id="switchBtn" class="btn-ghost">Switch name</button>
+    </div>
+  </div>
+  <div id="statusLine" class="status" role="status"></div>
+
+  <div class="card">
+    <div class="legend" style="margin-bottom:14px; justify-content:space-between;">
+      <span style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+        <span>Fewer people</span>
+        <span class="swatch" style="background:#f3e5cc;"></span>
+        <span class="swatch" style="background:#e8c481;"></span>
+        <span class="swatch" style="background:#d99a3d;"></span>
+        <span>More people</span>
+        <span style="margin-left:10px; display:inline-flex; align-items:center; gap:6px;">
+          <span class="swatch" style="box-shadow: inset 0 0 0 2px var(--accent); background:transparent;"></span> your picks
+        </span>
+      </span>
+      <span class="synctag" id="syncTag">Loading everyone's picks&hellip;</span>
+    </div>
+    <div class="months" id="months"></div>
+  </div>
+
+  <div class="lower">
+    <div class="card">
+      <h2>Best dates so far</h2>
+      <div id="bestList"></div>
+    </div>
+    <div class="card">
+      <h2>Who's replied</h2>
+      <div id="peopleList" class="people"></div>
+    </div>
+  </div>
+
+  <footer>Gathering w/KJ &middot; Sep 21 &ndash; Dec 24, 2026</footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+
+  // ---- shared storage (kvdb.io — free, no login for guests) ----
+  var KVDB_BUCKET = "13X3Zk94pA2tuRWZPsiDdz";
+  var KVDB_KEY = "responses";
+  var KVDB_URL = "https://kvdb.io/" + KVDB_BUCKET + "/" + KVDB_KEY;
+  var POLL_MS = 6000;
+
+  var START = Date.UTC(2026, 8, 21);
+  var END = Date.UTC(2026, 11, 24);
+  var MONTHS = [[2026,8],[2026,9],[2026,10],[2026,11]];
+  var MONTH_NAMES = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+  var WEEKDAYS = ["Su","Mo","Tu","We","Th","Fr","Sa"];
+
+  function isoOf(utcMs){ return new Date(utcMs).toISOString().slice(0,10); }
+  function inRange(utcMs){ return utcMs >= START && utcMs <= END; }
+  function slugify(name){ return name.trim().toLowerCase().replace(/\s+/g," "); }
+  function initials(name){
+    var parts = name.trim().split(/\s+/).filter(Boolean);
+    if(!parts.length) return "?";
+    return (parts[0][0] + (parts.length>1? parts[parts.length-1][0] : "")).toUpperCase();
+  }
+  function fmtDate(iso){
+    var d = new Date(iso + "T00:00:00Z");
+    var wd = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"][d.getUTCDay()];
+    var mo = MONTH_NAMES[d.getUTCMonth()].slice(0,3);
+    return {weekday: wd, label: mo + " " + d.getUTCDate()};
+  }
+  function escapeHtml(s){
+    return String(s).replace(/[&<>"']/g, function(c){
+      return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];
+    });
+  }
+
+  var state = { responses: {} };
+  var currentSlug = null;
+  var currentName = "";
+  var draftDates = null;
+  var spotlightSlug = null;
+  var saving = false;
+
+  function aggregate(){
+    var counts = {}, namesByDate = {};
+    Object.keys(state.responses).forEach(function(slug){
+      var r = state.responses[slug];
+      (r.dates||[]).forEach(function(iso){
+        counts[iso] = (counts[iso]||0) + 1;
+        (namesByDate[iso] = namesByDate[iso] || []).push(r.name);
+      });
+    });
+    var max = 0;
+    Object.keys(counts).forEach(function(k){ if(counts[k] > max) max = counts[k]; });
+    return { counts: counts, namesByDate: namesByDate, max: max };
+  }
+
+  function setStatus(msg, tone){
+    var el = document.getElementById("statusLine");
+    el.textContent = msg || "";
+    if(tone) el.setAttribute("data-tone", tone); else el.removeAttribute("data-tone");
+  }
+  function setSyncTag(msg){ document.getElementById("syncTag").textContent = msg || ""; }
+
+  function renderAll(){ renderMonths(); renderBest(); renderPeople(); }
+
+  function renderMonths(){
+    var agg = aggregate();
+    var container = document.getElementById("months");
+    container.innerHTML = "";
+    MONTHS.forEach(function(pair){
+      var year = pair[0], month = pair[1];
+      var monthEl = document.createElement("div");
+      monthEl.className = "month";
+      var h3 = document.createElement("h3");
+      h3.textContent = MONTH_NAMES[month] + " " + year;
+      monthEl.appendChild(h3);
+
+      var wd = document.createElement("div");
+      wd.className = "weekdays";
+      WEEKDAYS.forEach(function(w){
+        var d = document.createElement("div");
+        d.textContent = w;
+        wd.appendChild(d);
+      });
+      monthEl.appendChild(wd);
+
+      var grid = document.createElement("div");
+      grid.className = "days";
+
+      var firstOfMonth = Date.UTC(year, month, 1);
+      var startWeekday = new Date(firstOfMonth).getUTCDay();
+      var daysInMonth = new Date(Date.UTC(year, month+1, 0)).getUTCDate();
+
+      for(var i=0;i<startWeekday;i++){
+        var blank = document.createElement("div");
+        blank.className = "day blank";
+        grid.appendChild(blank);
+      }
+
+      for(var day=1; day<=daysInMonth; day++){
+        var utcMs = Date.UTC(year, month, day);
+        var iso = isoOf(utcMs);
+        var cell = document.createElement("div");
+        var within = inRange(utcMs);
+        cell.className = "day" + (within ? " clickable" : " out");
+        cell.textContent = String(day);
+        cell.dataset.iso = iso;
+
+        if(within){
+          var count = agg.counts[iso] || 0;
+          if(count > 0 && agg.max > 0){
+            var pct = Math.round(12 + (count/agg.max) * 88);
+            cell.style.background = "color-mix(in srgb, var(--heat) " + pct + "%, var(--surface))";
+          }
+          if(count > 0){
+            var badge = document.createElement("span");
+            badge.className = "badge";
+            badge.textContent = String(count);
+            cell.appendChild(badge);
+          }
+          if(draftDates && draftDates.has(iso)){
+            cell.classList.add("mine");
+            var check = document.createElement("span");
+            check.className = "check";
+            check.textContent = "✓";
+            cell.appendChild(check);
+          }
+          if(spotlightSlug && state.responses[spotlightSlug] && (state.responses[spotlightSlug].dates||[]).indexOf(iso) !== -1){
+            cell.classList.add("spotlight");
+          }
+          cell.addEventListener("click", function(){
+            if(!draftDates){
+              setStatus("Type your name above and click “I'm in” before picking dates.", "bad");
+              document.getElementById("nameInput").focus();
+              return;
+            }
+            var i = this.dataset.iso;
+            if(draftDates.has(i)) draftDates.delete(i); else draftDates.add(i);
+            renderMonths();
+            updateSelCount();
+          });
+        }
+        grid.appendChild(cell);
+      }
+      monthEl.appendChild(grid);
+      container.appendChild(monthEl);
+    });
+  }
+
+  function renderBest(){
+    var agg = aggregate();
+    var el = document.getElementById("bestList");
+    var dates = Object.keys(agg.counts).filter(function(iso){ return agg.counts[iso] > 0; });
+    if(!dates.length){
+      el.innerHTML = '<div class="empty">No responses yet &mdash; be the first to pick your open days!</div>';
+      return;
+    }
+    dates.sort(function(a,b){
+      if(agg.counts[b] !== agg.counts[a]) return agg.counts[b] - agg.counts[a];
+      return a < b ? -1 : 1;
+    });
+    var top = dates.slice(0, 6);
+    el.innerHTML = "";
+    var list = document.createElement("div");
+    list.className = "best-list";
+    top.forEach(function(iso, idx){
+      var f = fmtDate(iso);
+      var row = document.createElement("div");
+      row.className = "best-row";
+      var names = agg.namesByDate[iso].map(escapeHtml).join(", ");
+      row.innerHTML =
+        '<div class="rank">' + (idx+1) + '</div>' +
+        '<div class="date">' + f.weekday + ", " + f.label + '<small>' + names + '</small></div>' +
+        '<div class="n">' + agg.counts[iso] + ' free</div>';
+      list.appendChild(row);
+    });
+    el.appendChild(list);
+  }
+
+  function renderPeople(){
+    var el = document.getElementById("peopleList");
+    var slugs = Object.keys(state.responses);
+    if(!slugs.length){
+      el.innerHTML = '<div class="empty">No one has responded yet.</div>';
+      return;
+    }
+    slugs.sort(function(a,b){ return state.responses[a].name.localeCompare(state.responses[b].name); });
+    el.innerHTML = "";
+    slugs.forEach(function(slug){
+      var r = state.responses[slug];
+      var row = document.createElement("div");
+      row.className = "person" + (spotlightSlug === slug ? " active" : "");
+      row.innerHTML =
+        '<span class="name">' + escapeHtml(r.name) + '</span>' +
+        '<span class="n">' + (r.dates||[]).length + ' day(s)</span>';
+      row.addEventListener("click", function(){
+        spotlightSlug = (spotlightSlug === slug) ? null : slug;
+        renderMonths();
+        renderPeople();
+      });
+      el.appendChild(row);
+    });
+  }
+
+  function updateSelCount(){
+    var n = draftDates ? draftDates.size : 0;
+    document.getElementById("selCount").textContent = String(n);
+  }
+
+  function enterEditing(name){
+    currentName = name;
+    currentSlug = slugify(name);
+    var existing = state.responses[currentSlug];
+    draftDates = new Set(existing ? existing.dates : []);
+    spotlightSlug = null;
+    document.getElementById("editingPanel").hidden = false;
+    document.getElementById("editAvatar").textContent = initials(name);
+    document.getElementById("editName").textContent = name;
+    document.getElementById("nameInput").value = name;
+    updateSelCount();
+    renderAll();
+    try{ localStorage.setItem("gkj_name", name); }catch(e){}
+  }
+
+  function exitEditing(){
+    currentSlug = null;
+    currentName = "";
+    draftDates = null;
+    document.getElementById("editingPanel").hidden = true;
+    document.getElementById("nameInput").value = "";
+    renderMonths();
+  }
+
+  // ---- remote sync ----
+  function fetchRemote(){
+    return fetch(KVDB_URL, { cache: "no-store" }).then(function(res){
+      if(res.status === 404) return { responses: {} };
+      if(!res.ok) throw new Error("fetch failed: " + res.status);
+      return res.text().then(function(text){
+        if(!text) return { responses: {} };
+        try{
+          var parsed = JSON.parse(text);
+          if(!parsed || typeof parsed !== "object") parsed = {};
+          if(!parsed.responses) parsed.responses = {};
+          return parsed;
+        }catch(e){ return { responses: {} }; }
+      });
+    });
+  }
+
+  function pullLatest(showTag){
+    if(showTag) setSyncTag("Syncing…");
+    return fetchRemote().then(function(remote){
+      state = remote;
+      if(currentSlug && draftDates === null){
+        // nothing, editing state untouched
+      }
+      renderAll();
+      var n = Object.keys(state.responses).length;
+      setSyncTag(n ? ("Synced · " + n + " " + (n===1?"reply":"replies")) : "Synced · no replies yet");
+    }).catch(function(err){
+      renderAll();
+      setSyncTag("Couldn't reach the shared calendar — showing the last loaded data.");
+    });
+  }
+
+  function pushRemote(newResponses){
+    var body = JSON.stringify({ responses: newResponses });
+    return fetch(KVDB_URL, { method: "POST", body: body });
+  }
+
+  function saveMine(){
+    if(!currentSlug || saving) return;
+    var sorted = Array.from(draftDates).sort();
+    if(!sorted.length){
+      setStatus("Pick at least one date, or use “Remove my response.”", "bad");
+      return;
+    }
+    saving = true;
+    setStatus("Saving…");
+    document.getElementById("saveBtn").disabled = true;
+    fetchRemote().then(function(remote){
+      remote.responses[currentSlug] = { name: currentName, dates: sorted, updatedAt: new Date().toISOString() };
+      return pushRemote(remote.responses).then(function(res){
+        if(!res.ok) throw new Error("save failed: " + res.status);
+        state = remote;
+        renderAll();
+        setStatus("Saved! Everyone will see your dates.", "good");
+      });
+    }).catch(function(err){
+      setStatus("Couldn't save just now — check your connection and try again.", "bad");
+    }).finally(function(){
+      saving = false;
+      document.getElementById("saveBtn").disabled = false;
+    });
+  }
+
+  function removeMine(){
+    if(!currentSlug || saving) return;
+    saving = true;
+    setStatus("Removing…");
+    fetchRemote().then(function(remote){
+      delete remote.responses[currentSlug];
+      return pushRemote(remote.responses).then(function(res){
+        if(!res.ok) throw new Error("save failed: " + res.status);
+        state = remote;
+        exitEditing();
+        renderAll();
+        setStatus("Your response was removed.", "good");
+      });
+    }).catch(function(err){
+      setStatus("Couldn't update just now — check your connection and try again.", "bad");
+    }).finally(function(){ saving = false; });
+  }
+
+  document.getElementById("joinBtn").addEventListener("click", function(){
+    var name = document.getElementById("nameInput").value.trim();
+    if(!name){
+      setStatus("Enter your name first.", "bad");
+      document.getElementById("nameInput").focus();
+      return;
+    }
+    setStatus("");
+    enterEditing(name);
+  });
+  document.getElementById("nameInput").addEventListener("keydown", function(e){
+    if(e.key === "Enter") document.getElementById("joinBtn").click();
+  });
+  document.getElementById("switchBtn").addEventListener("click", function(){
+    exitEditing();
+    setStatus("");
+    document.getElementById("nameInput").focus();
+  });
+  document.getElementById("saveBtn").addEventListener("click", saveMine);
+  document.getElementById("clearBtn").addEventListener("click", removeMine);
+
+  // boot
+  renderAll();
+  pullLatest(true).then(function(){
+    try{
+      var saved = localStorage.getItem("gkj_name");
+      if(saved) document.getElementById("nameInput").value = saved;
+    }catch(e){}
+  });
+  setInterval(function(){
+    if(!saving) pullLatest(false);
+  }, POLL_MS);
+
+})();
+</script>
+</body>
+</html>
